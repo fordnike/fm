@@ -1,0 +1,9 @@
+{
+  "name": "seatmap",
+  "private": true,
+  "dependencies": {
+    "jquery": "*",
+    "dat.gui": "*"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,4935 @@
+{
+
+  "name": "Stade Olympique",
+
+  "nameAbrv": "SOL",
+
+  "seatLabelColor": "black",
+
+  "seatSizeFactor": "0.55",
+
+  "version": 3,
+
+  "zoomable": false,
+
+  "priceLevelColors": [
+
+    {
+
+      "priceLevelId": 1,
+
+      "color": "#0066B3"
+
+    },
+
+    {
+
+      "priceLevelId": 2,
+
+      "color": "#E294A1"
+
+    },
+
+    {
+
+      "priceLevelId": 3,
+
+      "color": "#73B73E"
+
+    },
+
+    {
+
+      "priceLevelId": 4,
+
+      "color": "#EBC207"
+
+    },
+
+    {
+
+      "priceLevelId": 5,
+
+      "color": "#88CEDF"
+
+    },
+
+    {
+
+      "priceLevelId": 6,
+
+      "color": "#1B3687"
+
+    },
+
+    {
+
+      "priceLevelId": 10596240,
+
+      "color": "#A66806"
+
+    },
+
+    {
+
+      "priceLevelId": 12264000,
+
+      "color": "#0387D2"
+
+    },
+
+    {
+
+      "priceLevelId": 12264001,
+
+      "color": "#317D3A"
+
+    },
+
+    {
+
+      "priceLevelId": 12264002,
+
+      "color": "#620E81"
+
+    },
+
+    {
+
+      "priceLevelId": 12264003,
+
+      "color": "#659DF0"
+
+    },
+
+    {
+
+      "priceLevelId": 11,
+
+      "color": "#ECECFF"
+
+    },
+
+    {
+
+      "priceLevelId": 12,
+
+      "color": "#FFD9D9"
+
+    },
+
+    {
+
+      "priceLevelId": 13,
+
+      "color": "#D9FFD9"
+
+    },
+
+    {
+
+      "priceLevelId": 14,
+
+      "color": "#FFFFA8"
+
+    },
+
+    {
+
+      "priceLevelId": 15,
+
+      "color": "#D9FFFF"
+
+    },
+
+    {
+
+      "priceLevelId": 16,
+
+      "color": "#FFD9FF"
+
+    },
+
+    {
+
+      "priceLevelId": 17,
+
+      "color": "#F5DD89"
+
+    },
+
+    {
+
+      "priceLevelId": 18,
+
+      "color": "#C0619F"
+
+    },
+
+    {
+
+      "priceLevelId": 19,
+
+      "color": "#99FE8D"
+
+    },
+
+    {
+
+      "priceLevelId": 20,
+
+      "color": "#FAFEA9"
+
+    },
+
+    {
+
+      "priceLevelId": 21,
+
+      "color": "#FEE6C0"
+
+    },
+
+    {
+
+      "priceLevelId": 1103532050,
+
+      "color": "#7CB89A"
+
+    },
+
+    {
+
+      "priceLevelId": 1103532051,
+
+      "color": "#BC83B0"
+
+    }
+
+  ],
+
+  "image": {
+
+    "x": "1",
+
+    "y": "1",
+
+    "url": "https://d364ts6ehiutez.cloudfront.net/imageSYOS/Stade Olympique/Stade-Olympique-Aménagement-A-500.jpg",
+
+    "width": "870",
+
+    "height": "734"
+
+  },
+
+  "levels": [
+
+    {
+
+      "name": "NIVEAU 100 A",
+
+      "nameAbrv": "N100A",
+
+      "x": "0",
+
+      "y": "0",
+
+      "sectionGroups": [
+
+        {
+
+          "zoomable": true,
+
+          "sections": [
+
+            {
+
+              "name": "SECTION 101",
+
+              "nameAbrv": "S101",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "226",
+
+              "y": "360",
+
+              "rotation": "84",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "#blank 3.5,1..16"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J",
+
+                  "magicRow": "#blank 2,1..10, #blank 2, 13..19"
+
+                },
+
+                {
+
+                  "name": "K"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N",
+
+                  "magicRow": "#blank 2,1..10, #blank 2, 13..20"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P",
+
+                  "magicRow": "#blank 1,1..11, #blank 2, 14..21"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S",
+
+                  "magicRow": "1..12, #blank 2, 15..22"
+
+                },
+
+                {
+
+                  "name": "T",
+
+                  "magicRow": "1..12, #blank 2, 15..23"
+
+                },
+
+                {
+
+                  "name": "U"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "SECTION 103",
+
+              "nameAbrv": "S103",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "230",
+
+              "y": "385",
+
+              "rotation": "71",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "#blank 5,1..13"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "magicRow": "#blank 4.5,1..14",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H",
+
+                  "magicRow": "#blank 3.5,1..16"
+
+                },
+
+                {
+
+                  "name": "J",
+
+                  "magicRow": "#blank 3,1..16, #blank 1.5, 19..22"
+
+                },
+
+                {
+
+                  "name": "K",
+
+                  "magicRow": "#blank 3,1..16, #blank 1.8, 19..22"
+
+                },
+
+                {
+
+                  "name": "L",
+
+                  "magicRow": "#blank 3,1..16, #blank 2.1, 19..22"
+
+                },
+
+                {
+
+                  "name": "M",
+
+                  "magicRow": "#blank 3,1..16"
+
+                },
+
+                {
+
+                  "name": "N",
+
+                  "magicRow": "#blank 1.5,1..10, #blank 2, 13..20"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q",
+
+                  "magicRow": "#blank 1,1..11, #blank 2, 14..21"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S",
+
+                  "magicRow": "1..12, #blank 2, 15..23"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "Section 105",
+
+              "nameAbrv": "S105",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "rotation": "58",
+
+              "x": "240",
+
+              "y": "408",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "#blank 5,5..17"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "magicRow": "#blank 4.5,5..18",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H",
+
+                  "magicRow": "#blank 3.5,5..20"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N",
+
+                  "magicRow": "#blank 1,1..11,#blank 2, 14..20"
+
+                },
+
+                {
+
+                  "name": "O",
+
+                  "magicRow": "#blank 1,1..11,#blank 2, 14..21"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S",
+
+                  "magicRow": "1..12, #blank 2, 15..23"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W"
+
+                }
+
+              ]
+
+            }
+
+          ]
+
+        },
+
+        {
+
+          "zoomable": true,
+
+          "sections": [
+
+            {
+
+              "name": "SECTION 107",
+
+              "nameAbrv": "S107",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "255",
+
+              "y": "428",
+
+              "rotation": "48",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "#blank 3,1..16"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K"
+
+                },
+
+                {
+
+                  "name": "L",
+
+                  "magicRow": "#blank 2.5,1..10, #blank 2, 13..17"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P",
+
+                  "magicRow": "#blank 2.5,1..10, #blank 2, 13..18"
+
+                },
+
+                {
+
+                  "name": "Q",
+
+                  "magicRow": "#blank 2.5,1..10, #blank 2, 13..19"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S",
+
+                  "magicRow": "#blank 0.5,1..12, #blank 2, 15..20"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "SECTION 109",
+
+              "nameAbrv": "S109",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "273.5",
+
+              "y": "442",
+
+              "rotation": "44",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "1..3,#blank 5,9..11"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M",
+
+                  "magicRow": "1..11"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U"
+
+                },
+
+                {
+
+                  "name": "V",
+
+                  "magicRow": "#blank 5, 6..11"
+
+                },
+
+                {
+
+                  "name": "V - Accompagnateurs",
+
+                  "magicRow": "1..5, #blank 6",
+
+                  "y": "-0"
+
+                },
+
+                {
+
+                  "name": "W - Fauteuils Roulants",
+
+                  "magicRow": "#blank 2, 1, #blank 1, 2, #blank 1, 3, #blank 1, 4",
+
+                  "y": "+1.9"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "SECTION 111",
+
+              "nameAbrv": "S111",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "283",
+
+              "y": "454",
+
+              "rotation": "42",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "#blank 2, 1..14"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K",
+
+                  "magicRow": "#blank 1, 1..16"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U",
+
+                  "magicRow": "1..18"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W"
+
+                }
+
+              ]
+
+            }
+
+          ]
+
+        },
+
+        {
+
+          "zoomable": true,
+
+          "sections": [
+
+            {
+
+              "name": "SECTION 113",
+
+              "nameAbrv": "S113",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "298.5",
+
+              "y": "468.5",
+
+              "rotation": "38",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "1..3,#blank 5,9..11"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J",
+
+                  "magicRow": "1..11"
+
+                },
+
+                {
+
+                  "name": "K"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U"
+
+                },
+
+                {
+
+                  "name": "V",
+
+                  "magicRow": "#blank 5, 6..11"
+
+                },
+
+                {
+
+                  "name": "V - Accompagnateurs",
+
+                  "magicRow": "1..5, #blank 6",
+
+                  "y": "-0"
+
+                },
+
+                {
+
+                  "name": "W - Fauteuils Roulants",
+
+                  "magicRow": "#blank 2, 1, #blank 1, 2, #blank 1, 3, #blank 1, 4",
+
+                  "y": "+1.9"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "SECTION 115",
+
+              "nameAbrv": "S115",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "309.5",
+
+              "y": "479",
+
+              "rotation": "36",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "#blank 2, 1..14"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K",
+
+                  "magicRow": "#blank 1, 1..16"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U",
+
+                  "magicRow": "1..18"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "SECTION 117",
+
+              "nameAbrv": "S117",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "328",
+
+              "y": "489",
+
+              "rotation": "32",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "1..3,#blank 5,9..11"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J",
+
+                  "magicRow": "1..11"
+
+                },
+
+                {
+
+                  "name": "K"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U"
+
+                },
+
+                {
+
+                  "name": "V",
+
+                  "magicRow": "#blank 5, 6..11"
+
+                },
+
+                {
+
+                  "name": "V - Accompagnateurs",
+
+                  "magicRow": "1..5, #blank 6",
+
+                  "y": "-0"
+
+                },
+
+                {
+
+                  "name": "W - Fauteuils Roulants",
+
+                  "magicRow": "#blank 2, 1, #blank 1, 2, #blank 1, 3, #blank 1, 4",
+
+                  "y": "+1.9"
+
+                }
+
+              ]
+
+            }
+
+          ]
+
+        },
+
+        {
+
+          "zoomable": true,
+
+          "sections": [
+
+            {
+
+              "name": "SECTION 119",
+
+              "nameAbrv": "S119",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "340",
+
+              "y": "496",
+
+              "rotation": "27",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "#blank 2, 1..14"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K",
+
+                  "magicRow": "#blank 1, 1..16"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U",
+
+                  "magicRow": "1..18"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "SECTION 121",
+
+              "nameAbrv": "S121",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "361",
+
+              "y": "504",
+
+              "rotation": "23",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "1..3..1,#blank 5,9..11"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J",
+
+                  "magicRow": "1..11"
+
+                },
+
+                {
+
+                  "name": "K"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U"
+
+                },
+
+                {
+
+                  "name": "V",
+
+                  "magicRow": "#blank 5, 6..11"
+
+                },
+
+                {
+
+                  "name": "V - Accompagnateurs",
+
+                  "magicRow": "1..5, #blank 6",
+
+                  "y": "-0"
+
+                },
+
+                {
+
+                  "name": "W - Fauteuils Roulants",
+
+                  "magicRow": "#blank 2, 1, #blank 1, 2, #blank 1, 3, #blank 1, 4",
+
+                  "y": "+1.9"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "SECTION 123",
+
+              "nameAbrv": "S123",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "375",
+
+              "y": "511",
+
+              "rotation": "20",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "#blank 2, 1..14"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K",
+
+                  "magicRow": "#blank 1, 1..16"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U",
+
+                  "magicRow": "1..18"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W"
+
+                }
+
+              ]
+
+            }
+
+          ]
+
+        },
+
+        {
+
+          "zoomable": true,
+
+          "sections": [
+
+            {
+
+              "name": "SECTION 125",
+
+              "nameAbrv": "S125",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "395.5",
+
+              "y": "517",
+
+              "rotation": "17",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "1..11"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U"
+
+                },
+
+                {
+
+                  "name": "V",
+
+                  "magicRow": "#blank 5, 6..11"
+
+                },
+
+                {
+
+                  "name": "V - Accompagnateurs",
+
+                  "magicRow": "1..5, #blank 6",
+
+                  "y": "-0"
+
+                },
+
+                {
+
+                  "name": "W - Fauteuils Roulants",
+
+                  "magicRow": "#blank 2, 1, #blank 1, 2, #blank 1, 3, #blank 1, 4",
+
+                  "y": "+1.9"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "SECTION 127",
+
+              "nameAbrv": "S127",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "410",
+
+              "y": "521.5",
+
+              "rotation": "13",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "#blank 2, 1..14"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K",
+
+                  "magicRow": "#blank 0.5, 1..16"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T",
+
+                  "magicRow": "1..17"
+
+                },
+
+                {
+
+                  "name": "U",
+
+                  "magicRow": "1..18"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "SECTION 129",
+
+              "nameAbrv": "S129",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "431",
+
+              "y": "525",
+
+              "rotation": "10",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "1..3,#blank 5,9..11"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M",
+
+                  "magicRow": "1..11"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U",
+
+                  "magicRow": "#blank 3, 4..11"
+
+                },
+
+                {
+
+                  "name": "U - Accompagnateurs",
+
+                  "magicRow": "1..3, #blank 8",
+
+                  "y": "-0"
+
+                },
+
+                {
+
+                  "name": "V - Accompagnateurs",
+
+                  "magicRow": "1..2, #blank 9",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "W - Fauteuils Roulants",
+
+                  "magicRow": "#blank 2, 1, #blank 1, 2, #blank 1, 3, #blank 1, 4"
+
+                }
+
+              ]
+
+            }
+
+          ]
+
+        },
+
+        {
+
+          "zoomable": true,
+
+          "sections": [
+
+            {
+
+              "name": "SECTION 131",
+
+              "nameAbrv": "S131",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "446",
+
+              "y": "526",
+
+              "rotation": "4",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "#blank 2, 1..14"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K",
+
+                  "magicRow": "#blank 0.5, 1..16, #blank 1"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U",
+
+                  "magicRow": "1..18"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "SECTION 133",
+
+              "nameAbrv": "S133",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "466",
+
+              "y": "527",
+
+              "rotation": "0",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "#blank 1.5, 16..14,#blank 3,9..1"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K",
+
+                  "magicRow": "#blank 1.5,16..14,#blank 2,10..1"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M",
+
+                  "magicRow": "#blank 0.5,18..8,#blank 2,5..1"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U",
+
+                  "magicRow": "19..9..1,#blank 1,6..1"
+
+                },
+
+                {
+
+                  "name": "V",
+
+                  "magicRow": "19..14..1,#blank 6,6..1"
+
+                },
+
+                {
+
+                  "name": "V - Accompagnateurs",
+
+                  "magicRow": "#blank 6, 13..9",
+
+                  "y": "-0"
+
+                },
+
+                {
+
+                  "name": "W",
+
+                  "magicRow": "#blank 12,6..1",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "W - Fauteuils Roulants",
+
+                  "magicRow": "#blank 1, 10, #blank 2, 9, #blank 2, 8, #blank 2, 7",
+
+                  "y": "-0"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "SECTION 135",
+
+              "nameAbrv": "S135",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "488",
+
+              "y": "526.7",
+
+              "rotation": "-3",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "#blank 2, 5..1"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "magicRow": "#blank 1, 7..1",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K",
+
+                  "magicRow": "#blank 0.5, 8..1"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U",
+
+                  "magicRow": "9..1"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W"
+
+                }
+
+              ]
+
+            }
+
+          ]
+
+        },
+
+        {
+
+          "zoomable": true,
+
+          "sections": [
+
+            {
+
+              "name": "SECTION 137",
+
+              "nameAbrv": "S137",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "504",
+
+              "y": "524",
+
+              "rotation": "-7",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "11..9,#blank 5,3..1"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M",
+
+                  "magicRow": "11..1"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O",
+
+                  "magicRow": "#blank 0.5,10..1"
+
+                },
+
+                {
+
+                  "name": "P",
+
+                  "magicRow": "11..1"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U"
+
+                },
+
+                {
+
+                  "name": "V",
+
+                  "magicRow": "11..6"
+
+                },
+
+                {
+
+                  "name": "V - Accompagnateurs",
+
+                  "magicRow": "#blank 6,5..1",
+
+                  "y": "-0"
+
+                },
+
+                {
+
+                  "name": "W - Fauteuils Roulants",
+
+                  "magicRow": "#blank 2, 4, #blank 1, 3, #blank 1, 2, #blank 1, 1",
+
+                  "y": "+1.9"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "SECTION 139",
+
+              "nameAbrv": "S139",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "518",
+
+              "y": "521.5",
+
+              "rotation": "-9",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "#blank 2,14..9,blank 2, 6..1"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "magicRow": "#blank 2, 14..1",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K",
+
+                  "magicRow": "#blank 1, 16..1"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U",
+
+                  "magicRow": "18..1"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "SECTION 141",
+
+              "nameAbrv": "S141",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "539",
+
+              "y": "518.5",
+
+              "rotation": "-10",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "11..9,#blank 5,3..1"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M",
+
+                  "magicRow": "11..1"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O",
+
+                  "magicRow": "#blank 0.5,10..1"
+
+                },
+
+                {
+
+                  "name": "P",
+
+                  "magicRow": "11..1"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W"
+
+                }
+
+              ]
+
+            }
+
+          ]
+
+        },
+
+        {
+
+          "zoomable": true,
+
+          "sections": [
+
+            {
+
+              "name": "SECTION 143",
+
+              "nameAbrv": "S143",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "553",
+
+              "y": "511",
+
+              "rotation": "-18",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "#blank 2,14..9,blank 2, 6..1"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "magicRow": "#blank 2, 14..1",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K",
+
+                  "magicRow": "#blank 1, 16..1"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U",
+
+                  "magicRow": "18..1"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "SECTION 145",
+
+              "nameAbrv": "S145",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "574",
+
+              "y": "504",
+
+              "rotation": "-22",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "11..1"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O",
+
+                  "magicRow": "#blank 0.5,10..1"
+
+                },
+
+                {
+
+                  "name": "P",
+
+                  "magicRow": "11..1"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "SECTION 147",
+
+              "nameAbrv": "S147",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "587",
+
+              "y": "497",
+
+              "rotation": "-25",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "#blank 2,14..9,blank 2, 6..1"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "magicRow": "#blank 2, 14..1",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K",
+
+                  "magicRow": "#blank 1, 16..1"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U",
+
+                  "magicRow": "18..1"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "SECTION 149",
+
+              "nameAbrv": "S149",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "605",
+
+              "y": "489",
+
+              "rotation": "-28",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "11..1"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O",
+
+                  "magicRow": "#blank 0.5,10..1"
+
+                },
+
+                {
+
+                  "name": "P",
+
+                  "magicRow": "11..1"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "SECTION 151",
+
+              "nameAbrv": "S151",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "618",
+
+              "y": "473",
+
+              "rotation": "-32",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "7..2"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "magicRow": "7..1",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J"
+
+                },
+
+                {
+
+                  "name": "K",
+
+                  "magicRow": "8..1"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S"
+
+                },
+
+                {
+
+                  "name": "T"
+
+                },
+
+                {
+
+                  "name": "U",
+
+                  "magicRow": "9..1"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W",
+
+                  "magicRow": "40..1"
+
+                }
+
+              ]
+
+            },
+
+            {
+
+              "name": "SECTION 102",
+
+              "nameAbrv": "S102",
+
+              "color": "#1B3687",
+
+              "zoomable": true,
+
+              "x": "225",
+
+              "y": "335",
+
+              "rotation": "96",
+
+              "rows": [
+
+                {
+
+                  "name": "A",
+
+                  "seatBackOnTop": "none",
+
+                  "magicRow": "#blank 3.5,16..1"
+
+                },
+
+                {
+
+                  "name": "B",
+
+                  "y": "+1.9"
+
+                },
+
+                {
+
+                  "name": "C"
+
+                },
+
+                {
+
+                  "name": "D"
+
+                },
+
+                {
+
+                  "name": "E"
+
+                },
+
+                {
+
+                  "name": "F"
+
+                },
+
+                {
+
+                  "name": "G"
+
+                },
+
+                {
+
+                  "name": "H"
+
+                },
+
+                {
+
+                  "name": "J",
+
+                  "magicRow": "#blank 2,19..13, #blank 2, 10..1"
+
+                },
+
+                {
+
+                  "name": "K"
+
+                },
+
+                {
+
+                  "name": "L"
+
+                },
+
+                {
+
+                  "name": "M"
+
+                },
+
+                {
+
+                  "name": "N",
+
+                  "magicRow": "#blank 1,20..13, #blank 2, 10..1"
+
+                },
+
+                {
+
+                  "name": "O"
+
+                },
+
+                {
+
+                  "name": "P",
+
+                  "magicRow": "#blank 1,21..14, #blank 2, 11..1"
+
+                },
+
+                {
+
+                  "name": "Q"
+
+                },
+
+                {
+
+                  "name": "R"
+
+                },
+
+                {
+
+                  "name": "S",
+
+                  "magicRow": "#blank 1,22..15, #blank 2, 12..1"
+
+                },
+
+                {
+
+                  "name": "T",
+
+                  "magicRow": "23..15, #blank 2, 12..1"
+
+                },
+
+                {
+
+                  "name": "U"
+
+                },
+
+                {
+
+                  "name": "V"
+
+                },
+
+                {
+
+                  "name": "W"
+
+                }
+
+              ]
+
+            }
+
+          ]
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}

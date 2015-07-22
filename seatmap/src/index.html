@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+</head>
+<body>
+    <img id='loading' src="images/loading2.gif" />
+    <div id="kinetic-container"></div>
+    <div id="debug">Loading...</div>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/dat.gui/dat.gui.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js({src,.tmp}) scripts/main.js -->
+    <script src="scripts/libs/kinetic-4.7.2.js"></script>
+    <script src="scripts/utils.js"></script>
+    <script src="scripts/Constants.js"></script>
+    <script src="scripts/objects/JsonObjectsReferences.js"></script>
+    <script src="scripts/objects/Label.js"></script>
+    <script src="scripts/objects/Level.js"></script>
+    <script src="scripts/objects/Picture.js"></script>
+    <script src="scripts/objects/Row.js"></script>
+    <script src="scripts/objects/Seat.js"></script>
+    <script src="scripts/objects/Section.js"></script>
+    <script src="scripts/objects/Venue.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/EGUI.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

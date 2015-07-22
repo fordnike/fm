@@ -1,0 +1,2117 @@
+{
+
+  "name": "Canada Summit Centre",
+
+  "nameAbrv": "CSC",
+
+  "version": 2,
+
+  "seatLabelColor":"white",
+
+  "zoomable": false,
+
+  "image": {
+
+    "url": "https://d364ts6ehiutez.cloudfront.net/imageSYOS/Canada Summit Centre - Don Lough Arena/Canada-Summit-Centre---Huntsville-Girlfriend-Getaway-Weekend-2014-WEB3.jpg",
+
+    "width": "163",
+
+    "height": "115",
+
+    "x": "2",
+
+    "y": "-1.8"
+
+  },
+
+  "priceLevelColors": [
+
+    {"priceLevelId": 1, "color": "#0066B3"},
+
+    {"priceLevelId": 2, "color": "#E294A1"},
+
+    {"priceLevelId": 3, "color": "#73B73E"},
+
+    {"priceLevelId": 4, "color": "#EBC207"},
+
+    {"priceLevelId": 5, "color": "#88CEDF"},
+
+    {"priceLevelId": 6, "color": "#AB59C3"},
+
+    {"priceLevelId": 7, "color": "#A66806"},
+
+    {"priceLevelId": 8, "color": "#0387D2"},
+
+    {"priceLevelId": 9, "color": "#317D3A"},
+
+    {"priceLevelId": 10, "color": "#620E81"},
+
+    {"priceLevelId": 11, "color": "#FB7C0C"}
+
+  ],
+
+  "zoomable": false,
+
+  "levels": [
+
+    {
+
+      "name": "Bowl",
+
+      "x": "9.244",
+
+      "y": "17.056",
+
+      "sections": [
+
+        {
+
+          "name": "Section Y", "nameAbrv": "SY","zoomable":true,
+
+          "y": "6.768",
+
+          "rows": [
+
+            {
+
+              "name": "E","seatBackOnTop": "true",
+
+              "y": "0",
+
+              "magicRow": "#blank 3, 2..1..1"
+
+            },
+
+            {
+
+              "name": "D",
+
+              "y": "+1",
+
+              "magicRow": "#blank 2,4..1..1"
+
+            },
+
+            {
+
+              "name": "C",
+
+              "magicRow": "6..1..1"
+
+            },
+
+            {
+
+              "name": "B"
+
+            }
+
+          ],
+
+          "x": "14.295",
+
+          "rotation": "-45"
+
+        },
+
+        {
+
+          "name": "Section Z", "nameAbrv": "SZ","zoomable":true,
+
+          "y": "2.966",
+
+          "x": "20.31",
+
+          "rows": [
+
+            {
+
+              "name": "F", "seatBackOnTop": "true",
+
+              "y": "0",
+
+              "magicRow": "1..3..1"
+
+            },
+
+            {
+
+              "name": "E",
+
+              "y": "1",
+
+              "x": "0",
+
+              "magicRow": "#blank 1,1..2..1"
+
+            },
+
+            {
+
+              "name": "D",
+
+              "y": "+1",
+
+              "magicRow": "#blank 1,1..2..1"
+
+            },
+
+            {
+
+              "name": "C",
+
+              "magicRow": "#blank 2,1"
+
+            }
+
+          ],
+
+          "rotation": "-25"
+
+        },
+
+        {
+
+          "name": "Section ZZ", "nameAbrv": "SZZ","zoomable":true,
+
+          "y": "1.089",
+
+          "x": "25.965",
+
+          "rows": [
+
+            {
+
+              "name": "F", "seatBackOnTop": "true",
+
+              "y": "0",
+
+              "magicRow": "4..11..1",
+
+              "x": "0"
+
+            },
+
+            {
+
+              "name": "E",
+
+              "y": "+1",
+
+              "magicRow": "#blank 1, 3..9..1"
+
+            },
+
+            {
+
+              "name": "D",
+
+              "magicRow": "#blank 2,3..8..1"
+
+            },
+
+            {
+
+              "name": "C",
+
+              "magicRow": "#blank 2,2..7..1"
+
+            },
+
+            {
+
+              "name": "B",
+
+              "x": "0",
+
+              "y": "4",
+
+              "magicRow": "#blank 3,1..5..1"
+
+            }
+
+          ]
+
+        },
+
+        {
+
+          "name": "Section G", "nameAbrv": "SG","zoomable":true,
+
+          "y": "0.013",
+
+          "rows": [
+
+            {
+
+              "name": "G","seatBackOnTop": "true",
+
+              "y": "0",
+
+              "magicRow": "1..12..1",
+
+              "x": "0"
+
+            },
+
+            {
+
+              "name": "F",
+
+              "y": "+1",
+
+              "magicRow": "1..17..1"
+
+            },
+
+            {
+
+              "name": "E"
+
+            },
+
+            {
+
+              "name": "D"
+
+            },
+
+            {
+
+              "name": "C"
+
+            },
+
+            {
+
+              "name": "B"
+
+            },
+
+            {
+
+              "name": "A",
+
+              "magicRow": "1..7..1,#blank 5, 13..17..1"
+
+            }
+
+          ],
+
+          "x": "36.798"
+
+        },
+
+        {
+
+          "name": "Section H", "nameAbrv": "SH","zoomable":true,
+
+          "y": "0.053",
+
+          "x": "56.55",
+
+          "rows": [
+
+            {
+
+              "name": "G","seatBackOnTop": "true",
+
+              "y": "0",
+
+              "magicRow": "1..12..1",
+
+              "x": "0"
+
+            },
+
+            {
+
+              "name": "F",
+
+              "y": "+1",
+
+              "magicRow": "1..17..1"
+
+            },
+
+            {
+
+              "name": "E"
+
+            },
+
+            {
+
+              "name": "D"
+
+            },
+
+            {
+
+              "name": "C"
+
+            },
+
+            {
+
+              "name": "B",
+
+              "magicRow": "1..6..1"
+
+            },
+
+            {
+
+              "name": "A",
+
+              "magicRow": "1..3..1"
+
+            }
+
+          ]
+
+        },
+
+        {
+
+          "name": "Section I", "nameAbrv": "SI","zoomable":true,
+
+          "y": "0.27",
+
+          "x": "76.147",
+
+          "rows": [
+
+            {
+
+              "name": "G","nameAbrv": "SG","seatBackOnTop": "true",
+
+              "y": "0",
+
+              "magicRow": "1..14..1",
+
+              "x": "0"
+
+            },
+
+            {
+
+              "name": "F","nameAbrv": "SF","seatBackOnTop": "true",
+
+              "y": "+1",
+
+              "magicRow": "1..19..1"
+
+            },
+
+            {
+
+              "name": "E"
+
+            },
+
+            {
+
+              "name": "D"
+
+            },
+
+            {
+
+              "name": "C"
+
+            },
+
+            {
+
+              "name": "B",
+
+              "magicRow": "#blank 11,12..19..1"
+
+            }
+
+          ]
+
+        },
+
+        {
+
+          "name": "Section J", "nameAbrv": "SJ","zoomable":true,
+
+          "y": "1.218",
+
+          "x": "98.213",
+
+          "rows": [
+
+            {
+
+              "name": "F","seatBackOnTop": "true",
+
+              "y": "0",
+
+              "magicRow": "1..7..1"
+
+            },
+
+            {
+
+              "name": "E",
+
+              "y": "+1"
+
+            },
+
+            {
+
+              "name": "D"
+
+            },
+
+            {
+
+              "name": "C"
+
+            },
+
+            {
+
+              "name": "B"
+
+            },
+
+            {
+
+              "name": "A"
+
+            }
+
+          ]
+
+        },
+
+        {
+
+          "name": "Section K", "nameAbrv": "SK","zoomable":true,
+
+          "y": "0.424",
+
+          "x": "108.506",
+
+          "rows": [
+
+            {
+
+              "name": "G","seatBackOnTop": "true",
+
+              "y": "0",
+
+              "magicRow": "#blank 5,,6..18..1",
+
+              "x": "0"
+
+            },
+
+            {
+
+              "name": "F",
+
+              "y": "+1",
+
+              "magicRow": "1..17..1"
+
+            },
+
+            {
+
+              "name": "E",
+
+              "magicRow": "1..16..1"
+
+            },
+
+            {
+
+              "name": "D",
+
+              "magicRow": "#blank 8, 9..15..1",
+
+              "x": "0",
+
+              "y": "3"
+
+            },
+
+            {
+
+              "name": "C",
+
+              "y": "+1",
+
+              "magicRow": "#blank 8, 9..14..1"
+
+            },
+
+            {
+
+              "name": "B",
+
+              "magicRow": "#blank 8, 9..13..1"
+
+            },
+
+            {
+
+              "name": "A",
+
+              "magicRow": "#blank 8, 9..12..1"
+
+            }
+
+          ]
+
+        },
+
+        {
+
+          "name": "Section L", "nameAbrv": "SL","zoomable":true,
+
+          "y": "8.568",
+
+          "x": "123.724",
+
+          "rows": [
+
+            {
+
+              "name": "G","seatBackOnTop": "true",
+
+              "y": "0",
+
+              "magicRow": "1..14..1"
+
+            },
+
+            {
+
+              "name": "F", "magicRow": "1..15..1",
+
+              "y": "+1"
+
+            },
+
+            {
+
+              "name": "E"
+
+            },
+
+            {
+
+              "name": "D"
+
+            },
+
+            {
+
+              "name": "C"
+
+            },
+
+            {
+
+              "name": "B"
+
+            }
+
+          ],
+
+          "rotation": "45"
+
+        },
+
+        {
+
+          "name": "Section M", "nameAbrv": "SM","zoomable":true,
+
+          "y": "21.288",
+
+          "x": "131.007",
+
+          "rows": [
+
+            {
+
+              "name": "F","seatBackOnTop": "true",
+
+              "y": "0",
+
+              "magicRow": "1..14..1"
+
+            },
+
+            {
+
+              "name": "E",
+
+              "y": "1",
+
+              "x": "0",
+
+              "magicRow": "#blank 1, 1..13..1"
+
+            },
+
+            {
+
+              "name": "D",
+
+              "y": "+1",
+
+              "magicRow": "#blank 3, 1..11..1"
+
+            },
+
+            {
+
+              "name": "C"
+
+            },
+
+            {
+
+              "name": "B",
+
+              "magicRow": "#blank 4, 1..10..1"
+
+            },
+
+            {
+
+              "name": "A",
+
+              "magicRow": "#blank 5, 1..9..1"
+
+            }
+
+          ],
+
+          "rotation": "90"
+
+        },
+
+        {
+
+          "name": "Section N", "nameAbrv": "SN","zoomable":true,
+
+          "y": "40.252",
+
+          "x": "129",
+
+          "rows": [
+
+            {
+
+              "name": "F","seatBackOnTop": "true",
+
+              "y": "0",
+
+              "magicRow": "1..18..1"
+
+            },
+
+            {
+
+              "name": "E",
+
+              "y": "+1"
+
+            },
+
+            {
+
+              "name": "D"
+
+            },
+
+            {
+
+              "name": "C"
+
+            },
+
+            {
+
+              "name": "B"
+
+            },
+
+            {
+
+              "name": "A"
+
+            }
+
+          ],
+
+          "rotation": "90"
+
+        },
+
+        {
+
+          "name": "Section O", "nameAbrv": "SO","zoomable":true,
+
+          "y": "58.308",
+
+          "x": "131.678",
+
+          "rows": [
+
+            {
+
+              "name": "F","seatBackOnTop": "true",
+
+              "y": "0",
+
+              "magicRow": "1..12..1"
+
+            },
+
+            {
+
+              "name": "E",
+
+              "y": "+1",
+
+              "magicRow": "1..10..1"
+
+            },
+
+            {
+
+              "name": "D",
+
+              "magicRow": "1..9..1"
+
+            },
+
+            {
+
+              "name": "C",
+
+              "magicRow": "1..8..1"
+
+            },
+
+            {
+
+              "name": "B",
+
+              "magicRow": "1..7..1"
+
+            },
+
+            {
+
+              "name": "A",
+
+              "magicRow": "1..6..1"
+
+            }
+
+          ],
+
+          "rotation": "90"
+
+        },
+
+        {
+
+          "name": "Section P", "nameAbrv": "SP","zoomable":true,
+
+          "y": "69.063",
+
+          "x": "124",
+
+          "rows": [
+
+            {
+
+              "name": "B","seatBackOnTop": "false",
+
+              "y": "0",
+
+              "magicRow": "15..1..1"
+
+            },
+
+            {
+
+              "name": "C",
+
+              "y": "+1"
+
+            },
+
+            {
+
+              "name": "D"
+
+            },
+
+            {
+
+              "name": "E"
+
+            },
+
+            {
+
+              "name": "F"
+
+            },
+
+            {
+
+              "name": "G",
+
+              "magicRow": "#blank 1,14..2..1"
+
+            }
+
+          ],
+
+          "rotation": "-45"
+
+        },
+
+        {
+
+          "name": "Section Q", "nameAbrv": "SQ","zoomable":true,
+
+          "y": "75.109",
+
+          "x": "107.725",
+
+          "rows": [
+
+            {
+
+              "name": "A",
+
+              "y": "0",
+
+              "magicRow": "#blank 8, 5..1..1"
+
+            },
+
+            {
+
+              "name": "B",
+
+              "y": "+1",
+
+              "magicRow": "#blank 8, 6..1..1"
+
+            },
+
+            {
+
+              "name": "C",
+
+              "magicRow": "#blank 8, 6..1..1"
+
+            },
+
+            {
+
+              "name": "D",
+
+              "magicRow": "#blank 8,7..1..1"
+
+            },
+
+            {
+
+              "name": "E",
+
+              "x": "0",
+
+              "y": "4",
+
+              "magicRow": "#blank 8,9..1..1"
+
+            },
+
+            {
+
+              "name": "F",
+
+              "y": "5",
+
+              "magicRow": "18..1..1",
+
+              "x": "0"
+
+            },
+
+            {
+
+              "name": "G",
+
+              "magicRow": "18..1..1",
+
+              "y": "+1"
+
+            }
+
+          ]
+
+        },
+
+        {
+
+          "name": "Section R", "nameAbrv": "SR","zoomable":true,
+
+          "y": "75.118",
+
+          "x": "90.9",
+
+          "rows": [
+
+            {
+
+              "name": "A",
+
+              "y": "0",
+
+              "magicRow": "14..1..1"
+
+            },
+
+            {
+
+              "name": "B",
+
+              "y": "+1"
+
+            },
+
+            {
+
+              "name": "C"
+
+            },
+
+            {
+
+              "name": "D"
+
+            },
+
+            {
+
+              "name": "E"
+
+            },
+
+            {
+
+              "name": "F"
+
+            },
+
+            {
+
+              "name": "G",
+
+              "x": "-0.001",
+
+              "y": "5.999",
+
+              "magicRow": "#blank 8, 6..1..1"
+
+            }
+
+          ]
+
+        },
+
+        {
+
+          "name": "Section S", "nameAbrv": "SS","zoomable":true,
+
+          "y": "75.032",
+
+          "rows": [
+
+            {
+
+              "name": "A",
+
+              "y": "0",
+
+              "magicRow": "11..9..1, #blank 4, 4..1..1"
+
+            },
+
+            {
+
+              "name": "B",
+
+              "y": "+1",
+
+              "magicRow": "11..1..1"
+
+            },
+
+            {
+
+              "name": "C"
+
+            },
+
+            {
+
+              "name": "D"
+
+            },
+
+            {
+
+              "name": "E"
+
+            },
+
+            {
+
+              "name": "F",
+
+              "magicRow": "3..1..1"
+
+            }
+
+          ],
+
+          "x": "76.982"
+
+        },
+
+        {
+
+          "name": "Section T", "nameAbrv": "ST","zoomable":true,
+
+          "y": "74.88",
+
+          "x": "55.952",
+
+          "rows": [
+
+            {
+
+              "name": "A",
+
+              "y": "0",
+
+              "magicRow": "#blank 3, 15..1..1",
+
+              "x": "0"
+
+            },
+
+            {
+
+              "name": "B",
+
+              "y": "+1",
+
+              "magicRow": "18..1..1"
+
+            },
+
+            {
+
+              "name": "C"
+
+            },
+
+            {
+
+              "name": "D"
+
+            },
+
+            {
+
+              "name": "E"
+
+            },
+
+            {
+
+              "name": "F"
+
+            },
+
+            {
+
+              "name": "G",
+
+              "magicRow": "#blank 9,9..1..1"
+
+            }
+
+          ]
+
+        },
+
+        {
+
+          "name": "Section U", "nameAbrv": "SU","zoomable":true,
+
+          "y": "74.83",
+
+          "rows": [
+
+            {
+
+              "name": "A",
+
+              "y": "0",
+
+              "magicRow": "#blank 10,4..1..1"
+
+            },
+
+            {
+
+              "name": "B",
+
+              "y": "+1",
+
+              "magicRow": "16..1..1"
+
+            },
+
+            {
+
+              "name": "C"
+
+            },
+
+            {
+
+              "name": "D"
+
+            },
+
+            {
+
+              "name": "E"
+
+            },
+
+            {
+
+              "name": "F"
+
+            },
+
+            {
+
+              "name": "G",
+
+              "magicRow": "#blank 6,10..1..1"
+
+            }
+
+          ],
+
+          "x": "36.662"
+
+        },
+
+        {
+
+          "name": "Section V", "nameAbrv": "SV","zoomable":true,
+
+          "y": "75.745",
+
+          "x": "27.051",
+
+          "rows": [
+
+            {
+
+              "name": "B",
+
+              "y": "0",
+
+              "magicRow": "#blank 2, 4..1..1"
+
+            },
+
+            {
+
+              "name": "C",
+
+              "y": "+1",
+
+              "magicRow": "#blank 1,5..1..1"
+
+            },
+
+            {
+
+              "name": "D"
+
+            },
+
+            {
+
+              "name": "E",
+
+              "magicRow": "6..1..1"
+
+            },
+
+            {
+
+              "name": "F"
+
+            }
+
+          ]
+
+        },
+
+        {
+
+          "name": "Section W", "nameAbrv": "SW","zoomable":true,
+
+          "y": "74.667",
+
+          "x": "20.044",
+
+          "rows": [
+
+            {
+
+              "name": "B",
+
+              "y": "0",
+
+              "magicRow": "#blank 1.5,6..5..1"
+
+            },
+
+            {
+
+              "name": "C",
+
+              "y": "+1",
+
+              "magicRow": "#blank 1, 8..6..1"
+
+            },
+
+            {
+
+              "name": "D",
+
+              "magicRow": "#blank 0.5,9..6..1"
+
+            },
+
+            {
+
+              "name": "E",
+
+              "magicRow": "#blank 0.5,10..7..1"
+
+            },
+
+            {
+
+              "name": "F",
+
+              "magicRow": "11..7..1"
+
+            }
+
+          ],
+
+          "rotation": "35"
+
+        },
+
+        {
+
+          "name": "Section X", "nameAbrv": "SX","zoomable":true,
+
+          "y": "69.455",
+
+          "x": "13.222",
+
+          "rows": [
+
+            {
+
+              "name": "B",
+
+              "y": "0",
+
+              "magicRow": "7..1..1"
+
+            },
+
+            {
+
+              "name": "C",
+
+              "y": "+1",
+
+              "magicRow": "#blank 1, 6..1..1"
+
+            },
+
+            {
+
+              "name": "D",
+
+              "magicRow": "#blank 3,4..1..1"
+
+            },
+
+            {
+
+              "name": "E",
+
+              "magicRow": "#blank 4,3..1..1"
+
+            },
+
+            {
+
+              "name": "F",
+
+              "magicRow": "#blank 6,1..1..1",
+
+              "x": "0",
+
+              "y": "3.999"
+
+            }
+
+          ],
+
+          "rotation": "45"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "name": "Floor",
+
+      "x": "42.128",
+
+      "y": "27.612",
+
+      "sections": [
+
+        {
+
+          "name": "Section A", "nameAbrv": "SA","zoomable":true,
+
+          "y": "36.453",
+
+          "rows": [
+
+            {
+
+              "name": "A",
+
+              "y": "0",
+
+              "magicRow": "1..12..1"
+
+            },
+
+            {
+
+              "name": "B",
+
+              "y": "+2",
+
+              "rotation": "90"
+
+            },
+
+            {
+
+              "name": "C"
+
+            },
+
+            {
+
+              "name": "D"
+
+            },
+
+            {
+
+              "name": "E"
+
+            },
+
+            {
+
+              "name": "F"
+
+            },
+
+            {
+
+              "name": "G"
+
+            },
+
+            {
+
+              "name": "H"
+
+            },
+
+            {
+
+              "name": "I"
+
+            },
+
+            {
+
+              "name": "J"
+
+            }
+
+          ],
+
+          "x": "20",
+
+          "rotation": "-90"
+
+        },
+
+        {
+
+          "name": "Section B", "nameAbrv": "SB","zoomable":true,
+
+          "y": "20",
+
+          "rows": [
+
+            {
+
+              "name": "A",
+
+              "y": "0",
+
+              "magicRow": "13..24..1"
+
+            },
+
+            {
+
+              "name": "B",
+
+              "y": "+2",
+
+              "rotation": "90"
+
+            },
+
+            {
+
+              "name": "C"
+
+            },
+
+            {
+
+              "name": "D"
+
+            },
+
+            {
+
+              "name": "E"
+
+            },
+
+            {
+
+              "name": "F"
+
+            },
+
+            {
+
+              "name": "G"
+
+            },
+
+            {
+
+              "name": "H"
+
+            },
+
+            {
+
+              "name": "I"
+
+            },
+
+            {
+
+              "name": "J"
+
+            }
+
+          ],
+
+          "x": "20",
+
+          "rotation": "-90"
+
+        },
+
+        {
+
+          "name": "Section C", "nameAbrv": "SC","zoomable":true,
+
+          "y": "5",
+
+          "rows": [
+
+            {
+
+              "name": "A",
+
+              "y": "0",
+
+              "magicRow": "25..36..1"
+
+            },
+
+            {
+
+              "name": "B",
+
+              "y": "+2",
+
+              "rotation": "90"
+
+            },
+
+            {
+
+              "name": "C"
+
+            },
+
+            {
+
+              "name": "D"
+
+            },
+
+            {
+
+              "name": "E"
+
+            },
+
+            {
+
+              "name": "F"
+
+            },
+
+            {
+
+              "name": "G"
+
+            },
+
+            {
+
+              "name": "H"
+
+            },
+
+            {
+
+              "name": "I"
+
+            },
+
+            {
+
+              "name": "J"
+
+            }
+
+          ],
+
+          "x": "20",
+
+          "rotation": "-90"
+
+        },
+
+        {
+
+          "name": "Section D", "nameAbrv": "SD","zoomable":true,
+
+          "y": "36.791",
+
+          "x": "46",
+
+          "rotation": "-90",
+
+          "rows": [
+
+            {
+
+              "name": "K",
+
+              "y": "0",
+
+              "magicRow": "1..12..1"
+
+            },
+
+            {
+
+              "name": "L",
+
+              "y": "+2",
+
+              "rotation": "90"
+
+            },
+
+            {
+
+              "name": "M"
+
+            },
+
+            {
+
+              "name": "N"
+
+            },
+
+            {
+
+              "name": "O"
+
+            },
+
+            {
+
+              "name": "P"
+
+            },
+
+            {
+
+              "name": "Q"
+
+            },
+
+            {
+
+              "name": "R"
+
+            },
+
+            {
+
+              "name": "S"
+
+            },
+
+            {
+
+              "name": "T"
+
+            }
+
+          ]
+
+        },
+
+        {
+
+          "name": "Section E", "nameAbrv": "SE","zoomable":true,
+
+          "y": "20",
+
+          "rows": [
+
+            {
+
+              "name": "K",
+
+              "y": "0",
+
+              "magicRow": "13..24..1"
+
+            },
+
+            {
+
+              "name": "L",
+
+              "y": "+2",
+
+              "rotation": "90"
+
+            },
+
+            {
+
+              "name": "M"
+
+            },
+
+            {
+
+              "name": "N"
+
+            },
+
+            {
+
+              "name": "O"
+
+            },
+
+            {
+
+              "name": "P"
+
+            },
+
+            {
+
+              "name": "Q"
+
+            },
+
+            {
+
+              "name": "R"
+
+            },
+
+            {
+
+              "name": "S"
+
+            },
+
+            {
+
+              "name": "T"
+
+            }
+
+          ],
+
+          "x": "46",
+
+          "rotation": "-90"
+
+        },
+
+        {
+
+          "name": "Section F", "nameAbrv": "SF","zoomable":true,
+
+          "x": "46",
+
+          "rows": [
+
+            {
+
+              "name": "K",
+
+              "y": "0",
+
+              "magicRow": "25..36..1"
+
+            },
+
+            {
+
+              "name": "L",
+
+              "y": "+2",
+
+              "rotation": "90"
+
+            },
+
+            {
+
+              "name": "M"
+
+            },
+
+            {
+
+              "name": "N"
+
+            },
+
+            {
+
+              "name": "O"
+
+            },
+
+            {
+
+              "name": "P"
+
+            },
+
+            {
+
+              "name": "Q"
+
+            },
+
+            {
+
+              "name": "R"
+
+            },
+
+            {
+
+              "name": "S"
+
+            },
+
+            {
+
+              "name": "T"
+
+            }
+
+          ],
+
+          "rotation": "-90",
+
+          "y": "5"
+
+        },
+
+        {
+
+          "name": "Section AA", "nameAbrv": "SAA","zoomable":true,
+
+          "y": "40.881",
+
+          "rows": [
+
+            {
+
+              "name": "U",
+
+              "y": "0",
+
+              "magicRow": "1..12..1"
+
+            },
+
+            {
+
+              "name": "V",
+
+              "y": "+2",
+
+              "rotation": "90"
+
+            },
+
+            {
+
+              "name": "W"
+
+            },
+
+            {
+
+              "name": "X"
+
+            },
+
+            {
+
+              "name": "Y"
+
+            },
+
+            {
+
+              "name": "Z"
+
+            }
+
+          ],
+
+          "x": "68.021",
+
+          "rotation": "-90"
+
+        },
+
+        {
+
+          "name": "Section BB", "nameAbrv": "SBB","zoomable":true,
+
+          "y": "24.206",
+
+          "rotation": "-90",
+
+          "rows": [
+
+            {
+
+              "name": "U",
+
+              "y": "0",
+
+              "magicRow": "13..24..1"
+
+            },
+
+            {
+
+              "name": "V",
+
+              "y": "+2",
+
+              "rotation": "90"
+
+            },
+
+            {
+
+              "name": "W"
+
+            },
+
+            {
+
+              "name": "X"
+
+            },
+
+            {
+
+              "name": "Y"
+
+            },
+
+            {
+
+              "name": "Z"
+
+            }
+
+          ],
+
+          "x": "68"
+
+        },
+
+        {
+
+          "name": "Section CC", "nameAbrv": "CC","zoomable":true,
+
+          "y": "9.165",
+
+          "rotation": "-90",
+
+          "rows": [
+
+            {
+
+              "name": "U",
+
+              "y": "0",
+
+              "magicRow": "25..36..1"
+
+            },
+
+            {
+
+              "name": "V",
+
+              "y": "+2",
+
+              "rotation": "90"
+
+            },
+
+            {
+
+              "name": "W"
+
+            },
+
+            {
+
+              "name": "X"
+
+            },
+
+            {
+
+              "name": "Y"
+
+            },
+
+            {
+
+              "name": "Z"
+
+            }
+
+          ],
+
+          "x": "67.639"
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
