@@ -1,0 +1,211 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+    <script src="lib/ngCordova/dist/ng-cordova.min.js"></script>
+</head>
+
+<body ng-app="nodiumApp">
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div ui-view></div>
+
+<!-- build:js scripts/watershed-vendor.js -->
+<script src="lib/angular/angular.min.js"></script>
+<script src="lib/angular-resource/angular-resource.min.js"></script>
+<script src="lib/angular-translate/angular-translate.min.js"></script>
+<script src="lib/angular-translate-loader-partial/angular-translate-loader-partial.min.js"></script>
+<script src="lib/angular-mocks/angular-mocks.js"></script>
+<script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="lib/angular-animate/angular-animate.min.js"></script>
+<script src="lib/angular-aria/angular-aria.min.js"></script>
+<script src="lib/angular-material/angular-material.min.js"></script>
+<script src="lib/angular-material-icons/angular-material-icons.min.js"></script>
+
+<script src="lib/angulartics/dist/angulartics.min.js"></script>
+<script src="lib/angulartics/dist/angulartics-ga.min.js"></script>
+<script src="lib/angular-utf8-base64/angular-utf8-base64.min.js"></script>
+<script src="lib/angular-jwt/dist/angular-jwt.min.js"></script>
+<script src="lib/angular-hero/angular-hero.js"></script>
+<script src="lib/ng-mfb/src/mfb-directive.js"></script>
+<script src="lib/angular-dynamic-locale/tmhDynamicLocale.min.js"></script>
+
+<script src="lib/angular-ui-utils/ui-utils.min.js"></script>
+<script src="lib/angular-bootstrap/ui-bootstrap.js"></script>
+<script src='lib/md-date-time/dist/md-date-time.js'></script>
+<script src='lib/moment/min/moment.min.js'></script>
+<script src='lib/angular-moment/angular-moment.js'></script>
+<!-- endbuild -->
+
+<!-- build:js scripts/watershed.js -->
+<!-- module:core -->
+<script src="modules/core/app.js"></script>
+<script src="modules/core/run.js"></script>
+<script src="modules/core/config.js"></script>
+<script src="modules/core/global.values.js"></script>
+<script src="modules/core/http.provider.js"></script>
+<script src="modules/core/analytics.provider.js"></script>
+<script src="modules/core/theme.provider.js"></script>
+<script src="modules/core/routes.js"></script>
+<script src="modules/core/system.values.js"></script>
+<script src="modules/core/translate.provider.js"></script>
+<script src="modules/core/constants.values.js"></script>
+
+<!-- module:account -->
+<script src="modules/account/directives/wlt-account-edit/wlt-account-edit.js"></script>
+<script src="modules/account/directives/wlt-account-list/wlt-account-list.js"></script>
+<script src="modules/account/directives/wlt-account-view/wlt-account-view.js"></script>
+<script src="modules/account/routes/account.routes.js"></script>
+<script src="modules/account/services/account.service.js"></script>
+
+<!-- module:decorator -->
+<script src="modules/decorator/directives/wlt-decorator-private/wlt-decorator-private.js"></script>
+<script src="modules/decorator/directives/wlt-decorator-public/wlt-decorator-public.js"></script>
+<script src="modules/decorator/routes/decorator.routes.js"></script>
+<script src="modules/decorator/services/decorator.service.js"></script>
+
+<!-- module:event -->
+<script src="modules/event/directives/wlt-event-edit/wlt-event-edit.js"></script>
+<script src="modules/event/directives/wlt-event-list/wlt-event-list.js"></script>
+<script src="modules/event/directives/wlt-event-view/wlt-event-view.js"></script>
+<script src="modules/event/routes/event.routes.js"></script>
+<script src="modules/event/services/event.service.js"></script>
+
+<!-- module:location -->
+<script src="modules/location/directives/wlt-location-edit-form/wlt-location-edit-form.js"></script>
+<script src="modules/location/directives/wlt-location-edit-modal/wlt-location-edit-modal.js"></script>
+<script src="modules/location/directives/wlt-location-edit-page/wlt-location-edit-page.js"></script>
+<script src="modules/location/directives/wlt-location-list/wlt-location-list.js"></script>
+<script src="modules/location/directives/wlt-location-selector/wlt-location-selector.js"></script>
+<script src="modules/location/directives/wlt-location-view/wlt-location-view.js"></script>
+<script src="modules/location/routes/location.routes.js"></script>
+<script src="modules/location/services/location.service.js"></script>
+
+<!-- module:public -->
+<script src="modules/public/directives/wlt-forgot-password/wlt-forgot-password.js"></script>
+<script src="modules/public/directives/wlt-login/wlt-login.js"></script>
+<script src="modules/public/directives/wlt-reset-password/wlt-reset-password.js"></script>
+<script src="modules/public/directives/wlt-signup/wlt-signup.js"></script>
+<script src="modules/public/directives/wlt-valid-email/wlt-valid-email.js"></script>
+<script src="modules/public/routes/public.routes.js"></script>
+<script src="modules/public/services/authentication.service.js"></script>
+<script src="modules/public/services/email.service.js"></script>
+
+<!-- module:report -->
+<script src="modules/report/directives/wlt-date-range-select/wlt-date-range-select.js"></script>
+<script src="modules/report/directives/wlt-date-single-select/wlt-date-single-select.js"></script>
+<script src="modules/report/directives/wlt-event-multiple-select/wlt-event-multiple-select.js"></script>
+<script src="modules/report/directives/wlt-output-format-select/wlt-output-format-select.js"></script>
+<script src="modules/report/directives/wlt-report-list/wlt-report-list.js"></script>
+<script src="modules/report/directives/wlt-report-view/wlt-report-view.js"></script>
+<script src="modules/report/routes/reports.routes.js"></script>
+<script src="modules/report/services/report.service.js"></script>
+
+<!-- module:ticket -->
+<script src="modules/ticket/directives/wlt-ticket-list/wlt-ticket-list.js"></script>
+<script src="modules/ticket/routes/ticket.routes.js"></script>
+<script src="modules/ticket/services/ticket.service.js"></script>
+
+<!-- module:user -->
+<script src="modules/user/directives/wlt-change-password/wlt-change-password.js"></script>
+<script src="modules/user/directives/wlt-user-edit/wlt-user-edit.js"></script>
+<script src="modules/user/directives/wlt-user-edit-password/wlt-user-edit-password.js"></script>
+<script src="modules/user/directives/wlt-user-view/wlt-user-view.js"></script>
+<script src="modules/user/routes/user.routes.js"></script>
+<script src="modules/user/services/user.service.js"></script>
+
+<!-- module:welcome -->
+<script src="modules/welcome/directives/wlt-welcome/wlt-welcome.js"></script>
+<script src="modules/welcome/routes/welcome.routes.js"></script>
+
+<!-- module:shared -->
+<script src="modules/shared/directives/wlt-input/wlt-input.js"></script>
+<script src="modules/shared/directives/wlt-message/wlt-message.js"></script>
+<script src="modules/shared/directives/wlt-spinner/wlt-spinner.js"></script>
+<script src="modules/shared/directives/wlt-toolbar/wlt-toolbar.js"></script>
+<script src="modules/shared/directives/wlt-language/wlt-language.js"></script>
+<script src="modules/shared/services/toast.service.js"></script>
+<script src="modules/shared/services/global.service.js"></script>
+<script src="modules/shared/services/http-interceptor.service.js"></script>
+<script src="modules/shared/services/previous-state.service.js"></script>
+<script src="modules/shared/services/http.service.js"></script>
+<script src="modules/shared/services/security.service.js"></script>
+<script src="modules/shared/services/session.service.js"></script>
+<script src="modules/shared/services/oauth.service.js"></script>
+
+<!--<script src="modules/shared/directives/components/tabset/directive.js"></script>
+<script src="modules/shared/directives/components/tab/directive.js"></script>
+<script src="modules/shared/directives/components/tabset/controller.js"></script>-->
+
+<script src="modules/shared/directives/lang/directive.js"></script>
+<script src="modules/shared/filters/formatColon.js"></script>
+<script src="modules/shared/filters/formatPhone.js"></script>
+<script src="modules/shared/directives/datePicker/wlt-date-picker.js"></script>
+<!--<script src='modules/shared/lib/date-picker/date-picker.js'></script>-->
+<script src='modules/shared/lib/date-picker/angular-material-components.js'></script>
+<script src='modules/shared/lib/ui-mask-number/angular-input-masks.js'></script>
+<script src='modules/shared/lib/ng-img-crop/iblank-ng-img-crop.js'></script>
+<script src="modules/shared/directives/wlt-inject-script/wlt-inject-script.js"></script>
+<script src="modules/shared/directives/wlt-format-currency/wlt-format-currency.js"></script>
+<script src="modules/shared/directives/wlt-time-zone/wlt-time-zone.js"></script>
+<script src="modules/shared/directives/wlt-time-zone/time-zone.service.js"></script>
+<script src="modules/shared/services/permission.service.js"></script>
+<script src="modules/scan/routes/scan.routes.js"></script>
+<script src="modules/scan/directives/wlt-scan-view/wlt-scan-view.js"></script>
+
+<!-- endbuild -->
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+<!--<script>-->
+<!--(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){-->
+<!--(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),-->
+<!--m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)-->
+<!--})(window,document,'script','//www.google-analytics.com/analytics.js','ga');-->
+
+<!--ga('create', 'UA-74312-11');-->
+<!--ga('create', 'UA-4489809-1', 'auto', {'name': 'feq'});-->
+<!--ga('create', 'UA-59707365-1', 'auto', {'name': 'ticketMaster'});-->
+<!--</script>-->
+</body>
+
+</html>
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<!-- build:css styles/watershed-vendor.css -->
+<link rel="stylesheet" type="text/css" href="lib/angular-material/angular-material.min.css">
+<link rel='stylesheet' type="text/css" href='modules/shared/lib/date-picker/angular-material-components.css'>
+<link rel='stylesheet' type="text/css" href='lib/md-date-time/dist/md-date-time.css'>
+<link rel="stylesheet" type="text/css" href="modules/shared/lib/date-picker/materialdesignicons.css"/>
+<link rel="stylesheet" type="text/css" href="lib/ngImgCrop/compile/minified/ng-img-crop.css"/>
+
+<!-- endbuild -->
+
+<!-- build:css styles/watershed.css -->
+<link rel="stylesheet" type="text/css" href="styles/main.css"/>
+<link rel="stylesheet" type="text/css" href="modules/public/partials/public.css"/>
+<link rel="stylesheet" type="text/css" href="modules/decorator/partials/decorator.css"/>
+<link rel="stylesheet" type="text/css" href="modules/shared/directives/wlt-message/message.css"/>
+<link rel="stylesheet" type="text/css" href="modules/ticket/directives/wlt-ticket-list/wlt-ticket-list.css"/>
+<link rel="stylesheet" type="text/css" href="modules/account/directives/wlt-account-edit/wlt-account-edit.css"/>
+
+
+<!-- endbuild -->

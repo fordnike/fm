@@ -1,0 +1,76 @@
+<wlt-toolbar
+        show-type="list"
+        title="{{ 'location.titleList' | translate }}"
+        toggle-left="toggleLeft()"
+        toggle-right="toggleRight()"
+        set-search="setSearchMode()"
+        show-search="{{showSearchBox}}"
+        cancel="cancelLocation()"
+        save="saveLocation()">
+</wlt-toolbar>
+
+<wlt-spinner ng-hide="receivedResponse"></wlt-spinner>
+
+<wlt-message
+        show="{{message.updated}}"
+        message="message">
+</wlt-message>
+
+<div ng-show="receivedResponse">
+</div>
+<div ng-show="responseSuccess">
+
+    <md-button class="md-primary md-fab topRightButton" ng-click="goLocationNew()" aria-label="add">
+        <md-tooltip>
+            {{ 'shared.new' | translate }}
+        </md-tooltip>
+        <div class="button-icon">
+            <ng-md-icon icon="add"></ng-md-icon>
+        </div>
+    </md-button>
+
+    <md-content class="md-padding">
+        <form ng-show="showSearchBox" id="locationSearchForm" method="post">
+            <wlt-input
+                    label='{{"shared.search" | translate}}'
+                    model="search"
+                    key="search"
+                    glyphicon=""
+                    is-required=""
+                    required-message='{{"shared.error.isRequired" | translate }}'
+                    type="text"
+                    error-message='{{"shared.error.notValid" | translate}}'>
+            </wlt-input>
+        </form>
+
+        <md-content>
+            <md-list>
+
+                <md-subheader class="md-no-sticky">{{filtered.length}}
+                    <span ng-show="filtered.length <= 1">{{ "location.location" | translate }}</span>
+                    <span ng-show="filtered.length > 1">{{ "location.locations" | translate }}</span>
+                </md-subheader>
+
+                <md-list-item class="md-3-line " ng-repeat="location in filtered = (locations | filter: search)">
+                    <div class="md-list-item-text list pointer" ui-sref="private.account.location-view({id: location.id})">
+                        <div layout="row" layout-align="center center">
+                            <div style="width: 110px;" layout="row" layout-align="center center">
+                                <ng-md-icon icon="location_on" aria-label="close">
+                            </div>
+                            <div flex>
+                                <h3>{{location.name}}</h3>
+                                <p>{{location.addressLine1}}<br>
+                                <span ng-show="location.addressLine2">{{location.addressLine2}}<br></span>
+                                {{location.city}}, {{location.province}}<br>
+                                {{location.country}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <md-divider md-inset ng-if="!$last"></md-divider>
+                </md-list-item>
+
+            </md-list>
+        </md-content>
+
+    </md-content>
+</div>

@@ -1,0 +1,68 @@
+{
+  "saleState": "ONSALE",
+  "id": 6,
+  "note": null,
+  "title": "Hommage Santana - avec Persuasion",
+  "formattedDate": "Samedi 17 janvier 2015 à 20 h",
+  "eventStart": "2015-08-18T18:00:00.511Z",
+  "venue": "Kelso Beach Park",
+  "cityProv": "Owen Sound, ON",
+  "networkClient": 1,
+  "image": "6.jpg",
+  "capacity": 100,
+  "onsaleDate": "16 févr. 2015 [11h00]",
+  "prices": {
+    "123": {
+      "priceType": "General",
+      "price": "36,13 $",
+      "serviceCharges": "inclus",
+      "promo": false,
+      "order": 40,
+      "soldout": false
+    },
+    "456": {
+      "priceType": "General + free hotdog",
+      "price": "36,03 $",
+      "serviceCharges": "8,07 $",
+      "promo": false,
+      "order": 50,
+      "soldout": false
+    },
+    "789": {
+      "priceType": "Super vip seat",
+      "price": "12,73 $",
+      "serviceCharges": "inclus",
+      "promo": false,
+      "order": 50,
+      "soldout": true
+    },
+    "999": {
+      "priceType": "FREE ENTRY",
+      "price": "0,00 $",
+      "serviceCharges": "0,00 $",
+      "promo": false,
+      "order": 50,
+      "soldout": false
+    }
+  },
+  "shippingModes": {
+    "38830811": {
+      "code": "ET",
+      "description": "Billet électronique",
+      "price": "1,50 $",
+      "note": "<p style=\"text-align: center;\">Imprimez vos propres billets.</p>"
+    },
+    "35271064": {
+      "code": "WCOW",
+      "description": "Billetterie",
+      "price": "1,50 $",
+      "note": "Récupérer vos billets à la billetterie sur présentation d'une pièce d'identité avec photo et la carte de crédit ayant servi à l'achat."
+    },
+    "10652602": {
+      "code": "ML",
+      "description": "Poste régulière",
+      "price": "2,00 $",
+      "note": "<p>Recevez vos billets par la poste. Vous devez utiliser l'adresse de facturation de la carte.</p>"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+
+  "code": 200,
+  "message": null,
+  "transaction": null,
+  "amount": {
+    "amount": 89.28,
+    "currency": "CDN"
+  }
+}

@@ -1,0 +1,39 @@
+<md-toolbar class="md-toolbar-tools" layout="row">
+    <md-button class="md-icon-button" ng-click="toggleLeft()" aria-label="menu" hide-gt-md>
+        <md-tooltip>
+            {{ 'shared.menu' | translate }}
+        </md-tooltip>
+        <div class="button-icon">
+            <ng-md-icon icon="menu"></ng-md-icon>
+        </div>
+    </md-button>
+    <div layout="row" flex>
+        <span flex></span>
+        <h2>{{ title }}<span ng-show="admin===true && subdomain!=''"> - {{subdomain}}</span></h2>
+        <span flex></span>
+    </div>
+    <md-button class="md-icon-button" ng-show="showSearch==='false'" ng-click="setSearch()" aria-label="search">
+        <md-tooltip>
+            {{ 'shared.search' | translate }}
+        </md-tooltip>
+        <div class="button-icon">
+           <ng-md-icon icon="search"></ng-md-icon>
+        </div>
+    </md-button>
+    <md-button class="md-icon-button" ng-show="showSearch==='true'" ng-click="setSearch()" aria-label="list">
+        <md-tooltip>
+            {{ 'shared.search' | translate }}
+        </md-tooltip>
+        <div class="button-icon">
+            <ng-md-icon icon="clear"></ng-md-icon>
+        </div>
+    </md-button>
+    <md-button class="md-icon-button" ng-click="toggleRight()" aria-label="more">
+        <md-tooltip>
+            {{ 'shared.more' | translate }}
+        </md-tooltip>
+        <div class="button-icon">
+            <ng-md-icon icon="more_vert"></ng-md-icon>
+        </div>
+    </md-button>
+</md-toolbar>

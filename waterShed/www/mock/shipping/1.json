@@ -1,0 +1,25 @@
+{
+    "shippingModes": [
+        {
+            "ppdId": 38830811,
+            "code": "ET",
+            "description": "Billet électronique",
+            "price": "1,50 $",
+            "note": "<p style=\"text-align: center;\">Imprimez vos propres billets.</p>"
+        },
+        {
+            "ppdId": 35271064,
+            "code": "WCOW",
+            "description": "Billetterie",
+            "price": "1,50 $",
+            "note": "Récupérer vos billets à la billetterie sur présentation d'une pièce d'identité avec photo et la carte de crédit ayant servi à l'achat."
+        },
+        {
+            "ppdId": 10652602,
+            "code": "ML",
+            "description": "Poste régulière",
+            "price": "2,00 $",
+            "note": "<p>Recevez vos billets par la poste. Vous devez utiliser l'adresse de facturation de la carte.</p>"
+        }
+    ]
+}

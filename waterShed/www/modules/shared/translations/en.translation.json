@@ -1,0 +1,56 @@
+{
+  "shared": {
+    "menu": "Menu",
+    "more": "More",
+    "advanced": "Advanced",
+    "close": "Close",
+    "apply": "Apply",
+    "save": "Save",
+    "continue": "Continue",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "help": "Help",
+    "submit": "Submit",
+    "new": "New",
+    "select": "Select",
+    "language": "Language",
+    "website": "Website",
+    "settings": "Settings",
+    "changePassword": "Change your password",
+    "tagline": "sell your tickets online",
+    "msg-config-compte": "You can not publish your event because :",
+    "address": {
+      "titre": "Address",
+      "addressLine1": "Address 1",
+      "addressLine2": "Address 2",
+      "apartment": "Apartment",
+      "country": "Country",
+      "province": "Province",
+      "city": "City",
+      "postal": "Zip Code",
+      "timezone": "Timezone",
+      "phone": "Phone"
+    },
+    "error": {
+      "error": "Error",
+      "isRequired": "is required",
+      "fillRequired": "Please fill all required fields",
+      "notValid": "not valid",
+      "save": "Saving error",
+      "fetch": "Error",
+      "update": "No update performed",
+      "add": "New instance not added",
+      "noAccount": "No account specified"
+    },
+    "success": {
+      "success": "Success",
+      "update": "Update successful",
+      "save": "Save successful",
+      "add": "New instance added",
+      "delete": "Deleted with success",
+      "fetch": "Instance fetch successfully"
+    }
+  }
+}

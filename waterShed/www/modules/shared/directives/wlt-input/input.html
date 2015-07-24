@@ -1,0 +1,26 @@
+<md-input-container>
+    <div layout="row" layout-align="center end">
+        <ng-md-icon ng-if="glyphicon" icon="{{ glyphicon}}" style="fill:#737373" size="24"></ng-md-icon>
+        <ng-md-icon ng-if="glyphiconUrl" icon="{{ glyphiconUrl.icon}}" style="fill: {{ glyphiconUrl.fill}}"
+                    size="{{ glyphiconUrl.size}}"></ng-md-icon>
+
+        <div layout="column" flex>
+            <label>&nbsp;{{label}}</label>
+            <input style="min-width: 315px"
+                   dynamic-name="key"
+                   type="{{type}}"
+                   ng-model="model"
+                   ng-required="isRequired"
+                   ng-pattern="regex"
+                   validation-type="{{vtype}}"
+                   value="{{value}}"
+                   id="{{name}}"
+                    />
+
+            <div ng-messages>
+                <div ng-message ng-show="isRequiredStyle()" style="color:red;">{{requiredMessage}}</div>
+                <div ng-message ng-if="isValidStyle()" style="color:red;">{{errorMessage}}</div>
+            </div>
+        </div>
+    </div>
+</md-input-container>

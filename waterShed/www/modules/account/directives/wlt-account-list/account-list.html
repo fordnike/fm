@@ -1,0 +1,70 @@
+<wlt-toolbar
+        show-type="list"
+        title="{{ 'account.titleList' | translate }}"
+        toggle-left="toggleLeft()"
+        toggle-right="toggleRight()"
+        set-search="setSearchMode()"
+        show-search="{{showSearchBox}}"
+        cancel="cancelAccount()"
+        save="saveAccount()">
+</wlt-toolbar>
+<!--<md-progress-linear md-mode="indeterminate"></md-progress-linear>-->
+<wlt-spinner ng-hide="receivedResponse"></wlt-spinner>
+
+<wlt-message
+        show="{{message.updated}}"
+        message="message">
+</wlt-message>
+
+
+<div ng-show="responseSuccess">
+    <md-content class="md-padding">
+
+        <form ng-show="showSearchBox" id="accountSearchForm" method="post">
+            <wlt-input
+                    label='{{"shared.search" | translate}}'
+                    model="search"
+                    key="search"
+                    glyphicon=""
+                    is-required=""
+                    required-message='{{"shared.error.isRequired" | translate }}'
+                    type="text"
+                    error-message='{{"shared.error.notValid" | translate}}'>
+            </wlt-input>
+        </form>
+
+        <md-content>
+            <md-list>
+
+                <md-subheader class="md-no-sticky">{{filtered.length}}
+                    <span ng-show="filtered.length <= 1">{{ "account.account" | translate}}</span>
+                    <span ng-show="filtered.length > 1">{{ "account.accounts" | translate}}</span>
+                </md-subheader>
+
+                <md-list-item class="md-3-line" ng-repeat="account in filtered = (accounts | filter: search | orderBy: '-createdDate')">
+                    <div class="md-list-item-text list pointer" ng-click="changeSubdomain(account.website.subdomain)">
+
+                        <div layout="row" layout-align="center center">
+                            <div style="width: 110px;" layout="row" layout-align="center center">
+                                <img class="img-responsive" style="width: 100px; max-height: 100px"
+                                     ng-if="account.website.logo.typeImage" ng-src="{{account.website.logo.url}}"
+                                     alt="{{account.website.name}}">
+                                <ng-md-icon icon="home" aria-label="event" ng-show="!account.website.logo.typeImage">
+                            </div>
+                            <div flex>
+                                <h3>{{account.website.boxOfficeName}}</h3>
+                                <p>{{account.website.subdomain}}.{{domain}}<br>
+                                {{account.createdDate | date:'longDate'}} {{account.createdDate | date:'shortTime'}}
+                                    - {{(account.applicationFee)/100 | currency }} {{account.currency}} </p>
+                            </div>
+                        </div>
+                    </div>
+                    <md-divider md-inset ng-if="!$last"></md-divider>
+                </md-list-item>
+
+            </md-list>
+        </md-content>
+    </md-content>
+</div>
+
+

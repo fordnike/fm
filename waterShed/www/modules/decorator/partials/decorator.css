@@ -1,0 +1,11 @@
+.decoratorMenu:hover{
+    background-color: #CFCFCF;
+}
+.decoratorMenuSelected {
+    background-color: #CFCFCF;
+}
+
+/* couleur des icones des menus */
+md-sidenav {
+    fill: #737373;
+}

@@ -1,0 +1,27 @@
+{
+  "user": {
+    "firstname": "Krestní jméno",
+    "lastname": "Príjmení",
+    "login": "Přihlásit se",
+    "email": "Email",
+    "emailinvalid": "Neplatný email",
+    "password": "Heslo",
+    "oldPassword": "Staré heslo",
+    "passwordConfirm": "Potvrdit heslo",
+    "connect": "Pripojit",
+    "cancel": "Zrušit",
+    "forgot": "Zapomneli jste své heslo?",
+    "noAccount": "Nemáte účet?",
+    "signup": "Prihlásit",
+    "signin": "Registrovat",
+    "alreadyRegistered": "Již zaregistrované ?",
+    "backtologin": "Přihlásit zde",
+    "enteremail": "Prosím vložte zde svuj email",
+    "emailnotexist": "Tento email neexistuje",
+    "send": "Poslat",
+    "error": {
+      "emailinvalid": "Neplatný email",
+      "accountFail": "Nepodarilo se vytvorit úcet."
+    }
+  }
+}

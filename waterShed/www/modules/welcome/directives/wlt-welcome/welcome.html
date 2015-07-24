@@ -1,0 +1,31 @@
+<wlt-toolbar
+        show-type="view"
+        title="{{ 'tutorial.welcome' | translate }}"
+        toggle-left="toggleLeft()"
+        toggle-right="toggleRight()"
+        set-search="setSearchMode()"
+        show-search="{{showSearchBox}}"
+        cancel="cancel()"
+        save="save()">
+</wlt-toolbar>
+
+<wlt-spinner ng-hide="receivedResponse"></wlt-spinner>
+
+<div ng-cloak="receivedResponse">
+    <md-content class="md-padding">
+
+        <h5>{{ "tutorial.introduction" | translate }}</h5>
+
+        <h5>1. {{ "tutorial.create" | translate }} {{ "tutorial.yourevent" | translate }}<br>
+            2. {{ "tutorial.add" | translate }} {{ "tutorial.yourtickets" | translate }}<br>
+            3. {{ "tutorial.customize" | translate }} {{ "tutorial.yourbrand" | translate }}<br>
+            4. {{ "tutorial.setup" | translate }} {{ "tutorial.yourmoney" | translate }}</h5>
+
+        <md-button class="md-raised md-primary" ui-sref="private.account.event-new-help({help: 'help'})">{{ "tutorial.proceed" | translate }}</md-button>
+
+        <md-card style="max-width: 600px">
+            <img class="md-card-image"  ng-src="/images/welcome.png" alt="welcome">
+        </md-card>
+
+    </md-content>
+</div>

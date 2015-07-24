@@ -1,0 +1,127 @@
+<wlt-toolbar
+        show-type="view"
+        title="{{ 'event.titleOne' | translate }}"
+        toggle-left="toggleLeft()"
+        toggle-right="toggleRight()"
+        set-search="setSearchMode()"
+        show-search="{{showSearchBox}}"
+        cancel="cancelEvent()"
+        save="saveEvent()">
+</wlt-toolbar>
+
+<wlt-spinner ng-hide="receivedResponse"></wlt-spinner>
+
+<wlt-message
+        show="{{message.updated}}"
+        message="message">
+</wlt-message>
+
+<div ng-show="receivedResponse">
+</div>
+<div ng-show="responseSuccess">
+
+    <md-content class="md-padding" ng-cloak>
+        <md-button class="md-primary md-fab rightButton" ng-click="goEventEdit(event.id)" aria-label="edit">
+            <md-tooltip>
+                {{ 'shared.edit' | translate }}
+            </md-tooltip>
+            <div class="button-icon">
+                <ng-md-icon icon="edit"></ng-md-icon>
+            </div>
+        </md-button>
+
+        <div layout="row" layout-align="center center">
+            <div style="width: 110px;" layout="row" layout-align="center center">
+                <img class="img-responsive" style="max-width: 100px; max-height: 100px"
+                     ng-if="event.image" ng-src="/images/{{ event.image }}"
+                     alt="{{event.title}}">
+                <ng-md-icon icon="group" aria-label="event" ng-show="!event.image"></ng-md-icon>
+            </div>
+            <div flex>
+                <h3>{{event.title}}</h3>
+
+                <p class="md-body-1">{{event.eventStart | date:'longDate'}} {{event.eventStart | date:'shortTime'}}<br>
+                    <span ng-show="event.venue">{{event.venue}}<br></span>
+                    <span ng-show="event.cityProvince !== ', '">{{event.cityProvince}}</span></p>
+            </div>
+        </div>
+
+        <p class="md-body-1">
+            <span ng-show="event.saleState"><strong> {{ "event.status" | translate }}{{ ":" | formatColon:langCurrent }}
+                {{event.saleState | translate}}</strong><br></span>
+            {{ "event.onsale" | translate }}{{ ":" | formatColon:langCurrent }} {{event.onsale | date:'longDate'}}
+            {{event.onsale | date:'shortTime'}}</p>
+
+        <md-divider class="md-padding"></md-divider>
+
+        <wlt-ticket-list event-id="{{eventId}}" afficher="view"></wlt-ticket-list>
+
+        <span>&nbsp; </span><br>
+        <span>&nbsp; </span>
+    </md-content>
+
+    <div layout="row" ng-show="event.prices.length>0">
+        <div ng-show="(event.id && event.isFree) || (!event.isFree && isMerchantAccountSet && isUserEmailValid)">
+            <md-button ng-show="!event.published" ng-click="publishEvent()" md-no-ink class="md-primary md-raised">
+                {{ "event.publish" | translate }}
+            </md-button>
+            <md-button ng-show="event.published" ng-click="unpublishEvent()" md-no-ink class="md-primary">
+                {{ "event.unpublish" | translate }}
+            </md-button>
+        </div>
+
+        <div layout="row" ng-show="(!event.isFree && (!isMerchantAccountSet || !isUserEmailValid))">
+            <md-button ng-show="!event.published" ng-disabled="true" md-no-ink class="md-primary md-raised">
+                {{ "event.publish" | translate }}
+            </md-button>
+            <div ng-show="(!event.isFree && !isMerchantAccountSet)" style="fill: #FFA500;margin-top: 11px;">
+                <ng-md-icon icon="warning" class="pointer" ui-sref="private.account-edit">
+                    <md-tooltip>
+                        {{ 'account.stripeNotConnected' | translate }}
+                    </md-tooltip>
+                </ng-md-icon>
+            </div>
+            <div ng-show="(!event.isFree && !isUserEmailValid)" style="fill: #FFA500;margin-top: 11px;">
+                <ng-md-icon icon="warning" class="pointer" ui-sref="private.user-edit">
+                    <md-tooltip>
+                        {{ 'user.emailNotValidated' | translate }}
+                    </md-tooltip>
+                </ng-md-icon>
+            </div>
+        </div>
+    </div>
+
+    <div ng-show="event.published" style="background-color: #FCFCFC;padding-left: 16px;">
+        <div layout="row" ng-click="showPublicationLinks=!showPublicationLinks">
+            <p class="md-body-1" style="margin-top: 6px;">
+                {{ "event.publicationLinks" | translate }}
+            </p>
+            <ng-md-icon ng-show="!showPublicationLinks"
+                        icon="expand_more"
+                        style="fill:#737373;  margin-top: 4px;"
+                        size="24">
+                <md-tooltip>
+                    {{ 'shared.more' | translate }}
+                </md-tooltip>
+            </ng-md-icon>
+            <ng-md-icon ng-show="showPublicationLinks"
+                        icon="expand_less"
+                        style="fill:#737373;  margin-top: 4px;"
+                        size="24">
+                <md-tooltip>
+                    {{ 'shared.close' | translate }}
+                </md-tooltip>
+            </ng-md-icon>
+        </div>
+        <div class="md-body-1" ng-show="showPublicationLinks" style="padding-bottom: 10px;">
+            <div>{{ "event.eventPageLink" | translate }}{{ ":" | formatColon:langCurrent }} <br>
+                <a href="{{ event.urlPublished }}">{{ event.urlPublished }}</a></div>
+            <br>
+
+            <div>{{ "event.integrationWidgetLink" | translate }}{{ ":" | formatColon:langCurrent }} <br>{{ event.iFrame
+                }}
+            </div>
+        </div>
+    </div>
+
+</div>

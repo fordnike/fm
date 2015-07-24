@@ -1,0 +1,6 @@
+{
+  "id": 1,
+  "number": "50",
+  "name": "Vérification par utilisateur (paiements)",
+  "description": "Liste de toutes les transactions, avec les méthodes de paiements, pour une plage de date."
+}

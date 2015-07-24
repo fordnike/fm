@@ -1,0 +1,15 @@
+{
+  "ticket": {
+    "title": "Bilet",
+    "titleEdit": "Edytuj bilety",
+    "name": "Nazwa",
+    "priceLevel": "Poziom ceny",
+    "price": "Cena",
+    "serviceFees": "Opłaty za usługi",
+    "limit": "Limit",
+    "promoCode": "Kod promocyjny",
+    "create": "Stwórz",
+    "yourtickets": "TWOJE BILETY",
+    "yourticketsgeneral": "Informacja o twoim bilecie jest widoczna na twojej stronie, zawiera typ biletu cene jednostoką i cenę usługi."
+  }
+}

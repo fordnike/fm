@@ -1,0 +1,12 @@
+{
+    "error": null,
+    "values": {
+        "creditCard": "true",
+        "payPal": "false",
+        "guest": "false",
+        "interac": "true",
+        "production": "false",
+        "giftCertificate": "false",
+        "microMode": "false"
+    }
+}

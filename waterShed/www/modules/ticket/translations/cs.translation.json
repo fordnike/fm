@@ -1,0 +1,15 @@
+{
+  "ticket": {
+    "title": "Vstupenka",
+    "titleEdit": "Upravit vstupenky",
+    "name": "Název",
+    "priceLevel": "Cenová kategorie",
+    "price": "Cena",
+    "serviceFees": "Servisní poplatek",
+    "limit": "Limit",
+    "promoCode": "Promo kód",
+    "create": "Vytvořit",
+    "yourtickets": "VAŠE VSTUPENKY",
+    "yourticketsgeneral": "Informace o vašich vstupenkách jsou na vaší webové stránce, zákaznické kartě a na vašich vstupenkách. Obsahuje typ vstupenky, cenu za vstupenku a servisní poplatek."
+  }
+}

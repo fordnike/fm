@@ -1,0 +1,40 @@
+{
+  "AccountJson": [
+    {
+      "applicationFee": 100,
+      "currency": "CAD",
+      "website": {
+        "correspondenceEmail": "test@test.com",
+        "googleAnalyticsTracker": "ADFSDGLSKH",
+        "logo": "",
+        "boxOfficeName": "Demo",
+        "subdomain": "demo",
+        "correspondenceEmailValid": true
+      }
+    },
+    {
+      "applicationFee": 100,
+      "currency": "CAD",
+      "website": {
+        "correspondenceEmail": "test@test.com",
+        "googleAnalyticsTracker": "ADFSDGLSKH",
+        "logo": "",
+        "boxOfficeName": "Festival",
+        "subdomain": "festival",
+        "correspondenceEmailValid": true
+      }
+    },
+    {
+      "applicationFee": 100,
+      "currency": "CAD",
+      "website": {
+        "correspondenceEmail": "test@test.com",
+        "googleAnalyticsTracker": "ADFSDGLSKH",
+        "logo": "",
+        "boxOfficeName": "New",
+        "subdomain": "new",
+        "correspondenceEmailValid": true
+      }
+    }
+  ]
+}

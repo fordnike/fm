@@ -1,0 +1,36 @@
+<div layout="row" layout-align="start center">
+    <div ng-show="!showList" flex>
+        <label>&nbsp; {{ "event.location" | translate }} &nbsp;</label>
+    </div>
+    <div ng-show="showList" flex>
+       <!-- {{ selectLocation}}-->
+        <div layout="column" layout-align="center center">
+            <md-input-container class="md-input-has-value">
+                <label>&nbsp; {{ "event.location" | translate }} &nbsp;</label>
+                <md-select ng-model="selectLocation" style="min-width: 200px;" ng-required="true">
+                    <md-select-label> {{ selectLocation ? selectLocation.name : 'shared.select' | translate }}</md-select-label>
+                    <md-option ng-value="selectLocation" ng-repeat="selectLocation in locations">{{selectLocation.name}}</md-option>
+                </md-select>
+            </md-input-container>
+        </div>
+    </div>
+
+    <div>
+        <md-button ng-show="selectLocation" class="md-primary md-fab" ng-click="showAdvanced($event)" aria-label="edit" >
+            <md-tooltip>
+                {{ 'shared.edit' | translate }}
+            </md-tooltip>
+            <div class="button-icon">
+                <ng-md-icon icon="edit"></ng-md-icon>
+            </div>
+        </md-button>
+        <md-button class="md-primary md-fab" ng-click="newLocation($event)" aria-label="new">
+            <md-tooltip>
+                {{ 'shared.new' | translate }}
+            </md-tooltip>
+            <div class="button-icon">
+                <ng-md-icon icon="add"></ng-md-icon>
+            </div>
+        </md-button>
+    </div>
+</div>

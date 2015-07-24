@@ -1,0 +1,20 @@
+{
+  "tutorial": {
+    "skip": "Quitter ce tutoriel",
+    "welcome": "Bienvenue sur White Label Tickets",
+    "introduction": "Soyez prêt à vendre VOS BILLETS pour VOTRE ÉVÉNEMENT avec VOTRE MARQUE en quelques minutes.",
+    "paidtickets": "(pour billets payants seulement)",
+    "proceed": "Poursuivons!",
+    "next": "Suivant",
+    "conclusion": "Merveilleux, vous vendez maintenant VOS BILLETS pour VOTRE ÉVÉNEMENT avec VOTRE MARQUE!",
+    "checkitout": "Voyez le résultat a",
+    "create": "Créez",
+    "yourevent": "VOTRE ÉVÉNEMENT",
+    "add": "Créez",
+    "yourtickets": "VOS BILLETS",
+    "customize": "Ajoutez",
+    "yourbrand": "VOTRE MARQUE",
+    "setup": "Configurez pour recevoir",
+    "yourmoney": "VOTRE ARGENT"
+  }
+}

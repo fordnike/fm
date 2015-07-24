@@ -1,0 +1,56 @@
+{
+  "shared": {
+    "menu": "Menu",
+    "more": "Więcej",
+    "advanced": "Zaawansowane",
+    "close": "Zamknij",
+    "apply": "Zastpsuj",
+    "save": "Zapisz",
+    "continue": "Kontynuować",
+    "cancel": "Anuluj",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "search": "Szukaj",
+    "help": "Pomoc",
+    "submit": "Prześlij",
+    "new": "Nowy",
+    "select": "Wybierz",
+    "language": "Język",
+    "website": "witryna",
+    "settings": "Ustawienia",
+    "changePassword":"Zmień hasło",
+    "tagline": "sprzedaj bilety online",
+    "msg-config-compte":"Nie możesz opublikować swojej imprezy, ponieważ:",
+    "address": {
+      "titre": "adres",
+      "addressLine1": "adres 1",
+      "addressLine2": "adres 2",
+      "apartment": "Apartament",
+      "country": "Kraj",
+      "province": "Województwo",
+      "city": "Miasto",
+      "postal": "Kod Pocztowy",
+      "timezone": "Strefa czasowa",
+      "phone": "telefon"
+    },
+    "error": {
+      "error": "Błąd",
+      "isRequired": " jest wymagane",
+      "fillRequired": "Proszę wypełnić wszystkie wymagane pola",
+      "notValid": "nieważny",
+      "save": "Zapisywanie błędów",
+      "fetch": "Błąd",
+      "update": "Brak aktualizacji zrobić",
+      "add": "Dodana nowa instancja nie",
+      "noAccount": "Nie masz konta podano"
+    },
+    "success": {
+      "success": "Sukces",
+      "update": "Aktualizacja przebiegła pomyślnie",
+      "save": "Zapis udany",
+      "add": "Zapisz sukces",
+      "delete": "Usunięty z sukcesem",
+      "fetch": "Instancja pobrać powodzeniem"
+    }
+  }
+}

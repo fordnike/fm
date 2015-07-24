@@ -1,0 +1,14 @@
+{
+  "location": {
+    "titleList": "Místa konání",
+    "titleOne": "Místo konání",
+    "location": "místo konání",
+    "locations": "místa konání",
+    "new": "Nové místo konání",
+    "addLocation": "Přidat nové místo konání",
+    "name": "Název",
+    "edit": "Upravit",
+    "capacity": "Kapacita",
+    "selectLocation":"vybrat místo konání"
+  }
+}

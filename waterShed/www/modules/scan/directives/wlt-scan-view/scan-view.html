@@ -1,0 +1,28 @@
+<wlt-toolbar
+        show-type="view"
+        title="{{ 'user.title' | translate }}"
+        toggle-left="toggleLeft()"
+        toggle-right="toggleRight()"
+        set-search="setSearchMode()"
+        show-search="{{showSearchBox}}"
+        cancel="cancelUser()"
+        save="saveUser()">
+</wlt-toolbar>
+
+
+
+
+
+<div >
+
+    <md-content layout-padding class="autoScroll">
+        <md-input-container class="md-icon-float" >
+            <!-- Use floating label instead of placeholder -->
+            <label>n</label>
+            <md-icon md-svg-src="img/icons/ic_person_24px.svg" class="name"></md-icon>
+            <input ng-model="user.name" type="text">
+         </md-input-container>
+    </md-content>
+    <md-button class="md-raised md-warn" ng-click="scan()">scan</md-button>
+resultat:{{ scanResult }}
+</div>

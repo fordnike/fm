@@ -1,0 +1,14 @@
+<content-spinner hide="loaded" xmlns="http://www.w3.org/1999/html"></content-spinner>
+<div ng-if="!isVisible && loaded">
+    <div ng-include="'views/404.html'"></div>
+</div>
+<div ng-if="isVisible">
+    <strong>{{errMsg}}</strong>
+
+    <h3>{{report.number}} - {{report.name}}</h3>
+    <h5>{{report.description}}</h5>
+
+    <div ng-include="'modules/report/partials/deux-dates.html'"></div>
+
+
+</div>

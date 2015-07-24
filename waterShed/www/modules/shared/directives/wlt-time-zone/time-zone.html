@@ -1,0 +1,10 @@
+<md-input-container class="md-input-has-value">
+    <label>&nbsp; {{ "shared.address.timezone" | translate }} &nbsp;</label>
+    <md-select ng-required="selectTimeZone!='Assign to TIME-ZONE'" ng-model="selectTimeZone"
+               md-on-open="loadTimeZoneSelector()" style="min-width: 200px;">
+        <md-select-label>{{ selectTimeZone ? selectTimeZone : 'Assign to TIME-ZONE' }}</md-select-label>
+        <md-option ng-value="selectTimeZone" ng-repeat="selectTimeZone in listTimeZone">
+            {{selectTimeZone}}
+        </md-option>
+    </md-select>
+</md-input-container>

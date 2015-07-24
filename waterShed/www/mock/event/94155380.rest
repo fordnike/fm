@@ -1,0 +1,22 @@
+{
+    "error": null,
+    "saleState": "ONSALE",
+    "note": null,
+    "title": "Beatles Story band",
+    "formattedDate": "vendredi 26 septembre 2014 20h00",
+    "venue": "THÉÂTRE ST-DENIS 2",
+    "cityProv": "Montréal, QC",
+    "prices": {
+        "9502882": {
+            "priceType": "Régulier",
+            "price": "40,25 $",
+            "serviceCharges": "7,00 $",
+            "promo": false,
+            "promoId": 0,
+            "order": 1,
+            "soldout": false
+        }
+    },
+    "networkClient": null,
+    "surveys": []
+}

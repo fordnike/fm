@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "number": "50",
+    "name": "Vérification par utilisateur (paiements)",
+    "description": "Liste de toutes les transactions, avec les méthodes de paiements, pour une plage de date."
+  },
+  {
+    "id": 2,
+    "number": "51",
+    "name": "Vérification par utilisateur 2 (billets)",
+    "description": "Liste de toutes les transactions, avec billets, pour une plage de date (sans frais)."
+  },
+  {
+    "id": 3,
+    "number": "52",
+    "name": "Vérification par utilisateur (simple)",
+    "description": "Montant vendu par méthode de paiement pour une plage de dates."
+  }
+]

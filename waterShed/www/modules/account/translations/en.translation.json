@@ -1,0 +1,29 @@
+{
+  "account": {
+    "titleList": "Accounts",
+    "titleOne": "Account",
+    "titleEdit": "Edit Account",
+    "account": "account",
+    "accounts": "accounts",
+    "website": "Website",
+    "settings": "Settings",
+    "correspondenceEmail": "Correspondance Email",
+    "googleAnalyticsTracker": "Google Analytics Tracker",
+    "logo": "Logo",
+    "boxOfficeName": "Web Site Name",
+    "subdomain": "Web Address",
+    "stripe": "Stripe",
+    "billingAddress": "Billing Address",
+    "currency": "Currency",
+    "addAccount": "Add Account",
+    "customize": "Customize with",
+    "yourbrand": "YOUR BRAND",
+    "yourbrandgeneral": "Your custom website can show your organization’s logo, a background image, your contact information and be found at a your custom web address (yourbrand.wlt.ca).",
+    "setup": "Setup to get",
+    "yourmoney": "YOUR MONEY",
+    "yourmoneygeneral": "Your money is transferred directly into your bank account through Stripe. A Stripe account is required for paid tickets.",
+    "gostripe": "Setup Stripe account now",
+    "skipstripe": "I will not charge for tickets for now",
+    "stripeNotConnected":"Stripe account not connected"
+  }
+}

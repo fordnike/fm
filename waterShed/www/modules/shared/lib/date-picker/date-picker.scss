@@ -1,0 +1,198 @@
+@import "../../bower_components/bourbon/app/assets/stylesheets/bourbon";
+
+@import "../../lumX/core/scss/settings/colors";
+@import "../../lumX/core/scss/settings/defaults";
+@import "../../lumX/core/scss/tools/mixins";
+
+// Date input
+.mdc-date-input {
+  &,
+  input {
+    cursor: pointer !important;
+  }
+}
+
+// Date picker current day of week
+.mdc-date-picker__current-day-of-week {
+  span {
+    display: block;
+    @include font-size(14px);
+    color: $white-1;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+}
+
+// Date picker current date
+.mdc-date-picker__current-date {
+  padding: $base-spacing-unit 0;
+
+  span,
+  strong,
+  a {
+    display: block;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  span,
+  a {
+    @include font-size(24px);
+    line-height: 32px;
+  }
+
+  span {
+    text-transform: uppercase;
+  }
+
+  strong {
+    @include font-size(60px);
+    line-height: 1;
+  }
+
+  a {
+    cursor: pointer;
+    font-style: normal;
+  }
+}
+
+// Date picker navigation
+.mdc-date-picker__nav {
+  position: relative;
+
+  span {
+    display: block;
+    @include font-size(14px);
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  button {
+    position: absolute !important;
+    top: $base-spacing-unit;
+
+    &:first-child {
+      left: $base-spacing-unit * 2;
+    }
+
+    &:last-child {
+      right: $base-spacing-unit * 2;
+    }
+  }
+}
+
+// Date picker days of week
+.mdc-date-picker__days-of-week {
+  padding: 0 $base-spacing-unit * 2;
+
+  span {
+    display: inline-block;
+    vertical-align: top;
+    width: percentage(1/7);
+    @include font-size(12px);
+    font-weight: 400;
+    color: $black-2;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+// Date picker days
+.mdc-date-picker__days {
+  padding: 0 $base-spacing-unit * 2;
+}
+
+// Date picker day
+.mdc-date-picker__day {
+  display: inline-block;
+  vertical-align: top;
+  width: percentage(1/7);
+  padding: $base-spacing-unit / 2 0;
+
+  a {
+    display: block;
+    @include size(32px);
+    margin: 0 auto;
+    border-radius: 50%;
+    @include font-size(12px);
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+  }
+}
+
+.mdc-date-picker__day--is-today a {
+  font-weight: 500;
+  color: $teal-700;
+}
+
+.mdc-date-picker__day a:hover,
+.mdc-date-picker__day--is-selected a {
+  cursor: pointer;
+  background-color: $teal-500;
+  color: $white-1;
+}
+
+// Year selector
+.mdc-date-picker__year-selector {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.mdc-date-picker__year {
+  display: block;
+  cursor: pointer;
+
+  span {
+    display: block;
+    @include size(65px);
+    margin: 0 auto;
+    border-radius: 50%;
+    @include font-size(16px);
+    line-height: 65px;
+    text-align: center;
+  }
+}
+
+.mdc-date-picker__year:hover {
+  span {
+    color: $teal-700;
+  }
+}
+
+.mdc-date-picker__year--is-active {
+  span {
+    background-color: $teal-500;
+    color: $white-1 !important;
+  }
+}
+
+// Date picker actions
+.mdc-date-picker__actions {
+  padding: $base-spacing-unit;
+  border-top: 1px solid $black-4;
+  text-align: center;
+}
+
+// Dialog size
+.mdc-date-picker {
+  width: 280px;
+  height: 560px;
+}
+
+// Buttons size
+.mdc-date-picker__nav button.md-fab {
+  width: 32px;
+  height: 32px;
+}
+
+// No minimum height on toolbar
+.mdc-date-picker md-toolbar {
+  min-height: 0;
+}

@@ -1,0 +1,192 @@
+{
+  "events": [
+    {
+      "id": 6,
+      "title": "Hommage Santana - avec Persuasion",
+      "published": true,
+      "saleState": "ONSALE",
+      "venueId": 1,
+      "venue": "Kelso Beach Park",
+      "cityProvince": "Owen Sound, ON",
+      "eventStart": "2015-06-23T18:00:00.511Z",
+      "eventEnd": "2015-06-23T22:00:00.511Z",
+      "onsale": "2015-03-01T12:00:00.511Z",
+      "image": "6.jpg",
+      "prices": {
+        "123": {
+          "priceType": "General",
+          "price": "36,13 $",
+          "serviceCharges": "inclus",
+          "promo": false,
+          "order": 40,
+          "soldout": false
+        },
+        "456": {
+          "priceType": "General + free hotdog",
+          "price": "36,03 $",
+          "serviceCharges": "8,07 $",
+          "promo": false,
+          "order": 50,
+          "soldout": false
+        },
+        "789": {
+          "priceType": "Super vip seat",
+          "price": "12,73 $",
+          "serviceCharges": "inclus",
+          "promo": false,
+          "order": 50,
+          "soldout": true
+        },
+        "999": {
+          "priceType": "FREE ENTRY",
+          "price": "0,00 $",
+          "serviceCharges": "0,00 $",
+          "promo": false,
+          "order": 50,
+          "soldout": false
+        }
+      }
+    },
+    {
+      "id": 12,
+      "title": "Supershow",
+      "published": true,
+      "saleState": "ONSALE",
+      "venueId": 2,
+      "venue": "Théatre St-Denis",
+      "cityProvince": "Montréal, QC",
+      "eventStart": "2015-08-18T18:00:00.511Z",
+      "eventEnd": "2015-08-18T22:00:00.511Z",
+      "onsale": "2015-03-01T12:00:00.511Z",
+      "image": "12.jpg",
+      "prices": {
+        "9034515": {
+          "priceType": "Senior (65+)",
+          "price": "36,13 $",
+          "serviceCharges": "inclus",
+          "promo": false,
+          "order": 40,
+          "soldout": false
+        },
+        "9034504": {
+          "priceType": "Student (ID Required)",
+          "price": "36,03 $",
+          "serviceCharges": "inclus",
+          "promo": false,
+          "order": 50,
+          "soldout": false
+        },
+        "9071517": {
+          "priceType": "Youth (13-18)",
+          "price": "30,00 $",
+          "serviceCharges": "$ 3.50",
+          "promo": false,
+          "order": 60,
+          "soldout": false
+        },
+        "9071541": {
+          "priceType": "Child (5-12)",
+          "price": "8,00 $",
+          "serviceCharges": "inclus",
+          "promo": false,
+          "order": 70,
+          "soldout": false
+        }
+      }
+    },
+    {
+      "id": 13,
+      "title": "Tiny show",
+      "published": true,
+      "saleState": "ONSALE",
+      "venueId": 2,
+      "venue": "Théatre St-Denis",
+      "cityProvince": "Montréal, QC",
+      "eventStart": "2015-08-19T18:00:00.511Z",
+      "eventEnd": "2015-08-19T22:00:00.511Z",
+      "onsale": "2015-03-01T12:00:00.511Z",
+      "image": "13.jpg",
+      "prices": {
+        "9034515": {
+          "priceType": "Senior (65+)",
+          "price": "36,13 $",
+          "serviceCharges": "inclus",
+          "promo": false,
+          "order": 40,
+          "soldout": false
+        },
+        "9034504": {
+          "priceType": "Student (ID Required)",
+          "price": "36,03 $",
+          "serviceCharges": "inclus",
+          "promo": false,
+          "order": 50,
+          "soldout": false
+        },
+        "9071517": {
+          "priceType": "Youth (13-18)",
+          "price": "30,00 $",
+          "serviceCharges": "$ 3.50",
+          "promo": false,
+          "order": 60,
+          "soldout": false
+        },
+        "9071541": {
+          "priceType": "Child (5-12)",
+          "price": "8,00 $",
+          "serviceCharges": "inclus",
+          "promo": false,
+          "order": 70,
+          "soldout": false
+        }
+      }
+    },
+    {
+      "id": 14,
+      "title": "Best show in the world",
+      "published": true,
+      "saleState": "ONSALE",
+      "venueId": 2,
+      "venue": "Théatre St-Denis",
+      "cityProvince": "Montréal, QC",
+      "eventStart": "2015-08-22T18:00:00.511Z",
+      "eventEnd": "2015-08-22T22:00:00.511Z",
+      "onsale": "2015-03-01T12:00:00.511Z",
+      "image": "14.jpg",
+      "prices": {
+        "9034515": {
+          "priceType": "Senior (65+)",
+          "price": "36,13 $",
+          "serviceCharges": "inclus",
+          "promo": false,
+          "order": 40,
+          "soldout": false
+        },
+        "9034504": {
+          "priceType": "Student (ID Required)",
+          "price": "36,03 $",
+          "serviceCharges": "inclus",
+          "promo": false,
+          "order": 50,
+          "soldout": false
+        },
+        "9071517": {
+          "priceType": "Youth (13-18)",
+          "price": "30,00 $",
+          "serviceCharges": "$ 3.50",
+          "promo": false,
+          "order": 60,
+          "soldout": false
+        },
+        "9071541": {
+          "priceType": "Child (5-12)",
+          "price": "8,00 $",
+          "serviceCharges": "inclus",
+          "promo": false,
+          "order": 70,
+          "soldout": false
+        }
+      }
+    }
+  ]
+}

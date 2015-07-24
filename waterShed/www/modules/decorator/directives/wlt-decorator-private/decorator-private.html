@@ -1,0 +1,79 @@
+<div style="height:100vh;" layout="row" md-theme="{{ systemValues.theme }}" md-theme-watch>
+    <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left"
+                md-is-locked-open="$mdMedia('gt-md')">
+
+        <md-toolbar class="md-tall md-hue-2" ng-click="close()">
+            <div layout="column" layout-align="center center">
+                <img style="max-width: 300px; height: 100px;"
+                     ng-src="{{accountLogo}}" ng-if="accountLogo" alt="{{ accountName }}">
+                <div class="md-body-1" ng-show="!accountLogo">{{ accountName }}</div>
+                <span></span>
+
+                <div>{{firstName}} {{lastName}}</div>
+            </div>
+        </md-toolbar>
+
+        <md-list layout="column">
+            <md-list-item class="decoratorMenu" ng-click="close()" hide-gt-md>
+                <md-list-item-text layout="row" layout-align="start center">
+                    <div class="inset">
+                        <ng-md-icon icon="arrow_back" aria-label="close">
+                    </div>
+                    <div class="inset">{{"shared.close" | translate}}
+                    </div>
+                </md-list-item-text>
+            </md-list-item>
+            <md-list-item ng-repeat="menu in menuLeft" class="decoratorMenu" ng-click="toggleSelect($index, menu.link)"
+                     ng-class="getClass($index)" ng-hide="hideMenuItem(menu)">
+                <md-list-item-text layout="row" layout-align="start center">
+                    <div class="inset">
+                        <ng-md-icon icon="{{menu.icon}}"></ng-md-icon>
+                    </div>
+                    <div class="inset">
+                        {{menu.title | translate}}
+                    </div>
+                </md-list-item-text>
+            </md-list-item>
+
+        </md-list>
+    </md-sidenav>
+
+    <div layout="column" flex>
+        <div ui-view></div>
+    </div>
+
+    <md-sidenav layout="column" class="md-sidenav-right md-whiteframe-z2" md-component-id="right">
+        <md-list layout="column">
+            <md-list-item class="decoratorMenu" ng-click="close()">
+                <md-list-item-text layout="row" layout-align="start center">
+                    <div class="inset">
+                        <ng-md-icon icon="arrow_forward" aria-label="close">
+                    </div>
+                    <div class="inset">{{"shared.close" | translate}}
+                    </div>
+                </md-list-item-text>
+            </md-list-item>
+            <md-list-item ng-repeat="menu in menuRight" class="decoratorMenu" ng-click="toggleSelect($index, menu.link)"
+                     ng-class="getClass($index)" ng-hide="hideMenuItem(menu)">
+                <md-list-item-text layout="row" layout-align="start center">
+                    <div class="inset">
+                        <ng-md-icon icon="{{menu.icon}}"></ng-md-icon>
+                    </div>
+                    <div class="inset">
+                        {{menu.title | translate}}
+                    </div>
+                </md-list-item-text>
+            </md-list-item>
+            <md-list-item class="decoratorMenu" ng-click="logout()">
+                <md-list-item-text layout="row" layout-align="start center">
+                    <div class="inset">
+                        <ng-md-icon icon="exit_to_app" aria-label="close">
+                    </div>
+                    <div class="inset">{{"decorator.logout" | translate}}
+                    </div>
+                </md-list-item-text>
+            </md-list-item>
+        </md-list>
+    </md-sidenav>
+
+</div>

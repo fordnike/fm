@@ -1,0 +1,20 @@
+﻿{
+  "tutorial": {
+    "skip": "Přeskočte tento návod",
+    "welcome": "Vítejte v Bezloga",
+    "introduction": "Připravte se na prodej VAŠICH VSTUPENEKG na VAŠI AKCI pod VAŠÍM LOGEM během pár minut.",
+    "paidtickets": "(pouze pro placené vstupenky)",
+    "proceed": "Jdeme na to!",
+    "next": "Další",
+    "conclusion": "Tak a teď prodáváte VAŠE VSTUPENKY na VAŠI AKCI s VAŠÍM!",
+    "checkitout": "Podívejte se, jak to vypadá",
+    "create": "Vytvořit",
+    "yourevent": "VAŠE AKCE",
+    "add": "Přidat",
+    "yourtickets": "VAŠE VSTUPENKY",
+    "customize": "upravit s",
+    "yourbrand": "VAŠE ZNAČKA",
+    "setup": "Setup to get",
+    "yourmoney": "VAŠE PENÍZE"
+  }
+}

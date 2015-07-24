@@ -1,0 +1,24 @@
+[
+  {
+    "currency": "CAD",
+    "website": {
+      "correspondenceEmail": "test@test.com",
+      "googleAnalyticsTracker": "ADFSDGLSKH",
+      "logo": "",
+      "boxOfficeName": "Demo",
+      "subdomain": "demo",
+      "timezone": "America/Montreal"
+    }
+  },
+  {
+    "currency": "CAD",
+    "website": {
+      "correspondenceEmail": "test@test.com",
+      "googleAnalyticsTracker": "ADFSDGLSKH",
+      "logo": "",
+      "boxOfficeName": "Festival",
+      "subdomain": "festival",
+      "timezone": "America/Montreal"
+    }
+  }
+]

@@ -1,0 +1,1240 @@
+{
+  "title": null,
+  "menus": [
+    {
+      "title": "Sales Reports",
+      "menus": [
+        {
+          "title": "Sales by Performance",
+          "menus": [],
+          "reports": [
+            {
+              "code": "108A",
+              "title": "108A - Sales by Performance",
+              "description": "Sales by origin, broken down by performance.",
+              "reportType": 11,
+              "favorite": false
+            },
+            {
+              "code": "108B",
+              "title": "108B - Sales by Performance by Price Type",
+              "description": "Sales by origin, broken down price type by performance.",
+              "reportType": 11,
+              "favorite": false
+            },
+            {
+              "code": "108C",
+              "title": "108C - Sales by Performance - Base Price",
+              "description": "Sales by origin, broken down by performance (base price only).",
+              "reportType": 11,
+              "favorite": false
+            }
+          ]
+        },
+        {
+          "title": "Sales by Price Type",
+          "menus": [],
+          "reports": [
+            {
+              "code": "110b",
+              "title": "110b - Sales by Price Type with QC taxes",
+              "description": "Total sales by price type.",
+              "reportType": 11,
+              "favorite": false
+            },
+            {
+              "code": "110",
+              "title": "110 - Sales by Price Type",
+              "description": "Total sales by price type.",
+              "reportType": 11,
+              "favorite": false
+            },
+            {
+              "code": "110a",
+              "title": "110 - Sales by Scene Points",
+              "description": "Total sales by Scene points.",
+              "reportType": 11,
+              "favorite": false
+            },
+            {
+              "code": "111",
+              "title": "111 - Sales by Price Type by Affiliate",
+              "description": "Total sales by price type by affiliate.",
+              "reportType": 11,
+              "favorite": false
+            },
+            {
+              "code": "112",
+              "title": "112 - Sales by Price Type by Referrer",
+              "description": "Total sales by price type by web referrer (for sales after November 30th 2010).",
+              "reportType": 11,
+              "favorite": false
+            },
+            {
+              "code": "112a",
+              "title": "112a - Sales by Look and Feel",
+              "description": "Total sales by price type by look and feel.",
+              "reportType": 11,
+              "favorite": false
+            },
+            {
+              "code": "113",
+              "title": "113 - Sales by Price Type by Sale Group",
+              "description": "Total sales by price type by sale group.",
+              "reportType": 11,
+              "favorite": false
+            },
+            {
+              "code": "113a",
+              "title": "113a - Sales by Price Type by Promo Code",
+              "description": "Total sales by price type by promo code (includes non-web sales made as of August 22nd 2013)",
+              "reportType": 11,
+              "favorite": false
+            },
+            {
+              "code": "114",
+              "title": "114 - Sales by Price Type by Origin",
+              "description": "Total sales by price type by origin.",
+              "reportType": 11,
+              "favorite": false
+            }
+          ]
+        },
+        {
+          "title": "Methods of Payment",
+          "menus": [],
+          "reports": [
+            {
+              "code": "115",
+              "title": "115 - Methods of Payment for a Period",
+              "description": "Formerly titled <u>Credit Card Audit (by Origin)</u>, this report breaks down payments by origin.",
+              "reportType": 11,
+              "favorite": false
+            },
+            {
+              "code": "116a",
+              "title": "116a - Debit Payments by Salegroup",
+              "description": "Debit payments for one or more performances, broken down by salegroup.",
+              "reportType": 11,
+              "favorite": false
+            },
+            {
+              "code": "116",
+              "title": "116 - Methods of Payment by Salegroup",
+              "description": "Methods of payment for one or more performances, broken down by salegroup.",
+              "reportType": 11,
+              "favorite": false
+            },
+            {
+              "code": "118b",
+              "title": "118b - Methods of Payment by Salegroup for Producer Fees",
+              "description": "Methods of payment for producer fees for one or more performances, broken down by salegroup.  ",
+              "reportType": 11,
+              "favorite": false
+            },
+            {
+              "code": "118c",
+              "title": "118c - Methods of Payment by Salegroup for Venue Fees",
+              "description": "Methods of payment for venue fees for one or more performances, broken down by salegroup.  ",
+              "reportType": 11,
+              "favorite": false
+            },
+            {
+              "code": "1000",
+              "title": "1000 - Method of payment: Chargeback",
+              "description": "List of clients with the Method of Payment \"Chargeback\"",
+              "reportType": 11,
+              "favorite": false
+            },
+            {
+              "code": "1001b",
+              "title": "1001b - Invoiceables with customer information",
+              "description": "A list of order with invoiceable payments, for one or more events, with customer information.  NB:  This report was designed to be exported into Excel.",
+              "reportType": 6,
+              "favorite": false
+            },
+            {
+              "code": "1001a",
+              "title": "1001a - Invoiceables",
+              "description": "List of orders with invoiceable payments, or one or several events.",
+              "reportType": 6,
+              "favorite": false
+            },
+            {
+              "code": "1001c",
+              "title": "1001c - Account Statement",
+              "description": "An account statement for the customer.",
+              "reportType": 4,
+              "favorite": false
+            },
+            {
+              "code": "1003a",
+              "title": "1003 - AFF: Box Office and Network Methods of Payment",
+              "description": "Methods of payment broken down by box office users and other network sales.",
+              "reportType": 11,
+              "favorite": false
+            },
+            {
+              "code": "1001d",
+              "title": "1001d - Invoice",
+              "description": "An invoice for the customer.",
+              "reportType": 4,
+              "favorite": false
+            },
+            {
+              "code": "1001e",
+              "title": "1001e - Receipt",
+              "description": "A receipt for the customer.",
+              "reportType": 4,
+              "favorite": false
+            },
+            {
+              "code": "1005",
+              "title": "1005 - Methods of payment by event for BOX users for a sales period.",
+              "description": "Methods of payment broken down by event for box office users during a sales period.  ",
+              "reportType": 11,
+              "favorite": false
+            }
+          ]
+        },
+        {
+          "title": "Consignment Sales",
+          "menus": [],
+          "reports": [
+            {
+              "code": "125",
+              "title": "125 - Cumulative Consignment Sales",
+              "description": "A list of all consignment ticket sales by event.",
+              "reportType": 6,
+              "favorite": false
+            },
+            {
+              "code": "126",
+              "title": "126 - Consignment Sales for a Period",
+              "description": "A list of consignment ticket sales for a period by event.",
+              "reportType": 11,
+              "favorite": false
+            }
+          ]
+        },
+        {
+          "title": "Service Charges",
+          "menus": [],
+          "reports": [
+            {
+              "code": "151",
+              "title": "151 - Producer Fees",
+              "description": "A report that details producer fees.",
+              "reportType": 11,
+              "favorite": false
+            },
+            {
+              "code": "152",
+              "title": "152 - Venue Fees",
+              "description": "A report that details venue fees.",
+              "reportType": 11,
+              "favorite": false
+            }
+          ]
+        },
+        {
+          "title": "Non-Printed Will Call",
+          "menus": [],
+          "reports": [
+            {
+              "code": "155",
+              "title": "155 - List of non-printed will call tickets",
+              "description": "A list of all customers who have non-printed tickets for one or several events.",
+              "reportType": 6,
+              "favorite": false
+            },
+            {
+              "code": "156",
+              "title": "156 - Total of non-printed will call tickets",
+              "description": "The total number of will call tickets, by event.",
+              "reportType": 6,
+              "favorite": false
+            }
+          ]
+        },
+        {
+          "title": "Etickets",
+          "menus": [],
+          "reports": [
+            {
+              "code": "157",
+              "title": "157 - List of etickets",
+              "description": "A list of all electronic tickets for one or several events",
+              "reportType": 6,
+              "favorite": false
+            },
+            {
+              "code": "158",
+              "title": "158 - Total of etickets",
+              "description": "The total number of electronic tickets, by event.",
+              "reportType": 6,
+              "favorite": false
+            }
+          ]
+        }
+      ],
+      "reports": [
+        {
+          "code": "100",
+          "title": "100 - Daily Sales",
+          "description": "Tickets (excluding consignment tickets) and comps sold on one day for all events.",
+          "reportType": 1,
+          "favorite": true
+        },
+        {
+          "code": "102",
+          "title": "102 - Sales Summary (S3M)",
+          "description": "A summary of total sales for a period, with details by performance.",
+          "reportType": 9,
+          "favorite": true
+        },
+        {
+          "code": "105",
+          "title": "105 - Sales for a Period",
+          "description": "Tickets sold (with details for regular, comp, and consignment tickets) for a period, as well as cumulative sales, with subtotals by venue.",
+          "reportType": 11,
+          "favorite": true
+        },
+        {
+          "code": "106",
+          "title": "106 - Sales for a Period (with separate consignment totals)",
+          "description": "Tickets sold (with details for regular, comp, and consignment tickets) for a period, as well as cumulative sales, with subtotals by venue.  <i>NB:  This report separates the consignment total from the total of regular tickets.</i>",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "114",
+          "title": "114 - Sales by Price Type by Origin",
+          "description": "Total sales by price type by origin.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "120",
+          "title": "120 - Daily Individual Sales",
+          "description": "List of transactions by origin, with an additional breakdown for box office cashiers.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "121",
+          "title": "121 - Price Components",
+          "description": " Sales with the breakdown by price component.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "130",
+          "title": "130 - Audit Report",
+          "description": "A recap of the price table, sales, and seat statuses for a single event.",
+          "reportType": 28,
+          "favorite": false
+        },
+        {
+          "code": "130a",
+          "title": "130a - Audit with Potential Revenue",
+          "description": "A recap of the price table, sales, seat statuses, and potential revenu for one event.",
+          "reportType": 2,
+          "favorite": false
+        },
+        {
+          "code": "130b",
+          "title": "130b - Audit with Potential Revenue - Base Price",
+          "description": "A recap of the price table, sales, seat statuses, and potential revenu for one event, calculated with base price only.",
+          "reportType": 2,
+          "favorite": false
+        },
+        {
+          "code": "130c",
+          "title": "130c - Audit - Base Price",
+          "description": "A recap of the price table, sales, seat statuses, calculated with base price only.",
+          "reportType": 2,
+          "favorite": false
+        },
+        {
+          "code": "130d",
+          "title": "130 - Audit Report with Scene points",
+          "description": "A recap of the price table, sales, and seat statuses for events.",
+          "reportType": 2,
+          "favorite": false
+        },
+        {
+          "code": "146",
+          "title": "Seat History",
+          "description": "A list of all transactions on a seat (as of November 30th 2010).",
+          "reportType": 20,
+          "favorite": false
+        },
+        {
+          "code": "147",
+          "title": "147 - Performance History",
+          "description": "A list of all transactions for a performance (as of November 30th 2010).   ",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "135",
+          "title": "135 - Events on Sale",
+          "description": "List of events on sale for a venue with total tickets sold.",
+          "reportType": 3,
+          "favorite": false
+        },
+        {
+          "code": "135A",
+          "title": "135A - Capacity Report",
+          "description": "Total tickets sold, available, not available, with the percentage of available tickets.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "140",
+          "title": "140 - Seat Maps",
+          "description": "Seat maps with seat statuses for reserved seating shows. (If you are having issues with the report, try updating Acrobat Reader.)",
+          "reportType": 17,
+          "favorite": false
+        },
+        {
+          "code": "145",
+          "title": "145 - Seat Status Details",
+          "description": "Formerly titled <u>Capacity for an Event</u>, this report lists total seats per status for an event.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "160",
+          "title": "160 - Hourly Sales",
+          "description": "Tickets sold by hour.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "180",
+          "title": "180 - Event Description",
+          "description": "Basic information regarding an event, including price table, service charges, onsale dates, and presale dates.",
+          "reportType": 2,
+          "favorite": false
+        },
+        {
+          "code": "212",
+          "title": "212 - Mail Product Sales",
+          "description": "Products sold for a period, with details for regular, comp, and consignment products.",
+          "reportType": 15,
+          "favorite": false
+        },
+        {
+          "code": "220",
+          "title": "220 - Gift Certificates",
+          "description": "Detailled list of gift certificates",
+          "reportType": 16,
+          "favorite": false
+        },
+        {
+          "code": "310a",
+          "title": "310a - Sales by Price Type and by Performance",
+          "description": "Sales by event for a sales period by price type and broken down by performance. ",
+          "reportType": 19,
+          "favorite": false
+        },
+        {
+          "code": "317",
+          "title": "317 - Transaction by Origin",
+          "description": "Transactions for a sales period with non-cancelled tickets, as of today.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "390a",
+          "title": "390a - Complete list of clients for a performance",
+          "description": "List of all clients, in alphabetical order, for one or more performances, with seat details.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "390b",
+          "title": "390b - Complete list of clients for a or more performance",
+          "description": "List of all clients, in alphabetical order, for one or more performances.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "390",
+          "title": "390 - Complete list of clients for a performance",
+          "description": "List of all clients, in alphabetical order, for one or more performances, with seat details.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "400",
+          "title": "Tickets Issued",
+          "description": "A total of tickets issued for an event or a group of events.",
+          "reportType": 11,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "title": "Scanning reports",
+      "menus": [],
+      "reports": [
+        {
+          "code": "163",
+          "title": "163 - Scanning History",
+          "description": "A detailed list of tickets and passes that were scanned into an event, in chronological order.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "164",
+          "title": "164 - Attendance",
+          "description": "The total of tickets and passes issued and scanned.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "165b",
+          "title": "165b - Scanned Tickets",
+          "description": "Details regarding scanned tickets and passes (for events that took place before August 15th 2011).",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "165c",
+          "title": "165c - Scanned Tickets (New)",
+          "description": "Details regarding scanned tickets and passes (for events taking place after August 15th 2011).",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "165d",
+          "title": "165d - Scanned tickets by events",
+          "description": "",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "166",
+          "title": "166 - Summary of events scanned by date",
+          "description": " A summary of events scanned by date (for events that took place before August 15th 2011).",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "166b",
+          "title": "166b - Summary of events scanned by date",
+          "description": " A summary of events scanned by date (for events taking place after August 15th 2011).",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "167",
+          "title": "167 - Hourly summary of events scanned",
+          "description": "An hourly summary of events scanned (for events that took place before August 15th 2011).",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "167b",
+          "title": "167b - Hourly summary of events scanned",
+          "description": "An hourly summary of events scanned (for events taking place after August 15th 2011).",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "168",
+          "title": "168 - Scanned tickets per customer",
+          "description": "Scanned tickets per customer (for events that took place before August 15th 2011).",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "168b",
+          "title": "168b - Scanned tickets per customer",
+          "description": "Scanned tickets per customer (for events taking place after August 15th 2011).",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "169",
+          "title": "169 - Scanned tickets with Extra Info",
+          "description": "Scanned tickets with Extra Info",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "169a",
+          "title": "169a - Scanned tickets with Extra Info",
+          "description": "Scanned tickets with Extra Info",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "4000",
+          "title": "4000 - Imported barcodes",
+          "description": "List of imported barcodes by event and price type.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "4000a",
+          "title": "4000a - Voided imported barcodes",
+          "description": "List of voided imported barcodes by event and price type.",
+          "reportType": 6,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "title": "Subscriptions Reports",
+      "menus": [],
+      "reports": [
+        {
+          "code": "200",
+          "title": "Subscriptions",
+          "description": "A list of subscribers for a series, with their contact information, their seats, and the number of tickets they purchased.",
+          "reportType": 5,
+          "favorite": false
+        },
+        {
+          "code": "202",
+          "title": "Subscriptions Not Yet Renewed",
+          "description": "A list of customers who have subscription seats, but have not yet renewed them.",
+          "reportType": 5,
+          "favorite": false
+        },
+        {
+          "code": "203",
+          "title": "Subscription Seat Change Requests",
+          "description": "A list of all subscribers who have requested to change seats.",
+          "reportType": 5,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "title": "Quebec Tax Reports",
+      "menus": [],
+      "reports": [
+        {
+          "code": "320",
+          "title": "320 - Payment by Origin with 5% Taxes",
+          "description": "Sales by price type broken down with 5% taxes.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "320b",
+          "title": "320b - Payment by Origin with 5% and 9.5% Taxes",
+          "description": "Sales by price type broken down with 5% and 9.5% taxes.",
+          "reportType": 6,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "title": "Customer Lists",
+      "menus": [],
+      "reports": [
+        {
+          "code": "186",
+          "title": "186 - Customer List (with permission only)",
+          "description": "A list of customers who purchased tickets for one or several events and who wish to receive information regarding upcoming shows.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "186a",
+          "title": "186a - Customer List (with permission only) for CSV",
+          "description": "A list of customers who purchased tickets for one or several events and who wish to receive information regarding upcoming shows.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "385",
+          "title": "385 - Customer List",
+          "description": "A list of customers who have purchased tickets for one or several events.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "385d",
+          "title": "385d- Customer List Without Duplicates",
+          "description": "Customer list for one or more events, by genre, without duplicates.  Please note that anonymous sales are not counted in this report.  (Only available in the new dashboard reports.)  ",
+          "reportType": 27,
+          "favorite": false
+        },
+        {
+          "code": "385a",
+          "title": "385a - Customer List with Extra Info",
+          "description": "A list of customers who have purchased tickets for one or several events with Extra Info",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "385b",
+          "title": "385b - Customer List with Extra Info - Delegate List",
+          "description": "A list of customers who have purchased tickets for one or several events with Extra Info",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "385c",
+          "title": "385c - Customer List with Extra Info for settlements. ",
+          "description": "Customer list with account information, including extra info, for each ticket. (If this report generates an error message, you have selected an event with no extra info.)",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "386",
+          "title": "386 - Customer Inventory Report",
+          "description": "A list of customers who have purchased tickets for one or more events, with the number of tickets per event.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "387",
+          "title": "387 - Transaction List by Date",
+          "description": "A list of all purchases for one or several events sorted by purchase date.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "388",
+          "title": "388 - Transaction List for all Events by Customer",
+          "description": "A list of all purchases for one or several events, in alphabetical order by customer.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "389",
+          "title": "389 - Customer list for a batch",
+          "description": "List of customers and addresses for tickets printed in a specific batch.",
+          "reportType": 4,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "title": "Marketing Reports",
+      "menus": [],
+      "reports": [
+        {
+          "code": "170",
+          "title": "170 - Blast Report",
+          "description": "Sales resulting from email blasts.",
+          "reportType": 9,
+          "favorite": false
+        },
+        {
+          "code": "111",
+          "title": "111 - Sales by Price Type by Affiliate",
+          "description": "Total sales by price type by affiliate.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "112",
+          "title": "112 - Sales by Price Type by Referrer",
+          "description": "Total sales by price type by web referrer (for sales after November 30th 2010).",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "175",
+          "title": "175 - Surveys",
+          "description": "Comprehensive results of surveys. ",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "175b",
+          "title": "175b - Customer Survey Answer List",
+          "description": "Detailled list of survey answers by customer.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "391",
+          "title": "391 - Customer Tags",
+          "description": "",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "505",
+          "title": "505 - Customer Loyalty",
+          "description": "A list that displays the number of different events purchased by customers.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "510b",
+          "title": "Sales by Province",
+          "description": "Breakdown of sales by province.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "510a",
+          "title": "Sales by Postal Code",
+          "description": "Breakdown of sales by postal code.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "510c",
+          "title": "Sales by City",
+          "description": "Breakdown of sales by city.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "512",
+          "title": "512 - SCENE points between two dates",
+          "description": "The total of SCENE points issued by event, between two dates.",
+          "reportType": 9,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "title": "Quebec Reports",
+      "menus": [],
+      "reports": [
+        {
+          "code": "310",
+          "title": "310 - Sales by Price Type for a Sales Period and for an Event Period",
+          "description": "Sales by event for a sales period and a period of events for a venue.",
+          "reportType": 19,
+          "favorite": false
+        },
+        {
+          "code": "315",
+          "title": "315 - Breakdown by Price Type",
+          "description": "Sales by price type with a subtotal for comp tickets.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "317",
+          "title": "317 - Transaction by Origin",
+          "description": "Transactions for a sales period with non-cancelled tickets, as of today.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "320",
+          "title": "320 - Payment by Origin with 5% and 8.5% Taxes",
+          "description": "Sales by price type broken down with 5% and 8.5% taxes.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "325",
+          "title": "325 - Payment by Origin with 6% Taxes",
+          "description": "Sales by price type broken down with 6% taxes.",
+          "reportType": 6,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "title": "Ticketpro Reports",
+      "menus": [],
+      "reports": [
+        {
+          "code": "remise",
+          "title": "Advance settlement for one event",
+          "description": "Advance settlement for one event",
+          "reportType": 0,
+          "favorite": false
+        },
+        {
+          "code": "119",
+          "title": "119 - Payments for products",
+          "description": "Method of payment for one or several products, by sale period.",
+          "reportType": 14,
+          "favorite": false
+        },
+        {
+          "code": "190",
+          "title": "190 - Membership sales",
+          "description": "",
+          "reportType": 13,
+          "favorite": false
+        },
+        {
+          "code": "191",
+          "title": "191 - List of members",
+          "description": "",
+          "reportType": 13,
+          "favorite": false
+        },
+        {
+          "code": "200",
+          "title": "Subscriptions (Season Tickets)",
+          "description": "A list of subscribers for a series, with their contact information, their seats, and the number of tickets they purchased.",
+          "reportType": 5,
+          "favorite": false
+        },
+        {
+          "code": "210",
+          "title": "210 - Product sales by Origin",
+          "description": "Product sales by origin for a period.",
+          "reportType": 14,
+          "favorite": false
+        },
+        {
+          "code": "211",
+          "title": "211 - Product Sales",
+          "description": "Products sold for a period",
+          "reportType": 14,
+          "favorite": false
+        },
+        {
+          "code": "212",
+          "title": "212 - Mail Product Sales",
+          "description": "Products sold for a period, with details for regular, comp, and consignment products.",
+          "reportType": 15,
+          "favorite": false
+        },
+        {
+          "code": "320a",
+          "title": "320a - Payment by Origin with 13% HST",
+          "description": "Sales by price type broken down with 13% taxes.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "150",
+          "title": "150 - Network Fees",
+          "description": "A report that details network fees.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "153",
+          "title": "153 - Total Fees",
+          "description": "A report that details total fees.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "330",
+          "title": "330 - Weekly Sales with Comps",
+          "description": "Sales broken down by day of the week for a period, including comps.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "335",
+          "title": "335 - Weekly Sales without Comps",
+          "description": "Sales broken down by day of the week for a period, without comps.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "340",
+          "title": "340 - Weekly Sales with Comps and Consignment Tickets",
+          "description": "Sales broken down by day of the week for a period, including comps and consignment tickets.",
+          "reportType": 6,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "title": "Special Reports",
+      "menus": [],
+      "reports": [
+        {
+          "code": "70a",
+          "title": "Settlements by Payment Date",
+          "description": "Settlements for contracts by payment date",
+          "reportType": 1,
+          "favorite": false
+        },
+        {
+          "code": "70b",
+          "title": "Settlements by show period",
+          "description": "Settlements for contracts by show period",
+          "reportType": 9,
+          "favorite": false
+        },
+        {
+          "code": "108A",
+          "title": "108A - Sales by Performance",
+          "description": "Sales by origin, broken down by performance.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "108B",
+          "title": "108B - Sales by Performance by Price Type",
+          "description": "Sales by origin, broken down by performance and price type.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "150",
+          "title": "150 - Network Service Charges",
+          "description": "A report that details network service charges.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "1007",
+          "title": "1007 - Credit Card and Ticket Printing Fees - Rialto Theatre",
+          "description": "Detailed beakdown of credit card and ticket printing fees.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "2000",
+          "title": "2000 - HJB: Credit Card and Ticket Printing Fees",
+          "description": "Detailed beakdown of credit card and ticket printing fees for the Harvest Jazz and Blues Festival.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "2000",
+          "title": "2000 - Credit Card and Ticket Printing Fees",
+          "description": "Detailed beakdown of credit card and ticket printing fees.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "2000a",
+          "title": "2000a - HJB: Credit Card and Ticket Printing Fees",
+          "description": "Detailed beakdown of credit card and ticket printing fees for the Harvest Jazz and Blues Festival.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "2001a",
+          "title": "Credit Card and Ticket Printing Fees for Dolbeau",
+          "description": "Credit Card and Ticket Printing Fees for Dolbeau",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "2001b",
+          "title": "Credit Card and Ticket Printing Fees for Alderney",
+          "description": "Credit Card and Ticket Printing Fees for Alderney",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "2001b",
+          "title": "2001b - Credit Card and Ticket Printing Fees",
+          "description": "Credit Card and Ticket Printing Fees",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "2001c",
+          "title": "Credit Card and Ticket Printing Fees ",
+          "description": "Credit Card and Ticket Printing Fees (2014)",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "2005",
+          "title": "2005 - Pre-Settlement Report",
+          "description": "Detailed beakdown of credit card fees (2.75% and 3.85%), ticket printing ($0.10 all tickets), and venue and producer service fees.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "2006",
+          "title": "2006 - Pre-settlement report for the Burlington Performing Arts Centre",
+          "description": "Detailed beakdown of credit card, ticket printing, and venue and producer service fees.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "2007",
+          "title": "Credit Card and Ticket Printing Fees for Rialto",
+          "description": "Credit Card and Ticket Printing Fees for Rialto",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "2010",
+          "title": "2010 - Credit Card and Ticket Printing Fees ",
+          "description": "Detailed beakdown of credit card and ticket printing fees (HST 15%)",
+          "reportType": 11,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "title": "On Site Settlement (System Sales)",
+      "menus": [],
+      "reports": [
+        {
+          "code": "113",
+          "title": "113 - Sales by Price Type by Sale Group",
+          "description": "Total sales by price type by sale group.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "116",
+          "title": "116 - Methods of Payment by Salegroup",
+          "description": "Methods of payment broken down by salegroup (does not include fees).",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "118b",
+          "title": "118b - Methods of Payment by Salegroup for Producer Fees",
+          "description": "Methods of payment for producer fees for one or more performances, broken down by salegroup.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "151",
+          "title": "151 - Producer Fees",
+          "description": "A report that details producer fees.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "152",
+          "title": "152 - Venue Fees",
+          "description": "A report that details venue fees.",
+          "reportType": 11,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "title": "Invoiceable Reports",
+      "menus": [],
+      "reports": [
+        {
+          "code": "1001a",
+          "title": "1001a - Invoiceables",
+          "description": "List of orders with invoiceable payments, for one or several events.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "1001b",
+          "title": "1001b - Invoiceables with customer information",
+          "description": "A list of order with invoiceable payments, for one or more events, with customer information.  NB:  This report was designed to be exported into Excel.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "1001c",
+          "title": "1001c - Account Statement",
+          "description": "An account statement for the customer.",
+          "reportType": 4,
+          "favorite": false
+        },
+        {
+          "code": "1001d",
+          "title": "1001d - Invoice",
+          "description": "An invoice for the customer.",
+          "reportType": 4,
+          "favorite": false
+        },
+        {
+          "code": "1001e",
+          "title": "1001e - Receipt",
+          "description": "A receipt for the customer.",
+          "reportType": 4,
+          "favorite": false
+        },
+        {
+          "code": "1001f",
+          "title": "1001f - Receipt",
+          "description": "A receipt for Harvest Jazz and Blues Festival customers.",
+          "reportType": 4,
+          "favorite": false
+        },
+        {
+          "code": "1001g",
+          "title": "1001g - Customer Statement",
+          "description": "A customer statement for Harvest Jazz and Blues Festival customers.",
+          "reportType": 4,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "title": "Graph reports (only available in the new version of the reports - click on the link at the top of the page)",
+      "menus": [],
+      "reports": [
+        {
+          "code": "1",
+          "title": "1 - Sales by origin",
+          "description": "",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "2",
+          "title": "2 - Cumulatives sales",
+          "description": "",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "3",
+          "title": "3 - Sales by geography",
+          "description": "",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "4",
+          "title": "4 - Sales by period",
+          "description": "",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "5",
+          "title": "5 - Attendance (Tickets)",
+          "description": "",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "6",
+          "title": "6 - Attendance (Passes)",
+          "description": "",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "7",
+          "title": "7 - Overview",
+          "description": "",
+          "reportType": 6,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "title": "On Site Settlement (Preprinted Tickets)",
+      "menus": [],
+      "reports": [
+        {
+          "code": "113",
+          "title": "113 - Sales by Price Type by Sale Group",
+          "description": "Total sales by price type by sale group.",
+          "reportType": 11,
+          "favorite": false
+        }
+      ]
+    }
+  ],
+  "reports": []
+}

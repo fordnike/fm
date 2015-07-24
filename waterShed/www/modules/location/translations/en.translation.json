@@ -1,0 +1,14 @@
+{
+  "location": {
+    "titleList": "Locations",
+    "titleOne": "Location",
+    "location": "location",
+    "locations": "locations",
+    "new": "New Location",
+    "addLocation": "Add new location",
+    "name": "Name",
+    "edit": "Edit",
+    "capacity": "Capacity",
+    "selectLocation":"select to location"
+  }
+}

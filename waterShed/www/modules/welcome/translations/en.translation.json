@@ -1,0 +1,20 @@
+{
+  "tutorial": {
+    "skip": "Skip this tutorial",
+    "welcome": "Welcome to White Label Tickets",
+    "introduction": "Get ready to sell YOUR TICKETS for YOUR EVENT with YOUR BRAND within minutes.",
+    "paidtickets": "(for paid tickets only)",
+    "proceed": "Let’s proceed!",
+    "next": "Next",
+    "conclusion": "Awesome, you are now selling YOUR TICKETS for YOUR EVENT with YOUR BRAND!",
+    "checkitout": "Check it out at",
+    "create": "Create",
+    "yourevent": "YOUR EVENT",
+    "add": "Add",
+    "yourtickets": "YOUR TICKETS",
+    "customize": "Customize with",
+    "yourbrand": "YOUR BRAND",
+    "setup": "Setup to get",
+    "yourmoney": "YOUR MONEY"
+  }
+}

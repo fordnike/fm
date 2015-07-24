@@ -1,0 +1,16 @@
+{
+  "decorator": {
+    "accounts": "Accounts",
+    "events": "Events",
+    "locations": "Locations",
+    "languages": "Languages",
+    "reports": "Reports",
+    "options": "Options",
+    "account": "Account Settings",
+    "userProfile": "My Profile",
+    "changePassword": "Change Password",
+    "logout": "Logout",
+    "scan": "scan"
+
+  }
+}

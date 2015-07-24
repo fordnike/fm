@@ -1,0 +1,14 @@
+{
+  "decorator": {
+    "accounts": "Comptes",
+    "events": "Événements",
+    "locations": "Emplacements",
+    "languages": "Langues",
+    "reports": "Rapports",
+    "options": "Options",
+    "account": "Paramètres du compte",
+    "userProfile": "Mon profil",
+    "changePassword": "Changer mot de passe",
+    "logout": "Déconnexion"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "ticket": {
+    "title": "Billet",
+    "titleEdit": "Modifier les billets",
+    "name": "Nom",
+    "priceLevel": "Niveau de prix",
+    "price": "Prix",
+    "serviceFees": "Frais de service",
+    "limit": "Limite",
+    "promoCode": "Code promotion",
+    "create": "Créez",
+    "yourtickets": "VOS BILLETS",
+    "yourticketsgeneral": "Vos informations de billets sont présents sur votre site personnalisé, dans les paniers de vos clients et sur vos billets. Cela inclus un type de billet, un prix unitaire et un frais de service."
+  }
+}

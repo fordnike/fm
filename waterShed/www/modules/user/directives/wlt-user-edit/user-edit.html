@@ -1,0 +1,92 @@
+<wlt-toolbar
+        show-type="edit"
+        title="{{ 'user.titleEdit' | translate }}"
+        toggle-left="toggleLeft()"
+        toggle-right="toggleRight()"
+        set-search="setSearchMode()"
+        show-search="{{showSearchBox}}"
+        cancel="cancelUser()"
+        save="updateUser()">
+</wlt-toolbar>
+
+<wlt-spinner ng-hide="receivedResponse"></wlt-spinner>
+
+<wlt-message
+        show="{{message.updated}}"
+        message="message">
+</wlt-message>
+
+<div ng-show="receivedResponse">
+</div>
+<div ng-show="responseSuccess">
+
+    <md-content class="md-padding" ng-cloak>
+
+        <form name="formProfile" ng-submit="update()">
+            <wlt-input
+                    label='{{"user.firstname" | translate}}'
+                    model="user.firstname"
+                    key="firstName"
+                    glyphicon=""
+                    is-required="true"
+                    required-message='{{"shared.error.isRequired" | translate }}'
+                    type="text"
+                    error-message='{{"shared.error.notValid" | translate}}'>
+            </wlt-input>
+            <wlt-input
+                    label='{{"user.lastname" | translate}}'
+                    model="user.lastname"
+                    key="lastName"
+                    glyphicon=""
+                    is-required="true"
+                    required-message='{{"shared.error.isRequired" | translate }}'
+                    type="text"
+                    error-message='{{"shared.error.notValid" | translate}}'>
+            </wlt-input>
+
+            <div layout="row" layout-sm="column">
+                <div flex>
+                    <wlt-input
+                            label='{{"user.email" | translate}}'
+                            model="user.email"
+                            key="user.email"
+                            glyphicon="email"
+                            is-required="true"
+                            required-message='{{"shared.error.isRequired" | translate }}'
+                            type="text"
+                            error-message='{{"user.error.emailinvalid" | translate}}'
+                            vtype="email"
+                            >
+                    </wlt-input>
+                </div>
+
+                <div>
+                    <md-button ng-show="!showValideEmail" class="md-raised md-primary"
+                               ng-click="emailValidationRequest(user.email)">{{"user.sendValidationEmail" | translate}}
+                    </md-button>
+                    <div ng-show="showValideEmail">
+                        <md-button ng-show="!user.emailvalid" class="md-raised md-primary"
+                                   ng-click="emailValidationRequest(user.email)">{{"user.sendValidationEmail" |
+                            translate}}
+                        </md-button>
+                        <div ng-show="user.emailvalid" style="fill: #008000;margin-top: 22px;margin-right: 30px">&nbsp;&nbsp;
+                            <ng-md-icon icon="check">
+                                <md-tooltip>
+                                    {{ 'user.emailValidated' | translate }}
+                                </md-tooltip>
+                            </ng-md-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div layout="row" layout-align="start center">
+                <wlt-language
+                        lang-current="user.language" show-label=true>
+                </wlt-language>
+            </div>
+
+        </form>
+    </md-content>
+
+</div>

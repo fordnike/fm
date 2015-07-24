@@ -1,0 +1,38 @@
+[
+  {
+    "id": 123,
+    "priceLevel": "1",
+    "name": "Senior (65+)",
+    "price": "3613",
+    "serviceFees": 0,
+    "limit": 40,
+    "promoCode": null
+  },
+  {
+    "id": 123,
+    "priceLevel": "1",
+    "name": "Student (ID Required)",
+    "price": "3600",
+    "serviceFees": 0,
+    "limit": 50,
+    "promoCode": null
+  },
+  {
+    "id": 123,
+    "priceLevel": "1",
+    "name": "Youth (13-18)",
+    "price": "3000",
+    "serviceFees": 0,
+    "limit": 60,
+    "promoCode": null
+  },
+  {
+    "id": 123,
+    "priceLevel": "1",
+    "name": "Child (5-12)",
+    "price": "800",
+    "serviceFees": 0,
+    "limit": 70,
+    "promoCode": null
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "account": {
+    "titleList": "Konta",
+    "titleOne": "Konto",
+    "titleEdit": "Edytuj konto",
+    "account": "konto",
+    "accounts": "konta",
+    "website": "witryna",
+    "settings": "Ustawienia",
+    "correspondenceEmail": "Korespondencja e-mail",
+    "googleAnalyticsTracker": "Google Analytics Tracker",
+    "logo": "Logo",
+    "boxOfficeName": "Nazwa Box Office",
+    "subdomain": "Adres Internetowy",
+    "stripe": "Stripe",
+    "billingAddress": "Adres Rozliczeniowy",
+    "currency": "Waluta",
+    "addAccount": "Dodaj Konto",
+    "customize": "Dostosuj się",
+    "yourbrand": "TWOJA MARKA",
+    "yourbrandgeneral": "Twoja indywidualna strona może wyświetlać logo organizacji, obraz tła, informacje kontaktowe i znajduje się pod adresem ( twojamarka.wlt.pl ) .",
+    "setup": "Konfiguracja",
+    "yourmoney": "TWOJE PIENIĄDZE",
+    "yourmoneygeneral": "Twoje pieniądze są przekazywane bezpośrednio na konto bankowe za pośrednictwem Stripe . Konto Stripe jest wymagane w przypadku płatnych biletów.",
+    "gostripe": "Ustawienia konta Stripe",
+    "skipstripe": "Jeszcze nie chce pobierać opłaty za bilety"
+  }
+}

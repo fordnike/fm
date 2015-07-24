@@ -1,0 +1,29 @@
+{
+  "account": {
+    "titleList": "Comptes",
+    "titleOne": "Compte",
+    "titleEdit": "Modifier le compte",
+    "account": "compte",
+    "accounts": "comptes",
+    "website": "Site Web",
+    "settings": "Paramètres",
+    "correspondenceEmail": "Courriel de correspondance",
+    "googleAnalyticsTracker": "Google Analytics Tracker",
+    "logo": "Logo",
+    "boxOfficeName": "Nom du site",
+    "subdomain": "Adresse web",
+    "stripe": "Stripe",
+    "billingAddress": "Adresse de facturation",
+    "currency": "Devise",
+    "addAccount": "Ajouter un compte",
+    "customize": "Ajoutez",
+    "yourbrand": "VOTRE MARQUE",
+    "yourbrandgeneral": "Votre site web personnalisé peut montré votre logo, une image en arriére plan, vos informations de contact et etre trouvé a votre adresse web personnalisé (votremarque.wlt.ca).",
+    "setup": "Configurez pour avoir",
+    "yourmoney": "VOTRE ARGENT",
+    "yourmoneygeneral": "Votre argent est transféré directement dans votre compte de banque par l'entremise de Stripe. Un compte Stripe est requis pour les billets payants.",
+    "gostripe": "configurer Stripe maintenant",
+    "skipstripe": "Je ne vais pas avoir de billet payant pour l'instant",
+    "stripeNotConnected":"Compte Stripe non connecté"
+  }
+}

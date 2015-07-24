@@ -1,0 +1,56 @@
+{
+  "shared": {
+    "menu": "Menu",
+    "more": "Více",
+    "advanced": "Pokročilé",
+    "close": "Zavřít",
+    "apply": "Použít",
+    "save": "Uložit",
+    "continue": "Pokračovat",
+    "cancel": "Zrušit",
+    "delete": "Vymazat",
+    "edit": "Editovat",
+    "search": "Hledat",
+    "help": "Pomoc",
+    "submit": "Předložit",
+    "new": "Nový",
+    "select": "Vybrat",
+    "language": "Jazyk",
+    "website": "Webové stránky",
+    "settings": "Nastavení",
+    "changePassword": "Změnit heslo",
+    "tagline": "prodávajte vaše vstupenky online",
+    "msg-config-compte": "Nemůžete publikovat vaší akci, protože:",
+    "address": {
+      "titre": "Adresa",
+      "addressLine1": "Adresa 1",
+      "addressLine2": "Adresa 2",
+      "apartment": "Byt",
+      "country": "Země",
+      "province": "Kraj",
+      "city": "Město",
+      "postal": "PSČ",
+      "timezone": "Časová zóna",
+      "phone": "Telefonní číslo"
+    },
+    "error": {
+      "error": "Chyba",
+      "isRequired": "povinné",
+      "fillRequired": "Prosím vyplňte včechna povinná políčka.",
+      "notValid": "neplatné",
+      "save": "Ukládání chyby",
+      "fetch": "Chyba",
+      "update": "Žádná aktualizace provedena",
+      "add": "Nová instance nebyl přidán",
+      "noAccount": "Žádný účet zadán"
+    },
+    "success": {
+      "success": "úspěch",
+      "update": "Aktualizace proběhla úspěšně",
+      "save": "Úspěšně uloženo",
+      "add": "Nové instance přidal",
+      "delete": "Vypouští se s úspěchem",
+      "fetch": "Instance úspěšně načíst"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+<wlt-toolbar
+        show-type="view"
+        title="{{ 'location.titleOne' | translate }}"
+        toggle-left="toggleLeft()"
+        toggle-right="toggleRight()"
+        set-search="setSearchMode()"
+        show-search="{{showSearchBox}}"
+        cancel="cancelLocation()"
+        save="saveLocation()">
+</wlt-toolbar>
+
+<wlt-spinner ng-hide="receivedResponse"></wlt-spinner>
+
+<wlt-message
+        show="{{message.updated}}"
+        message="message">
+</wlt-message>
+
+<div ng-show="responseSuccess">
+
+    <md-content class="md-padding" ng-cloak>
+        <md-button class="md-primary md-fab rightButton" ui-sref="private.account.location-edit({id: location.id})"
+                   aria-label="edit">
+            <md-tooltip>
+                {{ 'shared.edit' | translate }}
+            </md-tooltip>
+            <div class="button-icon">
+                <ng-md-icon icon="edit"></ng-md-icon>
+            </div>
+        </md-button>
+
+        <div layout="row" layout-align="center center">
+            <div style="width: 110px;" layout="row" layout-align="center center">
+                <img class="img-responsive" style="max-width: 100px; max-height: 100px"
+                     ng-if="location.image" ng-src="/images/{{ location.image }}"
+                     alt="{{location.name}}">
+                <ng-md-icon icon="group" aria-label="event" ng-show="!event.image">
+            </div>
+            <div flex>
+                <h3>{{location.name}}</h3>
+                <p class="md-body-1"><span ng-show="location.addressLine1">{{location.addressLine1}}<br></span>
+                    <span ng-show="location.addressLine2">{{location.addressLine2}}<br></span>
+                    <span ng-show="location.city">{{location.city}}, </span>
+                    <span ng-show="location.province">{{location.province}}<br></span>
+                    <span ng-show="location.country">{{location.country}}, </span>
+                    <span ng-show="location.postalCode">{{location.postalCode}}<br></span></p>
+            </div>
+        </div>
+
+        <p class="md-body-1">{{ "shared.address.timezone" | translate }}{{":" | formatColon:langCurrent }} {{location.timezone}}</p>
+
+    </md-content>
+</div>
+
+

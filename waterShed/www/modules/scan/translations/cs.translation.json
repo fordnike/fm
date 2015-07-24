@@ -1,0 +1,39 @@
+{
+  "user": {
+    "title": "Profil uživatele",
+    "titleEdit": "Upravi muj profil",
+    "titlePassword": "Zmeni moje heslo",
+    "firstname": "Krestní jméno",
+    "lastname": "Príjmení",
+    "login": "Login",
+    "email": "Email",
+    "emailinvalid": "Neplatný email",
+    "password": "Heslo",
+    "oldPassword": "Staré heslo",
+    "passwordConfirm": "Potvrdit heslo",
+    "connect": "Připojit",
+    "cancel": "Zrušit",
+    "forgot": "Zapomneli jste své heslo?",
+    "new": "Jste tady poprvé ? Vytvorte si svuj úcet zde",
+    "signup": "Prihlásit",
+    "signin": "Registrovat",
+    "backtologin": "Již zaregistovaný uživatel ? Přihlásit zde",
+    "enteremail": "Prosím vložte zde svuj email",
+    "emailnotexist": "Tento email neexistuje",
+    "send": "Poslat",
+    "profile": "Profil",
+    "telephone": "Telefonní císlo",
+    "extension": "Prípona",
+    "changePassword": "Zmenit heslo",
+    "sendValidationEmail": "Odeslat ověření e-mail",
+    "emailNotValidated": "Váš email nebyl potvrzen",
+    "emailValidated": "Váš e-mail byl ověřen",
+    "error": {
+      "emailinvalid": "Neplatný email",
+      "emailAlreadyExists": "E-mail již existuje",
+      "accountFail": "Nepodarilo se vytvorit úcet.",
+      "newVersusOld": "Nové heslo musí být odlišný od starého hesla",
+      "passwordsMustBeSame": "Nové heslo musí být stejné"
+    }
+  }
+}

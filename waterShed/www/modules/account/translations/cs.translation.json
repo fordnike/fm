@@ -1,0 +1,29 @@
+﻿{
+  "account": {
+    "titleList": "Účty",
+    "titleOne": "Účet",
+    "titleEdit": "Upravit účet",
+    "account": "účet",
+    "accounts": "účty",
+    "website": "Website",
+    "settings": "Nastavení",
+    "correspondenceEmail": "Email",
+    "googleAnalyticsTracker": "Google Analytics Tracker",
+    "logo": "Logo",
+    "boxOfficeName": "POS název",
+    "subdomain": "Web adresa",
+    "stripe": "Stripe",
+    "billingAddress": "Fakturační adresa",
+    "currency": "Měna",
+    "addAccount": "Přidat účet",
+    "customize": "Cpravit s",
+    "yourbrand": "VAŠE ZNAČKA",
+    "yourbrandgeneral": "Vaše upravená webová stránka může zobrazit Vaše logo, můžete nahrát obrázek jako pozadí, uvést svoje kontaktní informace a být nalezeni na vaseznacka.bezloga.cz",
+    "setup": "Setup to get",
+    "yourmoney": "Vaše peníze",
+    "yourmoneygeneral": "Your money is transferred directly into your bank account through Stripe. A Stripe account is required for paid tickets.",
+    "gostripe": "Setup Stripe account now",
+    "skipstripe": "I will not charge for tickets for now",
+    "stripeNotConnected":"Stripe účet není připojen"
+  }
+}

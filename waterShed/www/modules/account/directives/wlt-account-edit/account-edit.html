@@ -1,0 +1,262 @@
+<wlt-toolbar
+        show-type="edit"
+        title="{{ 'account.titleEdit' | translate }}"
+        toggle-left="toggleLeft()"
+        toggle-right="toggleRight()"
+        set-search="setSearchMode()"
+        show-search="{{showSearchBox}}"
+        cancel="cancelAccount()"
+        save="saveAccount()">
+</wlt-toolbar>
+
+<wlt-message
+        show="{{message.updated}}"
+        message="message">
+</wlt-message>
+
+<wlt-spinner ng-hide="receivedResponse"></wlt-spinner>
+
+<div ng-show="responseSuccess">
+    <form name="formAccountUpdate" ng-submit="update()">
+       <!-- from:{{formAccountUpdate.subdomain.$error}}-->
+        <div style="height:100%;">
+            <md-tabs md-dynamic-height class="md-accent" md-selected="data.selectedIndex" md-align-tabs="top">
+                <md-tab id="tab1">
+                    <md-tab-label>{{ 'shared.website' | translate }}</md-tab-label>
+                    <md-tab-body></md-tab-body>
+                </md-tab>
+                <md-tab id="tab2">
+                    <md-tab-label>{{ 'shared.settings' | translate }}</md-tab-label>
+                    <md-tab-body></md-tab-body>
+                </md-tab>
+                <md-tab id="tab3" >
+                    <md-tab-label>beta</md-tab-label>
+                    <md-tab-body></md-tab-body>
+                </md-tab>
+            </md-tabs>
+
+            <section ng-show="data.selectedIndex==0" class="website">
+                <md-content class="md-padding" ng-cloak>
+                    <div align="right" style="fill: #737373;">
+                        <ng-md-icon icon="help" aria-label="help" ng-click="showHelp=!showHelp">
+                            <md-tooltip>
+                                {{ 'shared.help' | translate }}
+                            </md-tooltip>
+                        </ng-md-icon>
+                    </div>
+                    <div ng-show="showHelp"
+                         ng-include="'modules/account/directives/wlt-account-edit/account-help-website.html'"></div>
+                    <wlt-input
+                            label='{{"account.boxOfficeName" | translate}}'
+                            model="account.website.boxOfficeName"
+                            key="account.website.boxOfficeName"
+                            glyphicon=""
+                            is-required=""
+                            required-message='{{"shared.error.isRequired" | translate }}'
+                            type="text"
+                            error-message='{{"shared.error.notValid" | translate}}'>
+                    </wlt-input>
+                    <wlt-input
+                            label='{{"account.subdomain" | translate}} .{{domain}}'
+                            model="account.website.subdomain"
+                            key="subdomain"
+                            glyphicon=""
+                            regex="^[a-zA-Z0-9_]*$"
+                            is-required="true"
+                            required-message='{{"shared.error.isRequired" | translate }}'
+                            type="text"
+                            error-message='{{"shared.error.notValid" | translate}}'>
+                    </wlt-input>
+                    <wlt-input
+                            label='{{"account.correspondenceEmail" | translate}}'
+                            model="account.website.correspondenceEmail"
+                            key="correspondenceEmail"
+                            glyphicon='email'
+                            glyphiconUrl=""
+                            is-required="true"
+                            required-message='{{"shared.error.isRequired" | translate }}'
+                            type="email"
+                            vtype=""
+                            error-message='{{"shared.error.notValid" | translate}}'>
+                    </wlt-input>
+
+                    <canvas ng-show=false id="canvas" width="480" height="320"></canvas>
+
+                    <section class="updateImage">
+                        <div layout="row" layout-sm="column" layout-md="column">
+                            <div flex="10" style="padding-top: 28px;">
+                                <label>{{"account.logo" | translate}} 600x200</label>
+                            </div>
+                            <div layout="column">
+                                <div ng-if="imageLoaded && !imageSelected && !newImage" flex>
+                                    <div><img width="300px" ng-src="{{account.website.logo.url}}"/></div>
+                                </div>
+                                <div ng-if="newImage && !imageSelected" flex>
+                                    <div><img width="300px" ng-src="{{myCroppedImage}}"/></div>
+                                </div>
+                            </div>
+                            <div flex>
+                                <div class="md-padding" layout="column">
+                                    <div flex>
+                                        <div layout="row">
+                                            <div flex style="padding-top: 10px;">
+                                                <input type="file" id="fileInput"
+                                                        />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div ng-show="imageSelected">
+                            <div class="cropArea">
+                                <img-crop image="myImage" area-type="square" result-image-size="600" maximize-crop="true" result-image-aspect="3x1"
+                                          result-image="myCroppedImage"></img-crop>
+                            </div>
+                            <md-button ng-click="confirmImage(myCroppedImage)">OK</md-button>
+                            <md-button ng-click="cancelImage()">CANCEL</md-button>
+                        </div>
+                    </section>
+                </md-content>
+            </section>
+
+            <div ng-show="data.selectedIndex==1"
+                 >
+                <section ng-show="data.selectedIndex==1" class="settings">
+                    <md-content class="md-padding" ng-cloak>
+                        <div align="right" style="fill: #737373;">
+                            <ng-md-icon icon="help" aria-label="help" ng-click="showHelp=!showHelp">
+                                <md-tooltip>
+                                    {{ 'shared.help' | translate }}
+                                </md-tooltip>
+                            </ng-md-icon>
+                        </div>
+                        <div ng-show="showHelp"
+                             ng-include="'modules/account/directives/wlt-account-edit/account-help-settings.html'"></div>
+                        <wlt-input
+                                label='{{"account.googleAnalyticsTracker" | translate}}'
+                                model="account.website.googleAnalyticsTracker"
+                                key="account.website.googleAnalyticsTracke"
+                                glyphicon=""
+                                is-required=""
+                                required-message='{{"shared.error.isRequired" | translate }}'
+                                type="text"
+                                error-message='{{"shared.error.notValid" | translate}}'>
+                        </wlt-input>
+                        <wlt-time-zone time-zone="account.website.timezone"></wlt-time-zone>
+                        <md-button ng-show="!account.merchandAccount.stripe" href="{{account.merchandAccount.urlStripe}}" ng-disabled="false">
+                            <img ng-src="/images/connect-with-stripe.png" alt="stripe" aria-label="stripe">
+                        </md-button>
+                        <p ng-show="account.merchandAccount.stripe">
+                            <img ng-src="/images/connected-with-stripe.png" alt="connected" aria-label="connected">
+                        </p>
+
+                        <section class="address" ng-show="account.merchandAccount.stripe">
+                            <h3>{{"account.billingAddress" | translate}}</h3>
+                            <wlt-input
+                                    label='{{"shared.address.addressLine1" | translate}}'
+                                    model="account.address.addressLine1"
+                                    key="addressLine1"
+                                    glyphicon=""
+                                    is-required=""
+                                    required-message='{{"shared.error.isRequired" | translate }}'
+                                    type="text"
+                                    error-message='{{"shared.error.notValid" | translate}}'>
+                            </wlt-input>
+                            <wlt-input
+                                    label='{{"shared.address.addressLine2" | translate}}'
+                                    model="account.address.addressLine2"
+                                    key="addressLine2"
+                                    glyphicon=""
+                                    is-required=""
+                                    required-message='{{"shared.error.isRequired" | translate }}'
+                                    type="text"
+                                    error-message='{{"shared.error.notValid" | translate}}'>
+                            </wlt-input>
+                            <wlt-input
+                                    label='{{"shared.address.city" | translate}}'
+                                    model="account.address.city"
+                                    key="city"
+                                    glyphicon=""
+                                    is-required=""
+                                    required-message='{{"shared.error.isRequired" | translate }}'
+                                    type="text"
+                                    error-message='{{"shared.error.notValid" | translate}}'>
+                            </wlt-input>
+                            <wlt-input
+                                    label='{{"shared.address.province" | translate}}'
+                                    model="account.address.provinceState"
+                                    key="provinceState"
+                                    glyphicon=""
+                                    is-required=""
+                                    required-message='{{"shared.error.isRequired" | translate }}'
+                                    type="text"
+                                    error-message='{{"shared.error.notValid" | translate}}'>
+                            </wlt-input>
+                            <wlt-input
+                                    label='{{"shared.address.country" | translate}}'
+                                    model="account.address.country"
+                                    key="country"
+                                    glyphicon=""
+                                    is-required=""
+                                    required-message='{{"shared.error.isRequired" | translate }}'
+                                    type="text"
+                                    error-message='{{"shared.error.notValid" | translate}}'>
+                            </wlt-input>
+                            <wlt-input
+                                    label='{{"shared.address.postal" | translate}}'
+                                    model="account.address.zipCode"
+                                    key="zipCode"
+                                    glyphicon=""
+                                    is-required=""
+                                    required-message='{{"shared.error.isRequired" | translate }}'
+                                    type="text"
+                                    error-message='{{"shared.error.notValid" | translate}}'>
+                            </wlt-input>
+                            <wlt-input
+                                    label='{{"shared.address.phone" | translate}}'
+                                    model="account.address.phone"
+                                    key="phone"
+                                    glyphicon=""
+                                    is-required=""
+                                    required-message='{{"shared.error.isRequired" | translate }}'
+                                    type="text"
+                                    error-message='{{"shared.error.notValid" | translate}}'>
+                            </wlt-input>
+
+                        </section>
+                    </md-content>
+                </section>
+            </div>
+
+            <div ng-show="data.selectedIndex==2"
+                 >
+                <section ng-show="data.selectedIndex==2" class="beta">
+                    <md-content class="md-padding" ng-cloak>
+                        <div align="right" style="fill: #737373;">
+                            <ng-md-icon icon="help" aria-label="help" ng-click="showHelp=!showHelp">
+                                <md-tooltip>
+                                    {{ 'shared.help' | translate }}
+                                </md-tooltip>
+                            </ng-md-icon>
+                        </div>
+                        <!--<div ng-show="showHelp"-->
+                        <!--ng-include="'modules/account/directives/wlt-account-edit/account-help-beta.html'"></div>-->
+                        <wlt-input
+                                label='{{"account.boxOfficeName" | translate}}'
+                                model="account.website.boxOfficeName"
+                                key="account.website.boxOfficeName"
+                                glyphicon=""
+                                is-required=""
+                                required-message='{{"shared.error.isRequired" | translate }}'
+                                type="text"
+                                error-message='{{"shared.error.notValid" | translate}}'>
+                        </wlt-input>
+                    </md-content>
+                </section>
+            </div>
+
+        </div>
+    </form>
+
+</div>

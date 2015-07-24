@@ -1,0 +1,210 @@
+{
+  "title": null,
+  "menus": [
+    {
+      "title": "Sales Reports",
+      "menus": [
+        {
+          "title": "Sales by Price Type",
+          "menus": [],
+          "reports": [
+            {
+              "code": "110",
+              "title": "110 - Sales by Price Type",
+              "description": "Total sales by price type.",
+              "reportType": 11,
+              "favorite": false
+            }
+          ]
+        },
+        {
+          "title": "Non-Printed Will Call",
+          "menus": [],
+          "reports": [
+            {
+              "code": "155",
+              "title": "155 - List of non-printed will call tickets",
+              "description": "A list of all customers who have non-printed tickets for one or several events.",
+              "reportType": 6,
+              "favorite": false
+            }
+          ]
+        }
+      ],
+      "reports": [
+        {
+          "code": "100",
+          "title": "100 - Daily Sales",
+          "description": "Tickets (excluding consignment tickets) and comps sold on one day for all events.",
+          "reportType": 1,
+          "favorite": false
+        },
+        {
+          "code": "102",
+          "title": "102 - Sales Summary (S3M)",
+          "description": "A summary of total sales for a period, with details by performance.",
+          "reportType": 9,
+          "favorite": false
+        },
+        {
+          "code": "105",
+          "title": "105 - Sales for a Period",
+          "description": "Tickets sold (with details for regular, comp, and consignment tickets) for a period, as well as cumulative sales, with subtotals by venue.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "106",
+          "title": "106 - Sales for a Period (with separate consignment totals)",
+          "description": "Tickets sold (with details for regular, comp, and consignment tickets) for a period, as well as cumulative sales, with subtotals by venue.  <i>NB:  This report separates the consignment total from the total of regular tickets.</i>",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "120M",
+          "title": "120M - Daily Individual Sales",
+          "description": "List of transactions by origin, with an additional breakdown for box office cashiers.",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "130",
+          "title": "130 - Audit Report",
+          "description": "A recap of the price table, sales, and seat statuses for events.",
+          "reportType": 28,
+          "favorite": false
+        },
+        {
+          "code": "147",
+          "title": "147 - Performance History",
+          "description": "A list of all transactions for a performance (as of November 30th 2010).   ",
+          "reportType": 11,
+          "favorite": false
+        },
+        {
+          "code": "160",
+          "title": "160 - Hourly Sales",
+          "description": "Tickets sold by hour.",
+          "reportType": 11,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "title": "Scanning reports",
+      "menus": [],
+      "reports": [
+        {
+          "code": "163",
+          "title": "163 - Scanning History",
+          "description": "A detailed list of tickets and passes that were scanned into an event, in chronological order.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "165c",
+          "title": "165c - Scanned Tickets (New)",
+          "description": "Details regarding scanned tickets and passes (for events taking place after August 15th 2011).",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "168b",
+          "title": "168b - Scanned tickets per customer",
+          "description": "Scanned tickets per customer (for events taking place after August 15th 2011).",
+          "reportType": 6,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "title": "Customer Lists",
+      "menus": [],
+      "reports": [
+        {
+          "code": "385",
+          "title": "385 - Customer List",
+          "description": "A list of customers who have purchased tickets for one or several events.",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "385a",
+          "title": "385a - Customer List with Extra Info",
+          "description": "A list of customers who have purchased tickets for one or several events with Extra Info",
+          "reportType": 6,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "title": "Reports",
+      "menus": [],
+      "reports": [
+        {
+          "code": "remise",
+          "title": "Advance settlement for one event",
+          "description": "Advance settlement for one event",
+          "reportType": 0,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "title": "Charts",
+      "menus": [],
+      "reports": [
+        {
+          "code": "5",
+          "title": "5 - Attendance (Tickets)",
+          "description": "",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "4",
+          "title": "4 - Sales by period",
+          "description": "",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "2",
+          "title": "2 - Cumulatives sales",
+          "description": "",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "3",
+          "title": "3 - Sales by geography",
+          "description": "",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "6",
+          "title": "6 - Attendance (Passes)",
+          "description": "",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "7",
+          "title": "7 - Overview",
+          "description": "",
+          "reportType": 6,
+          "favorite": false
+        },
+        {
+          "code": "1",
+          "title": "1 - Sales by origin",
+          "description": "",
+          "reportType": 6,
+          "favorite": false
+        }
+      ]
+    }
+  ],
+  "reports": []
+}

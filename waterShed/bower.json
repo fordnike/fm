@@ -1,0 +1,60 @@
+{
+  "name": "HelloIonic",
+  "private": "true",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.0.1"
+  },
+  "dependencies": {
+    "jquery": "1.11.2",
+    "jquery-ui": "1.11.2",
+    "angular": "1.4.1",
+    "json3": "3.3.1",
+    "es5-shim": "3.1.0",
+    "bootstrap": "3.2.0",
+    "angular-resource": "1.4.1",
+    "angular-cookies": "1.4.1",
+    "angular-sanitize": "1.4.1",
+    "angular-animate": "1.4.1",
+    "angular-touch": "1.4.1",
+    "angular-route": "1.4.1",
+    "angular-aria": "1.4.1",
+    "angular-ui-router": "0.2.13",
+    "angular-bootstrap": "0.11.2",
+    "angular-ui-utils": "0.2.1",
+    "angular-translate": "2.6.1",
+    "angular-translate-loader-partial": "2.6.1",
+    "angular-material": "0.10.0",
+    "components-font-awesome": "4.3.0",
+    "html5shiv": "3.7.2",
+    "angulartics": "0.17.2",
+    "respond": "1.4.2",
+    "angular-utf8-base64": "0.0.5",
+    "angular-jwt": "0.0.6",
+    "angular-hero": "0.0.5",
+    "angular-material-icons": "0.5.0",
+    "ng-mfb": "0.4.0",
+    "md-date-time": "0.0.14",
+    "angular-input-masks": "1.4.2",
+    "angular-material-components": "0.0.1",
+    "moment": "2.10.2",
+    "angular-moment": "~0.10.1",
+    "angular-bootstrap-datetimepicker": "~0.3.12",
+    "angular-dynamic-locale": "~0.1.27",
+    "ngImgCrop": "0.3.2",
+    "angular-mocks": "1.4.1",
+    "angular-scenario": "1.4.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.4.1",
+    "angular-scenario": "1.4.1"
+  },
+  "resolutions": {
+    "angular": "1.4.1",
+    "angular-animate": "1.4.1",
+    "angular-aria": "1.4.1",
+    "angular-translate": "2.6.1",
+    "angular-material": "0.10.0",
+    "moment": "~2.10.2"
+  },
+  "appPath": "app"
+}

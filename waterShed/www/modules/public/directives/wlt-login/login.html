@@ -1,0 +1,82 @@
+<wlt-toolbar
+        show-type="public"
+        title="{{ 'user.login' | translate }}"
+        toggle-left="goBack()"
+        toggle-right="toggleRight()"
+        set-search="setSearchMode()"
+        show-search="{{showSearchBox}}"
+        cancel="cancel()"
+        save="save()">
+</wlt-toolbar>
+
+<wlt-spinner ng-hide="receivedResponse"></wlt-spinner>
+
+<wlt-message
+        show="{{message.updated}}"
+        message="message">
+</wlt-message>
+
+<div ng-show="responseSuccess">
+    <div class="authenticationForm">
+
+        <div layout="row">
+            <div flex></div>
+            <wlt-language
+                    lang-current="langCurrent">
+            </wlt-language>
+        </div>
+
+        <div layout="column" layout-align="center center">
+            <img class="authenticationLogo" ng-src=".{{systemValues.logo}}" alt="{{systemValues.companyName}}">
+
+            <p class="authenticationTagLine" ng-show="systemValues.showTagLine==='true'">
+                {{ 'shared.tagline' | translate }}</p>
+            <p ng-show="systemValues.showTagLine!=='true'"></p>
+
+            <div ng-show="errorMessage" class="alert alert-danger">
+                <a class="close" data-dismiss="alert" href="" ng-click="closeErrorMessage()">×</a>{{errorMessage}}
+            </div>
+            <form name="loginForm" role="form" ng-submit="login(this)">
+                <alert-control></alert-control>
+                <wlt-input
+                        label="{{ 'user.email' | translate }}"
+                        model="user.username"
+                        key="email"
+                        glyphicon=""
+                        is-required="true"
+                        required-message='{{"shared.error.isRequired" | translate }}'
+                        type="text"
+                        error-message="{{ 'user.emailinvalid' | translate }}"
+                        vtype="">
+                </wlt-input>
+                <wlt-input
+                        label="{{ 'user.password' | translate }}"
+                        model="user.password"
+                        key="password"
+                        glyphicon=""
+                        is-required="true"
+                        required-message='{{"shared.error.isRequired" | translate }}'
+                        type="password"
+                        error-message="">
+                </wlt-input>
+
+                <div layout="column" layout-align="center end">
+                    <md-button type="submit" class="md-raised md-primary" ng-disabled="loginForm.$invalid">
+                        {{ 'user.login' | translate }}
+                    </md-button>
+                </div>
+
+                <div layout="column" layout-align="center center">
+                    <div style="margin-top: 45px;" layout="row" layout-align="center center">
+                        <md-button href="#!/signup" ui-sref="public.signup">{{ 'user.noAccount' | translate }} {{
+                            'user.signup' | translate }}
+                        </md-button>
+                    </div>
+                    <md-button href="#!/forgot" ui-sref="public.forgot"> {{ 'user.forgot' | translate }}
+                    </md-button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>

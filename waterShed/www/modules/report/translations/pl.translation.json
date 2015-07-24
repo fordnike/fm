@@ -1,0 +1,12 @@
+{
+  "report": {
+    "titleList": "Raporty",
+    "titleOne": "Raport",
+    "report": "raport",
+    "reports": "raporty",
+    "date": "Data",
+    "startDate": "Data rozpoczęcia",
+    "endDate": "Data zakończenia",
+    "format": "Format"
+  }
+}

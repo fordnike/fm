@@ -1,0 +1,39 @@
+{
+  "user": {
+    "title": "User Profile",
+    "titleEdit": "Edit My Profile",
+    "titlePassword": "Change My Password",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "login": "Login",
+    "email": "Email",
+    "emailinvalid": "Invalid email",
+    "password": "Password",
+    "oldPassword": "Old Password",
+    "passwordConfirm": "Password Confirmation",
+    "connect": "Connect",
+    "cancel": "Cancel",
+    "forgot": "Forgot your password ?",
+    "new": "First time ? Create a new account here",
+    "signup": "Sign up",
+    "signin": "Register",
+    "backtologin": "Already registered ? Log in here",
+    "enteremail": "Please enter your E-mail",
+    "emailnotexist": "The email does not exists",
+    "send": "Send",
+    "profile": "Profile",
+    "telephone": "Telephone",
+    "extension": "Extension",
+    "changePassword": "Change Password",
+    "sendValidationEmail": "Send Validation Email",
+    "emailNotValidated": "Your email has not been validated",
+    "emailValidated": "Your email has been validated",
+    "error": {
+      "emailinvalid": "Invalid Email",
+      "emailAlreadyExists": "The email already exists",
+      "accountFail": "Account creation failed",
+      "newVersusOld": "The new password must be different from the old password",
+      "passwordsMustBeSame": "The new passwords must be the same"
+    }
+  }
+}

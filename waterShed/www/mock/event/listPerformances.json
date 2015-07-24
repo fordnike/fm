@@ -1,0 +1,98 @@
+[
+  {
+    "error": null,
+    "perfId": 6,
+    "saleState": "PUBLISHED",
+    "note": null,
+    "title": "Hommage Santana - avec Persuasion",
+    "formattedDate": "Samedi 17 juillet 2015 à 20 h",
+    "venue": "THÉÂTRE ST-DENIS 2",
+    "cityProv": "Montreal ,QC",
+    "prices": {
+      "1454701": {
+        "priceType": "gratuit",
+        "price": "$0.00",
+        "serviceCharges": "included",
+        "promo": false,
+        "promoId": 0,
+        "order": 1,
+        "soldout": false
+      }
+    },
+    "networkClient": 6,
+    "image": "6.jpg",
+    "surveys": null
+  },
+  {
+    "error": null,
+    "perfId": 12,
+    "saleState": "ON SALE",
+    "note": null,
+    "title": "Persuasion - Tribute to Santana",
+    "formattedDate": "Saturday, June 17, 2015 at 8:00 p.m.",
+    "venue": "THÉÂTRE ST-DENIS 2",
+    "cityProv": "Montreal ,QC",
+    "prices": {
+      "1454701": {
+        "priceType": "gratuit",
+        "price": "$0.00",
+        "serviceCharges": "included",
+        "promo": false,
+        "promoId": 0,
+        "order": 1,
+        "soldout": false
+      }
+    },
+    "networkClient": 12,
+    "image": "12.jpg",
+    "surveys": null
+  },
+  {
+    "error": null,
+    "perfId": 13,
+    "saleState": "ON SALE",
+    "note": null,
+    "title": "Event",
+    "formattedDate": "Sat Nov 29 23:00:10 EST 2014",
+    "venue": "Test Laurent",
+    "cityProv":"Montreal ,QC" ,
+    "prices": {
+      "1454701": {
+        "priceType": "gratuit",
+        "price": "$0.00",
+        "serviceCharges": "included",
+        "promo": false,
+        "promoId": 0,
+        "order": 1,
+        "soldout": false
+      }
+    },
+    "networkClient": 13,
+    "image": "13.jpg",
+    "surveys": null
+  },
+  {
+    "error": null,
+    "perfId": 14,
+    "saleState": "OVER",
+    "note": null,
+    "title": "Événement 2",
+    "formattedDate": "Sat Nov 29 23:00:10 EST 2014",
+    "venue": "Test Laurent",
+    "cityProv": "Montreal ,QC",
+    "prices": {
+      "1454701": {
+        "priceType": "gratuit",
+        "price": "$0.00",
+        "serviceCharges": "included",
+        "promo": false,
+        "promoId": 0,
+        "order": 1,
+        "soldout": false
+      }
+    },
+    "networkClient": 14,
+    "image": "14.jpg",
+    "surveys": null
+  }
+]

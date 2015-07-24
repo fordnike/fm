@@ -1,0 +1,39 @@
+{
+  "user": {
+    "title": "Profil utilisateur",
+    "titleEdit": "Modifier mon profil",
+    "titlePassword": "Changer mon mot de passe",
+    "firstname": "Nom",
+    "lastname": "Prénom",
+    "login": "Connexion",
+    "email": "Courriel",
+    "emailinvalid": "Courriel invalide",
+    "password": "Mot de passe",
+    "oldPassword": "Ancien mot de passe",
+    "passwordConfirm": "Confirmation mot de passe ",
+    "connect": "Connexion",
+    "cancel": "Annuler",
+    "forgot": "Mot de passe oublié ?",
+    "new": "Nouveau ? Créez un nouveau compte ici",
+    "signup": "Inscription",
+    "signin": "M'inscrire",
+    "backtologin": "Vous avez un compte ? Connectez-vous ici",
+    "enteremail": "Entrez votre courriel",
+    "emailnotexist": "Le courriel n'existe pas",
+    "send": "Envoyer",
+    "profile": "Profil",
+    "telephone": "Téléphone",
+    "extension": "Extension",
+    "changePassword": "Changer de mot de passe",
+    "sendValidationEmail": "Envoyer courriel de validation",
+    "emailNotValidated": "Votre courriel n'a pas été validé",
+    "emailValidated": "Votre courriel a été validé",
+    "error": {
+      "emailinvalid": "Courriel invalide",
+      "emailAlreadyExists": "Le courriel existe déjà",
+      "accountFail": "La création de compte a échoué",
+      "newVersusOld": "Le nouveau mot de passe doit être différent de l'ancien mot de passe",
+      "passwordsMustBeSame": "Les nouveaux mots de passe doivent être pareils"
+    }
+  }
+}

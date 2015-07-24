@@ -1,0 +1,11 @@
+<!--show={{showMessage}} type={{message.type}}-->
+<div ng-if="showMessage" class="{{message.type}}">
+        <div layout="row">
+            <div flex="10" style="margin-top: 22px;">
+                <ng-md-icon icon="close" style="fill:pink" size="30" ng-click="close()"></ng-md-icon>
+            </div>
+            <div flex style="margin-top: 12px;padding-left: 10px">
+                <h4 class="md-flex">{{message.text}}</h4>
+            </div>
+        </div>
+</div>

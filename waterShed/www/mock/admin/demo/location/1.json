@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "networkId": 1,
+  "name": "Théâtre St-Denis",
+  "addressLine1": "123 rue des Betteraves",
+  "addressLine2": "",
+  "city": "Montréal",
+  "province": "Québec",
+  "country": "Canada",
+  "postalCode": "H3L 1A4",
+  "timezone": "GMT -5, New York, Montréal"
+}

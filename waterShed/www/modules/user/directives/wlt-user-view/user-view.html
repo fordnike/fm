@@ -1,0 +1,54 @@
+<wlt-toolbar
+        show-type="view"
+        title="{{ 'user.title' | translate }}"
+        toggle-left="toggleLeft()"
+        toggle-right="toggleRight()"
+        set-search="setSearchMode()"
+        show-search="{{showSearchBox}}"
+        cancel="cancelUser()"
+        save="saveUser()">
+</wlt-toolbar>
+
+<wlt-spinner ng-hide="receivedResponse"></wlt-spinner>
+
+<wlt-message
+        show="{{message.updated}}"
+        message="message">
+</wlt-message>
+
+<div ng-show="receivedResponse">
+</div>
+<div ng-show="responseSuccess">
+
+    <md-button class="md-primary md-fab topRightButton" ng-click="goUserEdit(user.id)" aria-label="edit">
+        <md-tooltip>
+            {{ 'shared.edit' | translate }}
+        </md-tooltip>
+        <div class="button-icon">
+            <ng-md-icon icon="edit"></ng-md-icon>
+        </div>
+    </md-button>
+
+    <div layout="row" layout-align="center center">
+        <div style="width: 110px;" layout="row" layout-align="center center">
+            <ng-md-icon icon="person" aria-label="user">
+        </div>
+        <div flex>
+            <h3>{{user.firstname}} {{user.lastname}}</h3>
+
+            <div layout="row">
+                <p class="md-body-1">{{user.email}} &nbsp;</p>
+
+                <div ng-show="!user.emailvalid" style="fill: #FFA500;margin-top: 11px;">
+                    <ng-md-icon icon="warning" class="pointer" ng-click="goUserEdit(user.id)">
+                        <md-tooltip>
+                            {{ 'user.emailNotValidated' | translate }}
+                        </md-tooltip>
+                    </ng-md-icon>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>

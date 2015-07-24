@@ -1,0 +1,14 @@
+{
+  "location": {
+    "titleList": "Emplacements",
+    "titleOne": "Emplacement",
+    "location": "emplacement",
+    "locations": "emplacements",
+    "new": "Nouvel emplacement",
+    "addLocation": "Ajouter un emplacement",
+    "name": "Nom",
+    "edit": "Modifier",
+    "capacity": "Capacité",
+    "selectLocation":"sélectionnez l'emplacement"
+  }
+}

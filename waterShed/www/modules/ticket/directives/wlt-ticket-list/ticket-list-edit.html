@@ -1,0 +1,254 @@
+<wlt-toolbar
+        ng-show="isNew"
+        show-type="edit"
+        title="{{ 'ticket.create' | translate }} {{ 'ticket.yourtickets' | translate }}"
+        toggle-left="toggleLeft()"
+        toggle-right="toggleRight()"
+        set-search="setSearchMode()"
+        show-search="{{showSearchBox}}"
+        cancel="cancelTickets()"
+        save="saveTickets()">
+</wlt-toolbar>
+
+<wlt-toolbar
+        ng-show="!isNew"
+        show-type="edit"
+        title="{{ 'ticket.titleEdit' | translate }}"
+        toggle-left="toggleLeft()"
+        toggle-right="toggleRight()"
+        set-search="setSearchMode()"
+        show-search="{{showSearchBox}}"
+        cancel="cancelTickets()"
+        save="saveTickets()">
+</wlt-toolbar>
+
+<wlt-spinner ng-hide="receivedResponse"></wlt-spinner>
+
+<wlt-message
+        show="{{message.updated}}"
+        message="message">
+</wlt-message>
+
+<div ng-show="receivedResponse">
+</div>
+<div ng-show="responseSuccess">
+
+    <md-content class="md-padding" ng-cloak>
+
+        <div align="right" style="fill: #737373;">
+            <ng-md-icon icon="help" aria-label="help" ng-click="showHelp=!showHelp">
+                <md-tooltip>
+                    {{ 'shared.help' | translate }}
+                </md-tooltip>
+            </ng-md-icon>
+        </div>
+        <div ng-show="showHelp" ng-include="'modules/ticket/directives/wlt-ticket-list/ticket-help.html'"></div>
+
+        <div layout="row" layout-align="center center">
+            <div style="width: 110px;" layout="row" layout-align="center center">
+                <img class="img-responsive" style="max-width: 100px; max-height: 100px"
+                     ng-if="event.image" ng-src="/images/{{ event.image }}"
+                     alt="{{event.title}}">
+                <ng-md-icon icon="group" aria-label="event" ng-show="!event.image">
+            </div>
+            <div flex>
+                <h3>{{event.title}}</h3>
+
+                <p class="md-body-1">{{event.eventStart | date:'longDate'}} {{event.eventStart | date:'shortTime'}}<br>
+                    <span ng-show="event.venue">{{event.venue}}<br></span>
+                    <span ng-show="event.cityProvince !== ', '">{{event.cityProvince}}</span></p>
+            </div>
+        </div>
+
+        <md-button class="md-primary md-fab rightButton" ng-click="addRowTicket()" aria-label="add">
+            <md-tooltip>
+                {{ 'shared.new' | translate }}
+            </md-tooltip>
+            <div class="button-icon">
+                <ng-md-icon icon="add"></ng-md-icon>
+            </div>
+        </md-button>
+
+        <form id="formTickets" method="post" name="formTickets">
+            <div class="md-body-1" hide-gt-sm>
+                <div ng-repeat="price in tickets">
+
+                    <wlt-input
+                            label='{{"event.ticketType" | translate}}'
+                            model="price.name"
+                            key="name"
+                            glyphicon=""
+                            is-required=""
+                            required-message='{{"shared.error.isRequired" | translate }}'
+                            type="text"
+                            error-message='{{"shared.error.notValid" | translate}}'>
+                    </wlt-input>
+                    <md-input-container md-no-float>
+                        <label>&nbsp;{{"event.price" | translate}}</label>
+                        <input ng-model="price.price" type="text" placeholder="{{ 'ticket.price' | translate }}"
+                               ui-number-mask="2">
+                    </md-input-container>
+                    <md-input-container md-no-float>
+                        <label>&nbsp;{{"event.serviceCharge" | translate}}</label>
+                        <input ng-model="price.serviceFees" type="text"
+                               placeholder="{{ 'ticket.serviceFees' | translate }}"
+                               ui-number-mask="2">
+                    </md-input-container>
+
+                    <div layout="row">
+                        <div>
+                            <ng-md-icon ng-show="!selectAvance" ng-click="selectAvance=!selectAvance" icon="expand_more"
+                                        style="fill:#737373;  margin-top: 10px;"
+                                        size="34">
+                                <md-tooltip>
+                                    {{ 'shared.advanced' | translate }}
+                                </md-tooltip>
+                            </ng-md-icon>
+                            <ng-md-icon ng-show="selectAvance" ng-click="selectAvance=!selectAvance" icon="expand_less"
+                                        style="fill:#737373;  margin-top: 10px;"
+                                        size="34">
+                                <md-tooltip>
+                                    {{ 'shared.close' | translate }}
+                                </md-tooltip>
+                            </ng-md-icon>
+                            <ng-md-icon ng-click="deleteTicket(price.id)" icon="close"
+                                        style="fill:#737373;  margin-top: 10px;"
+                                        size="34">
+                                <md-tooltip>
+                                    {{ 'shared.delete' | translate }}
+                                </md-tooltip>
+                            </ng-md-icon>
+                        </div>
+                    </div>
+                    <div layout="column" ng-show="selectAvance" style="background-color:#FCFCFC;">
+                        <wlt-input
+                                label='{{"ticket.promoCode" | translate}}'
+                                model='price.promo'
+                                key="promoCode"
+                                glyphicon=""
+                                is-required=""
+                                required-message='{{"shared.error.isRequired" | translate }}'
+                                type="text"
+                                error-message='{{"shared.error.notValid" | translate}}'>
+                        </wlt-input>
+                        <wlt-input
+                                label='{{"ticket.limit" | translate}}'
+                                model='price.limit'
+                                key="limit"
+                                glyphicon=""
+                                is-required=""
+                                required-message='{{"shared.error.isRequired" | translate }}'
+                                type="number"
+                                error-message='{{"shared.error.notValid" | translate}}'>
+                        </wlt-input>
+                    </div>
+                    <md-divider></md-divider>
+                </div>
+            </div>
+
+            <div class="md-body-1" hide-sm>
+                <div layout="row">
+                    <div flex="30">
+                        <strong>{{ "event.ticketType" | translate }}</strong>
+                        <md-divider></md-divider>
+                    </div>
+                    <div flex="20">
+                        <strong>{{ "event.price" | translate }}</strong>
+                        <md-divider></md-divider>
+                    </div>
+                    <div flex="20">
+                        <strong>{{ "event.serviceCharge" | translate }}</strong>
+                        <md-divider></md-divider>
+                    </div>
+                    <div flex>
+                    </div>
+                </div>
+
+                <span>&nbsp;</span>
+
+                <div ng-repeat="price in tickets">
+                    <div layout="row">
+                        <div flex="30">
+                            <md-input-container md-no-float>
+                                <input ng-model="price.name" type="text" placeholder="{{ 'ticket.name' | translate }}"
+                                       ng-required="true">
+                            </md-input-container>
+                        </div>
+                        <div flex="20">
+                            <md-input-container md-no-float>
+                                <wlt-format-currency get-value="price.price"></wlt-format-currency>
+                            </md-input-container>
+                        </div>
+                        <div flex="20">
+                            <md-input-container md-no-float>
+                                <wlt-format-currency get-value="price.serviceFees"></wlt-format-currency>
+                             <!--   <input ng-model="price.serviceFees" type="text"
+                                       placeholder="{{ 'ticket.serviceFees' | translate }}"
+                                       ui-number-mask="2">-->
+                            </md-input-container>
+                        </div>
+                        <div>
+                            <ng-md-icon ng-show="!selectAvance" ng-click="selectAvance=!selectAvance" icon="expand_more"
+                                        style="fill:#737373;  margin-top: 10px;"
+                                        size="34">
+                                <md-tooltip>
+                                    {{ 'shared.advanced' | translate }}
+                                </md-tooltip>
+                            </ng-md-icon>
+                            <ng-md-icon ng-show="selectAvance" ng-click="selectAvance=!selectAvance" icon="expand_less"
+                                        style="fill:#737373;  margin-top: 10px;"
+                                        size="34">
+                                <md-tooltip>
+                                    {{ 'shared.close' | translate }}
+                                </md-tooltip>
+                            </ng-md-icon>
+                            <ng-md-icon ng-click="deleteTicket(price.id)" icon="close"
+                                        style="fill:#737373;  margin-top: 10px;"
+                                        size="34">
+                                <md-tooltip>
+                                    {{ 'shared.delete' | translate }}
+                                </md-tooltip>
+                            </ng-md-icon>
+                        </div>
+                    </div>
+                    <div layout="column" ng-show="selectAvance" style="background-color:#FCFCFC;">
+                        <wlt-input
+                                label='{{"ticket.promoCode" | translate}}'
+                                model='price.promo'
+                                key="promoCode"
+                                glyphicon=""
+                                is-required=""
+                                required-message='{{"shared.error.isRequired" | translate }}'
+                                type="text"
+                                error-message='{{"shared.error.notValid" | translate}}'>
+                        </wlt-input>
+                        <wlt-input
+                                label='{{"ticket.limit" | translate}}'
+                                model='price.limit'
+                                key="limit"
+                                glyphicon=""
+                                is-required=""
+                                required-message='{{"shared.error.isRequired" | translate }}'
+                                type="number"
+                                error-message='{{"shared.error.notValid" | translate}}'>
+                        </wlt-input>
+                    </div>
+                </div>
+            </div>
+
+            <div ng-show="showHelp" align="right">
+                <md-button class="md-raised md-primary" ng-click="saveTickets()">
+                    <div layout="row">
+                        <div style="margin-top: 2px;">
+                            &nbsp;{{ "shared.continue" | translate }}&nbsp;
+                        </div>
+                        <div class="button-icon">
+                            <ng-md-icon icon="check"></ng-md-icon>
+                        </div>
+                    </div>
+                </md-button>
+            </div>
+            <span>&nbsp;</span>
+        </form>
+    </md-content>
+</div>

@@ -1,0 +1,49 @@
+{
+  "error": null,
+  "shippingModes": {
+    "-1": [
+      {
+        "ppdId": 50398710,
+        "code": "WCTSD",
+        "description": "Billetterie",
+        "price": "0.00 $",
+        "note": "Récupérer vos billets à la billetterie sur présentation d'une pièce d'identité avec photo et la carte de crédit ayant servi à l'achat."
+      },
+      {
+        "ppdId": 7586492,
+        "code": "MLTSD",
+        "description": "Poste régulière",
+        "price": "2.50 $",
+        "note": "Recevez vos billets par la poste. Vous devez utiliser l'adresse de facturation de la carte."
+      },
+      {
+        "ppdId": 98039125,
+        "code": "CAN-ACDC",
+        "description": "Poste régulière - Canada",
+        "price": 6.65,
+        "note": "Si vous avez choisi de faire livrer vos Bracelets par la poste régulière, ceux-ci seront postés à partir du 1er avril 2015. L'option de livraison sera disponible jusqu'au 14 août 2015 (dernière livraison qui partira au plus tard le 17 août 2015). L'adresse de livraison utilisée doit être celle de facturation de votre carte de crédit.\n<br><br>\nSi vous avez des questions pour la livraison des Bracelets, ou n'avez pas reçu les Bracelets dans ce délai, veuillez appeler au <a href=\"tel:+14188003347\" target=\"_blank\">418-800-3347</a> ou au <a href=\"tel:+18558003347\" target=\"_blank\">1-855-800-3347</a> ou envoyer un courriel à <a href=\"mailto:billetterie@infofestival.com\" target=\"_BLANK\">billetterie@infofestival.com</a>."
+      },
+      {
+        "ppdId": 98039128,
+        "code": "XPWORLD-ACDC",
+        "description": "Achat international",
+        "price": 25.81,
+        "note": "Si vous avez choisi de faire livrer vos Bracelets à l'extérieur du Québec et de l'Ontario, ceux-ci seront postés à partir du 1er avril 2015. L'option de livraison sera disponible jusqu'au 14 août 2015 (dernière livraison partira au plus tard le 17 août 2015). L'adresse de livraison utilisée doit être celle de facturation de votre carte de crédit. \n<br><br>\nSi vous avez des questions pour la livraison des Bracelets, ou n'avez pas reçu les Bracelets dans ce délai, veuillez appeler au <a href=\"tel:+14188003347\" target=\"_blank\">418-800-3347</a> ou au <a href=\"tel:+18558003347\" target=\"_blank\">1-855-800-3347</a>  ou envoyer un courriel à <a href=\"mailto:billetterie@infofestival.com\" target=\"_blank\">billetterie@infofestival.com</a>."
+      },
+      {
+        "ppdId": 98039127,
+        "code": "XPQC-ACDC",
+        "description": "Envoi prioritaire - Québec et Ontario",
+        "price": 17.25,
+        "note": "Si vous avez choisi de faire livrer vos Bracelets par le service prioritaire (à noter que ce service vous permettra uniquement d'obtenir un numéro de suivi de l'envoi et non de recevoir vos Bracelets plus rapidement), ceux-ci seront postés à partir du 1er avril 2015. L'option de livraison sera disponible jusqu'au 14 août 2015 (dernière livraison qui partira au plus tard le 17 août 2015). L'adresse de livraison utilisée doit être celle de facturation de votre carte de crédit.\n<br><br>\n Si vous avez des questions pour la livraison des Bracelets, ou n'avez pas reçu les Bracelets dans ce délai, veuillez appeler au <a href=\"tel:+14188003347\" target=\"_blank\">418-800-3347</a> ou au <a href=\"tel:+18558003347\" target=\"_blank\">1-855-800-3347</a> ou envoyer un courriel à <a href=\"mailto:billetterie@infofestival.com\" target=\"_blank\">billetterie@infofestival.com</a>.\n"
+      },
+      {
+        "ppdId": 98039126,
+        "code": "XPCAN-ACDC",
+        "description": "Envoi prioritaire - Canada",
+        "price": 22.92,
+        "note": "Si vous avez choisi de faire livrer vos Bracelets à l'extérieur du Québec et de l'Ontario, ceux-ci seront postés à partir du 1er avril 2015. L'option de livraison sera disponible jusqu'au 14 août 2015 (dernière livraison partira au plus tard le 17 août 2015). L'adresse de livraison utilisée doit être celle de facturation de votre carte de crédit. \n<br><br>\nSi vous avez des questions pour la livraison des Bracelets, ou n'avez pas reçu les Bracelets dans ce délai, veuillez appeler au <a href=\"tel:+14188003347\" target=\"_blank\">418-800-3347</a> ou au <a href=\"tel:+18558003347\" target=\"_blank\">1-855-800-3347</a>  ou envoyer un courriel à <a href=\"mailto:billetterie@infofestival.com\" target=\"_blank\">billetterie@infofestival.com</a>."
+      }
+    ]
+  }
+}

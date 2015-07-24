@@ -1,0 +1,24 @@
+<md-button class="md-primary md-fab rightButton" ng-click="goTicketEdit(eventId)" aria-label="edit">
+    <md-tooltip>
+        {{ 'shared.edit' | translate }}
+    </md-tooltip>
+    <div class="button-icon">
+        <ng-md-icon icon="edit"></ng-md-icon>
+    </div>
+</md-button>
+
+<table class="md-body-1" style="width:100%">
+    <tr>
+        <!--<td><strong>id</strong></td>-->
+        <td><strong>{{ "event.ticketType" | translate }}</strong></td>
+        <td><strong>{{ "event.price" | translate }}</strong></td>
+        <td><strong>{{ "event.serviceCharge" | translate }}</strong></td>
+        <td><strong></strong></td>
+    </tr>
+    <tr ng-repeat="price in tickets">
+        <!-- <td>{{price.id}}</td>-->
+        <td>{{price.name}}</td>
+        <td>{{(price.price)/100 | currency }}</td>
+        <td>{{(price.serviceFees)/100 | currency }}</td>
+    </tr>
+</table>

@@ -1,0 +1,39 @@
+<wlt-toolbar
+        ng-show="showNew"
+        show-type="edit"
+        title="{{ 'location.new' | translate }}"
+        toggle-left="toggleLeft()"
+        toggle-right="toggleRight()"
+        set-search="setSearchMode()"
+        show-search="{{showSearchBox}}"
+        cancel="cancelLocation()"
+        save="addLocation()">
+</wlt-toolbar>
+
+<wlt-toolbar
+        ng-show="!showNew"
+        show-type="edit"
+        title="{{ 'location.titleOne' | translate }}"
+        toggle-left="toggleLeft()"
+        toggle-right="toggleRight()"
+        set-search="setSearchMode()"
+        show-search="{{showSearchBox}}"
+        cancel="cancelLocation()"
+        save="updateLocation()">
+</wlt-toolbar>
+
+<wlt-message
+        show="{{message.updated}}"
+        message="message">
+</wlt-message>
+
+<md-content class="md-padding" ng-cloak>
+    <wlt-spinner ng-hide="receivedResponse"></wlt-spinner>
+
+    <div ng-show="responseSuccess">
+        <form name="formLocationUpdate">
+            <wlt-location-edit-form location="location" formLocationUpdate="formLocationUpdate"></wlt-location-edit-form>
+        </form>
+    </div>
+
+</md-content>

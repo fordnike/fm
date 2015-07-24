@@ -1,0 +1,8 @@
+<div class="account">
+    <ul class="nav nav-{{type || 'tabs'}}" ng-class="{'nav-justified': justified}">
+        <li ng-repeat="tab in tabs" ng-class="{active: tab.selected}">
+            <a href="" ui-sref={{tab.state}} ng-click="tab.select()" ng-click>{{tab.title}}</a>
+        </li>
+    </ul>
+    <div class="tab-content" ng-transclude></div>
+</div>

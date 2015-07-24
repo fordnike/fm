@@ -1,0 +1,27 @@
+{
+  "user": {
+    "firstname": "Nom",
+    "lastname": "Prénom",
+    "login": "Connexion",
+    "email": "Courriel",
+    "emailinvalid": "Courriel invalide",
+    "password": "Mot de passe",
+    "oldPassword": "Ancien mot de passe",
+    "passwordConfirm": "Confirmation du mot de passe ",
+    "connect": "Connexion",
+    "cancel": "Annuler",
+    "forgot": "Mot de passe oublié ?",
+    "noAccount": "Pas de compte?",
+    "signup": "Inscription",
+    "signin": "M'inscrire",
+    "alreadyRegistered": "Vous avez un compte?",
+    "backtologin": "Connexion",
+    "enteremail": "Entrez votre courriel",
+    "emailnotexist": "Le courriel n'existe pas",
+    "send": "Envoyer",
+    "error": {
+      "emailinvalid": " Email invalide",
+      "accountFail": "La création de compte a échoué"
+    }
+  }
+}

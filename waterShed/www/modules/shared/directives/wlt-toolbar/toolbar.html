@@ -1,0 +1,15 @@
+<section ng-if="showType=='list'">
+    <div ng-include="'modules/shared/directives/wlt-toolbar/toolbar-list.html'"></div>
+</section>
+
+<section ng-if="showType=='view'">
+    <div ng-include="'modules/shared/directives/wlt-toolbar/toolbar-view.html'"></div>
+</section>
+
+<section ng-if="showType=='edit'">
+    <div ng-include="'modules/shared/directives/wlt-toolbar/toolbar-edit.html'"></div>
+</section>
+
+<section ng-if="showType=='public'">
+    <div ng-include="'modules/shared/directives/wlt-toolbar/toolbar-public.html'"></div>
+</section>

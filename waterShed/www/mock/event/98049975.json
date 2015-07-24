@@ -1,0 +1,44 @@
+{
+  "saleState": "ONSALE",
+  "id": 6,
+  "note": null,
+  "title": "Hommage Santana - avec Persuasion",
+  "formattedDate": "Samedi 17 janvier 2015 à 20 h",
+  "venue": "Kelso Beach Park",
+  "cityProv": "Owen Sound, ON",
+  "networkClient":1,
+  "prices": {
+    "123": {
+      "priceType": "General",
+      "price": "36,13 $",
+      "serviceCharges": "inclus",
+      "promo": false,
+      "order": 40,
+      "soldout": false
+    },
+    "456": {
+      "priceType": "General + free hotdog",
+      "price": "36,03 $",
+      "serviceCharges": "8,07 $",
+      "promo": false,
+      "order": 50,
+      "soldout": false
+    },
+    "789": {
+      "priceType": "Super vip seat",
+      "price": "12,73 $",
+      "serviceCharges": "inclus",
+      "promo": false,
+      "order": 50,
+      "soldout": true
+    },
+    "999": {
+      "priceType": "FREE ENTRY",
+      "price": "0,00 $",
+      "serviceCharges": "0,00 $",
+      "promo": false,
+      "order": 50,
+      "soldout": false
+    }
+  }
+}

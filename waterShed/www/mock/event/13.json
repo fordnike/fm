@@ -1,0 +1,47 @@
+{
+  "saleState": "ONSALE",
+  "id": 13,
+  "note": null,
+  "title": "Tiny show",
+  "formattedDate": "vendredi 18 août 2014 20h00",
+  "venue": "Théatre St-Denis",
+  "cityProv": "Owen Sound, ON",
+  "networkClient":null,
+  "image": "13.jpg",
+  "capacity": 100,
+  "onsaleDate": "16 févr. 2015 [11h00]",
+  "prices": {
+    "9034515": {
+      "priceType": "Senior (65+)",
+      "price": "36,13 $",
+      "serviceCharges": "inclus",
+      "promo": false,
+      "order": 40,
+      "soldout": false
+    },
+    "9034504": {
+      "priceType": "Student (ID Required)",
+      "price": "36,03 $",
+      "serviceCharges": "inclus",
+      "promo": false,
+      "order": 50,
+      "soldout": false
+    },
+    "9071517": {
+      "priceType": "Youth (13-18)",
+      "price": "30,00 $",
+      "serviceCharges": "$ 3.50",
+      "promo": false,
+      "order": 60,
+      "soldout": false
+    },
+    "9071541": {
+      "priceType": "Child (5-12)",
+      "price": "8,00 $",
+      "serviceCharges": "inclus",
+      "promo": false,
+      "order": 70,
+      "soldout": false
+    }
+  }
+}

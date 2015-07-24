@@ -1,0 +1,56 @@
+{
+  "id": 12,
+  "title": "Supershow",
+  "published": true,
+  "saleState": "ONSALE",
+  "venueId": 2,
+  "venue": "Théatre St-Denis",
+  "cityProvince": "Montréal, QC",
+  "eventStart": "1977-04-22T01:00:00-05:00",
+  "eventEnd": "2015-08-18T22:00:00.511Z",
+  "onsale": "2015-03-01T12:00:00.511Z",
+  "image": "12.jpg",
+  "capacity": 100,
+  "prices": {
+    "9034515": {
+      "id": 123,
+      "priceLevel": "1",
+      "name": "Senior (65+)",
+      "price": "36,13 $",
+      "serviceFees": 0,
+      "limit": 40,
+      "promo": false,
+      "promoId": 0
+    },
+    "9034504": {
+      "id": 123,
+      "priceLevel": "1",
+      "name": "Student (ID Required)",
+      "price": "36,03 $",
+      "serviceFees": 0,
+      "limit": 50,
+      "promo": false,
+      "promoId": 0
+    },
+    "9071517": {
+      "id": 123,
+      "priceLevel": "1",
+      "name": "Youth (13-18)",
+      "price": "30,00 $",
+      "serviceFees": 0,
+      "limit": 60,
+      "promo": false,
+      "promoId": 0
+    },
+    "9071541": {
+      "id": 123,
+      "priceLevel": "1",
+      "name": "Child (5-12)",
+      "price": "8,00 $",
+      "serviceFees": 0,
+      "limit": 70,
+      "promo": false,
+      "promoId": 0
+    }
+  }
+}

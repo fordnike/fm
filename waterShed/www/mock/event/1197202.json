@@ -1,0 +1,28 @@
+{
+  "saleState": "ONSALE",
+  "id": 12,
+  "note": null,
+  "title": "An other event title",
+  "formattedDate": "Samedi 28 août 2014 à 20 h",
+  "venue": "Plaines d'Abraham",
+  "cityProv": "Owen Sound, ON",
+  "networkClient":null,
+  "prices": {
+    "9034515": {
+      "priceType": "Zone avant scène",
+      "price": "130,00 $",
+      "serviceCharges": "6,75 $",
+      "promo": false,
+      "order": 40,
+      "soldout": false
+    },
+    "9071541": {
+      "priceType": "Régulier",
+      "price": "100,00 $",
+      "serviceCharges": "6,75 $",
+      "promo": false,
+      "order": 70,
+      "soldout": false
+    }
+  }
+}

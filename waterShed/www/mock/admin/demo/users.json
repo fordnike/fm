@@ -1,0 +1,29 @@
+[
+  {
+    "firstname": "John",
+    "language": "fr",
+    "id": 4917421250,
+    "email": "test@test.com",
+    "emailvalid" : true,
+    "lastname": "Doe",
+    "account": "/admin/demo"
+  },
+  {
+    "firstname": "Jane",
+    "language": "fr",
+    "id": 4917421251,
+    "email": "test@test.com",
+    "emailvalid" : true,
+    "lastname": "Doe",
+    "account": "/admin/festival"
+  },
+  {
+    "firstname": "Alfred",
+    "language": "en",
+    "id": 4917421252,
+    "email": "test@test.com",
+    "emailvalid" : true,
+    "lastname": "Doe",
+    "account": "/admin/test"
+  }
+]

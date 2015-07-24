@@ -1,0 +1,48 @@
+{
+  "id": 13,
+  "title": "Tiny show",
+  "published": true,
+  "saleState": "ONSALE",
+  "venueId": 2,
+  "venue": "Théatre St-Denis",
+  "cityProvince": "Montréal, QC",
+  "eventStart": "2015-08-19T18:00:00.511Z",
+  "eventEnd": "2015-08-19T22:00:00.511Z",
+  "onsale": "2015-03-01T12:00:00.511Z",
+  "image": "13.jpg",
+  "capacity": 100,
+  "prices": {
+    "9034515": {
+      "priceType": "Senior (65+)",
+      "price": "36,13 $",
+      "serviceCharges": "inclus",
+      "promoCode": null,
+      "order": 40,
+      "soldout": false
+    },
+    "9034504": {
+      "priceType": "Student (ID Required)",
+      "price": "36,03 $",
+      "serviceCharges": "inclus",
+      "promoCode": null,
+      "order": 50,
+      "soldout": false
+    },
+    "9071517": {
+      "priceType": "Youth (13-18)",
+      "price": "30,00 $",
+      "serviceCharges": "$ 3.50",
+      "promoCode": null,
+      "order": 60,
+      "soldout": false
+    },
+    "9071541": {
+      "priceType": "Child (5-12)",
+      "price": "8,00 $",
+      "serviceCharges": "inclus",
+      "promoCode": null,
+      "order": 70,
+      "soldout": false
+    }
+  }
+}

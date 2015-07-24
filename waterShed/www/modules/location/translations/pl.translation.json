@@ -1,0 +1,14 @@
+{
+  "location": {
+    "titleList": "Miejsca imprez",
+    "titleOne": "Miejsce imprezy",
+    "location": "miejsce imprezy",
+    "locations": "miejsca imprezy",
+    "new": "Nowe miejsce imprezy",
+    "addLocation": "Dodaj miejsce imprezy",
+    "name": "Nazwa",
+    "edit": "Edycja",
+    "capacity": "Pojemność",
+    "selectLocation":"wybierz miejsce imprezy"
+  }
+}

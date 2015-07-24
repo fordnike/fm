@@ -1,0 +1,21 @@
+
+/* position des formulaires du module d'authentification */
+.authenticationForm {
+    width: 320px;
+    margin: 0 auto 0;
+}
+
+/* position du logo WLT du module d'authentification */
+.authenticationLogo {
+    padding-top: 20px;
+    width: 300px;
+}
+
+/* tagline du module d'authentification */
+.authenticationTagLine {
+    font-size: medium;
+    margin-top: 0;
+    padding-bottom: 20px;
+    font-style: italic;
+    color: #737373;
+}

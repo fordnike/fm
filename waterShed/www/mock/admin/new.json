@@ -1,0 +1,33 @@
+{
+  "applicationFee": 100,
+  "currency": "CAD",
+  "website": {
+    "correspondenceEmail": "test@test.com",
+    "googleAnalyticsTracker": "ADFSDGLSKH",
+    "logo": "",
+    "boxOfficeName": "New",
+    "subdomain": "new",
+    "correspondenceEmailValid": true
+  },
+  "address": {
+    "country": "Canada",
+    "zipCode": "H0H 0H0",
+    "firstname": "John",
+    "city": "Montreal",
+    "phone": "514-555-5555",
+    "addressLine1": "303 Devil Lane",
+    "addressLine2": "",
+    "provinceState": "Quebec",
+    "lastname": "Doe"
+  },
+  "configuration": {
+    "boxOfficeAllowed": true
+  },
+  "networkId": 0,
+  "merchandAccount": {
+    "payPalEmail": "",
+    "payPalEmailVerified": true,
+    "stripe": true,
+    "currency": "CAD"
+  }
+}

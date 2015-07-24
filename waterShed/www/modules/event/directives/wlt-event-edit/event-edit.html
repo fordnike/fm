@@ -1,0 +1,103 @@
+<wlt-toolbar
+        ng-show="isNew"
+        show-type="edit"
+        title="{{ 'event.create' | translate }} {{ 'event.yourevent' | translate }}"
+        toggle-left="toggleLeft()"
+        toggle-right="toggleRight()"
+        set-search="setSearchMode()"
+        show-search="{{showSearchBox}}"
+        cancel="cancelEvent()"
+        save="saveEvent()">
+</wlt-toolbar>
+
+<wlt-toolbar
+        ng-show="!isNew"
+        show-type="edit"
+        title="{{ 'event.titleEdit' | translate }}"
+        toggle-left="toggleLeft()"
+        toggle-right="toggleRight()"
+        set-search="setSearchMode()"
+        show-search="{{showSearchBox}}"
+        cancel="cancelEvent()"
+        save="saveEvent()">
+</wlt-toolbar>
+
+<wlt-spinner ng-hide="receivedResponse"></wlt-spinner>
+
+<wlt-message
+        show="{{message.updated}}"
+        message="message">
+</wlt-message>
+
+<div ng-show="responseSuccess">
+
+    <md-content class="md-padding" ng-cloak>
+
+        <div align="right" style="fill: #737373;">
+            <ng-md-icon icon="help" aria-label="help" ng-click="showHelp=!showHelp">
+                <md-tooltip>
+                    {{ 'shared.help' | translate }}
+                </md-tooltip>
+            </ng-md-icon>
+        </div>
+        <div ng-show="showHelp" ng-include="'modules/event/directives/wlt-event-edit/event-help.html'"></div>
+
+        <form id="eventForm" method="post" name="eventForm">
+
+            <div class="form-group">
+
+                <wlt-input
+                        label='{{"event.name" | translate}}'
+                        model="event.title"
+                        key="title"
+                        glyphicon=""
+                        is-required="true"
+                        required-message='{{"shared.error.isRequired" | translate }}'
+                        type="text"
+                        error-message='{{"shared.error.notValid" | translate}}'>
+                </wlt-input>
+                <wlt-input
+                        label='{{"event.selectEventDate" | translate}}'
+                        model='event.eventStartDate'
+                        key="eventStart"
+                        glyphicon=""
+                        is-required="true"
+                        required-message='{{"shared.error.isRequired" | translate }}'
+                        type="datetime-local"
+                        value=''
+                        error-message='{{"shared.error.notValid" | translate}}'>
+                </wlt-input>
+                <wlt-input
+                        label='{{"event.capacity" | translate}}'
+                        model="event.capacity"
+                        key="capacity"
+                        glyphicon=""
+                        is-required="true"
+                        required-message='{{"shared.error.isRequired" | translate }}'
+                        type="number"
+                        error-message='{{"shared.error.notValid" | translate}}'
+                        >
+                </wlt-input>
+
+                <div layout="row" layout-align="start center">
+                    <wlt-location-selector event-id="event.id" location-id="event.venueId" location-name="event.venue" my-form="eventForm">
+                    </wlt-location-selector>
+                </div>
+            </div>
+
+            <div ng-show="showHelp" align="right">
+                <md-button class="md-raised md-primary" ng-click="saveEvent()">
+                    <div layout="row">
+                        <div style="margin-top: 2px;">
+                            &nbsp;{{ "shared.continue" | translate }}&nbsp;
+                        </div>
+                        <div class="button-icon">
+                            <ng-md-icon icon="check"></ng-md-icon>
+                        </div>
+                    </div>
+                </md-button>
+            </div>
+        </form>
+
+    </md-content>
+</div>

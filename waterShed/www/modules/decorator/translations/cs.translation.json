@@ -1,0 +1,16 @@
+{
+  "decorator": {
+    "accounts": "Účty",
+    "events": "Akce",
+    "locations": "Místa konání",
+    "languages": "Jazyky",
+    "reports": "Reporty",
+    "options": "Možnosti",
+    "account": "Nastavení účtu",
+    "userProfile": "Můj profil",
+    "changePassword": "Změna hesla",
+    "logout": "Odhlášení",
+    "scan": "scan"
+
+  }
+}

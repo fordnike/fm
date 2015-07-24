@@ -1,0 +1,29 @@
+<wlt-toolbar
+        show-type="view"
+        title="{{ 'report.titleOne' | translate }}"
+        toggle-left="toggleLeft()"
+        toggle-right="toggleRight()"
+        set-search="setSearchMode()"
+        show-search="{{showSearchBox}}"
+        cancel="cancelReport()"
+        save="saveReport()">
+</wlt-toolbar>
+
+<wlt-spinner ng-hide="receivedResponse"></wlt-spinner>
+
+<wlt-message
+        show="{{message.updated}}"
+        message="message">
+</wlt-message>
+
+<div ng-show="responseSuccess">
+
+    <md-content class="md-padding" ng-cloak>
+        <h3>{{report.number}} - {{report.name}}</h3>
+        <h5>{{report.description}}</h5>
+
+        <div ng-include="'modules/report/partials/deux-dates.html'"></div>
+        <!--<div ng-include="'https://ticketprotest.com/rapport/report-108A.html?performances:96577695;debut2:06/05/2013;fin2:06/05/2016'"></div>-->
+        <!--<div ng-include="'https://9tix.com/rapport/report-50.html?DateDebut:06/05/2015;outputFormat:html;reportNumber:100;timezone:Canada/Eastern'"></div>-->
+    </md-content>
+</div>

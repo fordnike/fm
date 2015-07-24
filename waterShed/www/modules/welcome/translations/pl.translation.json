@@ -1,0 +1,20 @@
+{
+  "tutorial": {
+    "skip": "Pomiń ten samouczek",
+    "welcome": "Zapraszamy do  bezloga.pl",
+    "introduction": "Przygotuj się na sprzedaż twoich biletów na twoją imprezę, twojej marki w kilka minut.",
+    "paidtickets": "( tylko dla płatnych biletów )",
+    "proceed": "Zaczynamy !",
+    "next": "Następny",
+    "conclusion": "Niesamowite, teraz sprzedajesz swoje bilety na twoje wydarzenie z twoją marką!",
+    "checkitout": "Sprawdź to na",
+    "create": "Stwórz",
+    "yourevent": "TWOJE WYDARZENIE",
+    "add": "Dodaj",
+    "yourtickets": "TWOJE BILETY",
+    "customize": "Dostosuj",
+    "yourbrand": "TWOJA MARKA",
+    "setup": "Konfiguracja",
+    "yourmoney": "TWOJE PIENIĄDZE"
+  }
+}

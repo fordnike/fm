@@ -1,0 +1,15 @@
+{
+  "decorator": {
+    "accounts": "Konta",
+    "events": "Wydarzenia",
+    "locations": "Miejsca",
+    "languages": "Języki",
+    "reports": "Raporty",
+    "options": "Opcje",
+    "account": "Ustawienia Konta",
+    "userProfile": "Mój Profil",
+    "changePassword": "Zmień hasło",
+    "logout": "Wyloguj",
+    "scan": "scan"
+  }
+}

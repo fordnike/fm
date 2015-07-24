@@ -1,0 +1,56 @@
+{
+  "shared": {
+    "menu": "Menu",
+    "more": "Plus",
+    "advanced": "Options avancées",
+    "close": "Fermer",
+    "apply": "Valider",
+    "save": "Enregistrer",
+    "continue": "Continuer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "search": "Rechercher",
+    "help": "Aide",
+    "submit": "Soumettre",
+    "new": "Nouveau",
+    "select": "Selectionnez",
+    "language": "Langue",
+    "website": "Site Web",
+    "settings": "Paramètres",
+    "changePassword": "Changer votre mot de passe",
+    "tagline": "vendez vos billets en ligne",
+    "msg-config-compte": "Vous ne pouvez pas publier votre événement car :",
+    "address": {
+      "titre": "Adresse",
+      "addressLine1": "Adresse 1",
+      "addressLine2": "Adresse 2",
+      "apartment": "Appartment",
+      "country": "Pays",
+      "province": "Province",
+      "city": "Ville",
+      "postal": "Code postal",
+      "timezone": "Fuseau horaire",
+      "phone": "Téléphone"
+    },
+    "error": {
+      "error": "Erreur",
+      "isRequired": "est requis",
+      "fillRequired": "Veuillez remplir tous les champs obligatoires",
+      "notValid": "est non valide",
+      "save": "Erreur d'enregistrement",
+      "fetch": "Erreur",
+      "update": "Aucune update réalisée",
+      "add": "Aucun ajout réalisé",
+      "noAccount": "Aucun compte spécifié"
+    },
+    "success": {
+      "success": "Succès",
+      "update": "Enregistrement réussi",
+      "save": "Enregistrement réussie",
+      "add": "Création réussie",
+      "delete": "Effacer avec succès",
+      "fetch": "Instance retrouvée"
+    }
+  }
+}

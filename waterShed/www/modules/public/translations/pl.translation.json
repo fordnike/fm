@@ -1,0 +1,27 @@
+{
+  "user": {
+    "firstname": "Imię",
+    "lastname": "Nazwisko",
+    "login": "Zaloguj się",
+    "email": "E-mail",
+    "emailinvalid": "Niepoprawny adres email",
+    "password": "Hasło",
+    "oldPassword": "Stare hasło",
+    "passwordConfirm": "Potwierdzenie hasła",
+    "connect": "Połącz",
+    "cancel": "Anuluj",
+    "forgot": "Zapomniałeś hasła?",
+    "noAccount": "Nie masz konta?",
+    "signup": "Zapisz się",
+    "signin": "Rejestracja",
+    "alreadyRegistered": "Już zarejestrowany?",
+    "backtologin": "Zaloguj się",
+    "enteremail": "Podaj swój adres e-mail",
+    "emailnotexist": "E-mail nie istnieje",
+    "send": "Wyślij",
+    "error": {
+      "emailinvalid": "Nieprawidłowy adres e-mail",
+      "accountFail": "Utworzenie konta nie powiodło się"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+<md-input-container class="md-input-has-value" ng-show="showLabel">
+    <label>&nbsp; {{ "shared.language" | translate }} &nbsp;</label>
+    <md-select ng-model="langCurrent" aria-label="language">
+        <div ng-repeat="language in languages">
+            <md-option ng-click="changeLanguage('en')" ng-if="languages[$index]==='en'" value="en">English</md-option>
+            <md-option ng-click="changeLanguage('fr')" ng-if="languages[$index]==='fr'" value="fr">Français</md-option>
+            <md-option ng-click="changeLanguage('pl')" ng-if="languages[$index]==='pl'" value="pl">Polski</md-option>
+            <md-option ng-click="changeLanguage('cs')" ng-if="languages[$index]==='cs'" value="cs">Čeština</md-option>
+        </div>
+    </md-select>
+</md-input-container>
+
+<md-select ng-model="langCurrent" aria-label="language" ng-show="!showLabel">
+    <div ng-repeat="language in languages">
+        <md-option ng-click="changeLanguage('en')" ng-if="languages[$index]==='en'" value="en">English</md-option>
+        <md-option ng-click="changeLanguage('fr')" ng-if="languages[$index]==='fr'" value="fr">Français</md-option>
+        <md-option ng-click="changeLanguage('pl')" ng-if="languages[$index]==='pl'" value="pl">Polski</md-option>
+        <md-option ng-click="changeLanguage('cs')" ng-if="languages[$index]==='cs'" value="cs">Čeština</md-option>
+    </div>
+</md-select>

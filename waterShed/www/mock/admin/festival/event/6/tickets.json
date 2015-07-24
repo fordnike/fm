@@ -1,0 +1,20 @@
+[
+  {
+    "id": 123,
+    "priceLevel": "1",
+    "name": "General",
+    "price": 3613,
+    "serviceFees": 0,
+    "limit": 40,
+    "promoCode": null
+  },
+  {
+    "id": 456,
+    "priceLevel": "1",
+    "name": "Super vip seat",
+    "price": 7744,
+    "serviceFees": 0,
+    "limit": 400,
+    "promoCode": null
+  }
+]

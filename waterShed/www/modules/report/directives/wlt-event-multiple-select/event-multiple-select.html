@@ -1,0 +1,22 @@
+<wlt-spinner ng-hide="receivedResponse"></wlt-spinner>
+
+<div ng-show="responseSuccess">
+    <md-list-item class="md-1-line" ng-repeat="event in events| filter:{title:search}">
+        <div class="md-list-item-text list pointer">
+            <div layout="row" layout-align="center center">
+                <div style="width: 45px;" layout="row" layout-align="center center">
+                    <img class="img-responsive" style="max-width: 40px; max-height: 40px"
+                         ng-if="event.image" ng-src="/images/{{ event.image }}"
+                         alt="{{event.title}}">
+                    <ng-md-icon icon="group" aria-label="event" ng-show="!event.image">
+                </div>
+                <div flex>
+                    <md-checkbox ng-model="event.selected" class="md-primary" aria-label="title">
+                        {{event.title}}, {{event.eventStart | date:'longDate'}} {{event.eventStart | date:'shortTime'}}, {{event.cityProvince}}
+                    </md-checkbox>
+                </div>
+            </div>
+        </div>
+        <md-divider md-inset ng-if="!$last"></md-divider>
+    </md-list-item>
+</div>

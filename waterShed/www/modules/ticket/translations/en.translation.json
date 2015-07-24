@@ -1,0 +1,15 @@
+{
+  "ticket": {
+    "title": "Ticket",
+    "titleEdit": "Edit Tickets",
+    "name": "Name",
+    "priceLevel": "Price Level",
+    "price": "Price",
+    "serviceFees": "Service Fees",
+    "limit": "Limit",
+    "promoCode": "Promotion Code",
+    "create": "Create",
+    "yourtickets": "YOUR TICKETS",
+    "yourticketsgeneral": "Your ticket information is present on your custom website, in your customer’s carts and on your tickets. It includes a ticket type, a unit price and a service fee."
+  }
+}

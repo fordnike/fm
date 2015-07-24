@@ -1,0 +1,128 @@
+<wlt-toolbar
+        show-type="public"
+        title="{{ 'user.signup' | translate }}"
+        toggle-left="goBack()"
+        toggle-right="toggleRight()"
+        set-search="setSearchMode()"
+        show-search="{{showSearchBox}}"
+        cancel="cancel()"
+        save="save()">
+</wlt-toolbar>
+
+<wlt-message
+        show="{{message.updated}}"
+        message="message">
+</wlt-message>
+
+<div class="authenticationForm">
+
+    <div layout="row">
+        <div flex></div>
+        <wlt-language
+                lang-current="langCurrent">
+        </wlt-language>
+    </div>
+
+    <div layout="column" layout-align="center center">
+        <img class="authenticationLogo" ng-src="{{systemValues.logo}}"
+             alt="{{systemValues.companyName}}">
+
+        <p class="authenticationTagLine" ng-show="systemValues.showTagLine==='true'">
+            {{ 'shared.tagline' | translate }}</p>
+        <p ng-show="systemValues.showTagLine!=='true'"></p>
+
+        <form name="signupForm" role="form" ng-submit="register(signupForm)">
+            <wlt-input
+                    label='{{"user.firstname" | translate}}'
+                    model="user.firstname"
+                    key="firstname"
+                    glyphicon=""
+                    is-required="true"
+                    required-message='{{"shared.error.isRequired" | translate }}'
+                    type="text"
+                    error-message=""
+                    vtype="text">
+            </wlt-input>
+            <wlt-input
+                    label='{{"user.lastname" | translate}}'
+                    model="user.lastname"
+                    key="lastname"
+                    glyphicon=""
+                    is-required="true"
+                    required-message='{{"shared.error.isRequired" | translate }}'
+                    type="text"
+                    error-message=""
+                    vtype="text">
+            </wlt-input>
+            <wlt-input
+                    label='{{"user.email" | translate}}'
+                    model="user.email"
+                    key="email"
+                    glyphicon=""
+                    is-required="true"
+                    required-message='{{"shared.error.isRequired" | translate }}'
+                    type="text"
+                    error-message="{{ 'user.emailinvalid' | translate }}"
+                    vtype="email">
+            </wlt-input>
+            <wlt-input
+                    label='{{"user.password" | translate}}'
+                    model="user.password"
+                    key="password"
+                    glyphicon=""
+                    is-required="true"
+                    required-message='{{"shared.error.isRequired" | translate }}'
+                    type="password"
+                    error-message='{{"shared.error.notValid" | translate}}'>
+            </wlt-input>
+            <wlt-input
+                    label='{{"user.passwordConfirm" | translate}}'
+                    model="user.passwordConfirm"
+                    key="passwordConfirm"
+                    glyphicon=""
+                    is-required="true"
+                    required-message='{{"shared.error.isRequired" | translate }}'
+                    type="password"
+                    error-message='{{"shared.error.notValid" | translate}}'
+                    vtype="{type: 'same', value: 'password'}">
+            </wlt-input>
+         <!--   <div layout="row">
+                <div flex>
+                    <div layout="column" layout-align="center center" style="height: 100px;">
+                        <md-select ng-model="selectTimeZone" md-on-open="loadTimeZoneSelector()" style="min-width: 200px;" >
+                            <md-select-label>{{ selectTimeZone ? selectTimeZone : 'Assign to TIME-ZONE' }}</md-select-label>
+                            <md-option ng-value="selectTimeZone" ng-repeat="selectTimeZone in listTimeZone">{{selectTimeZone}} </md-option>
+                        </md-select>
+                        &lt;!&ndash;<p class="md-caption">You have assigned the task to: {{ selectLocation ? selectLocation.id : 'No one yet'  }}</p>&ndash;&gt;
+                    </div>
+                  &lt;!&ndash;  <div layout="column" layout-align="center center" style="height: 100px;">
+                        <select ng-model="selectTimeZone" ng-options="item as item for item in listTimeZone"></select>
+
+                    </div>&ndash;&gt;
+
+                </div>
+            </div>-->
+        <!--    {{user}}-->
+            <wlt-time-zone  time-zone="user.timezone"></wlt-time-zone>
+
+            <div layout="column" layout-align="center end">
+                <md-button type="submit" class="md-raised md-primary" ng-disabled="signupForm.$invalid">
+                    {{ 'user.signup' | translate }}
+                </md-button>
+            </div>
+            <div layout="column" layout-align="center center">
+                <p class="error" style="color:red" ng-show="messageError"> {{ messageError }} </p>
+
+                <div style="margin-top: 45px;" layout="row" layout-align="center center">
+                    <md-button href="#!/login">{{ 'user.alreadyRegistered' | translate }} {{"user.backtologin" |
+                        translate}}
+                    </md-button>
+                </div>
+            </div>
+
+        </form>
+      <!--  {{ message.time }}
+        <input type="datetime" vlaue="{{message.time}}">
+        <span>{{message.time | amDateFormat:'dddd, MMMM Do YYYY, h:mm:ss a'}}</span>-->
+    </div>
+</div>
