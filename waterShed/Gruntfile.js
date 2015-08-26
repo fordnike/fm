@@ -19,7 +19,7 @@ module.exports = function (grunt) {
 
     // Configurable paths for the application
     var appConfig = {
-        app: grunt.option('project') || 'www1',
+        app: grunt.option('project') || 'www',
         dist: 'dist',
         port: (function () {
 
@@ -116,8 +116,8 @@ module.exports = function (grunt) {
                             connect.static('.tmp'),
                             connect.static('test'),
                             connect().use(
-                                'www1/lib',
-                                connect.static('www1/lib')
+                                'www/lib',
+                                connect.static('www/lib')
                             ),
                             connect.static(appConfig.app)
                         ];

@@ -1,0 +1,32 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<header_vars>
+<graphics_color>FFFFFF</graphics_color>
+<animation_loop>no</animation_loop>
+
+<header>
+	<text_header_h1 x_pos="5" y_pos="55" size="19" letter_spacing="0" text_color="FFFFFF">YOUR WAY TO SUCCESS</text_header_h1>
+	<text_header_h2 x_pos="10" y_pos="80" size="10" letter_spacing="1.9" text_color="FFFFFF">YOUR OWN SLOGANS AND IMAGES</text_header_h2>	
+	<image blur="no">Images/your_image2.jpg</image>
+</header>	
+<header>
+	<text_header_h1 x_pos="90" y_pos="65" size="18" letter_spacing="1.5" text_color="FFFFFF">YOUR  SOLUTIONS</text_header_h1>
+	<text_header_h2 x_pos="91" y_pos="85" size="11" letter_spacing="3.2" text_color="FFFFFF">YOUR WEBSITE SLOGAN</text_header_h2>	
+	<image>Images/your_image3.jpg</image>
+</header>	
+<header>
+	<text_header_h1 x_pos="10" y_pos="10" size="23" letter_spacing="0" text_color="FFFFFF">YOUR COMPANY NAME</text_header_h1>
+	<text_header_h2 x_pos="50" y_pos="40" size="14" letter_spacing="5.4" text_color="FFFFFF">YOUR WEBSITE SLOGAN HERE</text_header_h2>	
+	<image>Images/your_image.jpg</image>
+</header>	
+<header>
+	<text_header_h1 x_pos="5" y_pos="55" size="19" letter_spacing="0" text_color="FFFFFF">YOUR WAY TO SUCCESS</text_header_h1>
+	<text_header_h2 x_pos="10" y_pos="80" size="10" letter_spacing="1.9" text_color="FFFFFF">YOUR OWN SLOGANS AND IMAGES</text_header_h2>	
+	<image blur="no">Images/your_image2.jpg</image>
+</header>	
+
+
+<music_file loop="no" music_control="no" play_music="no">sounds/music.mp3</music_file>
+<play_transition_sound_file>yes</play_transition_sound_file>
+<display_preload graphic_color="669ac6">yes</display_preload>
+<replay display="yes" x_pos="493" y_pos="135" size="8" letter_spacing="1" bgd_color="FFFFFF" text_color="000000"> REPLAY</replay>
+</header_vars>

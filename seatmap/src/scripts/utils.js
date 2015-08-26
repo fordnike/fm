@@ -27,7 +27,8 @@ function notifAdd(str, color) {
 function error(e, info) {
     'use strict';
     try {
-        title = info || "Error...";
+      var title;
+      title = info || "Error...";
         console.debug(title);
         console.error.apply(console, [e.stack]);
     } catch (err) {

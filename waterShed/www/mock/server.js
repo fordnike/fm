@@ -29,6 +29,8 @@ function getSettings(callback) {
 }
 
 function serveMock(req, res) {
+    console.log(req);
+    //alert(req);
     fs.readFile('www' + req.path, 'utf8', function (err, data) {
         if (err) {
             res.status(404);

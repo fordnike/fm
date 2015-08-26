@@ -4,13 +4,12 @@
     angular
         .module('nodiumApp')
         .value('configValues', {
-            backend: 'https://api.9tix.com',
+            backend: 'http://localhost:9001',
             locales: ['en', 'fr', 'pl', 'cs'],
             defaultLocale: 'en',
             widget: false,
             systemValues: 'wlt',
-            domain: '9tix.com'
+            domain: ':8080/darwin'
         });
 
 })();
-

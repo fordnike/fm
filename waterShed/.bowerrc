@@ -1,5 +1,5 @@
 {
-  "directory": "www1/lib",
+  "directory": "www/lib",
   "registry": "http://bower.herokuapp.com",
   "proxy": "http://<user>:<pwd>@proxy.host.br:8080",
   "https-proxy": "http://<user>:<pwd>@proxy.host.br:8080",

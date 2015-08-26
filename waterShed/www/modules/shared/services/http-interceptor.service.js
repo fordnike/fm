@@ -22,12 +22,12 @@
 
                    var host = $location.host();
                    if (isLocalhost(host)) {
-                       /*config.url = 'mock' + config.url + '.json';
-                       console.log("mock :"+config.url);*/
-                       config.url = configValues.backend + config.url;
+                       config.url = 'mock' + config.url + '.json';
+                       console.log("mock :"+config.url);
+                     /*  config.url = configValues.backend + config.url;
                        config.url = addUrlParam(config.url, {
                            language: $translate.use()
-                       });
+                       });*/
                        console.log("host :"+config.url);
                    } else if (!isLocalhost(host)) {
                        config.url = configValues.backend + config.url;

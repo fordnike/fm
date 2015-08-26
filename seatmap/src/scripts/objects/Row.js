@@ -104,15 +104,15 @@ function Row(arraySrc, arrayIndex, parent, params) {
                     });
                     break;
                 case regex.magicRowBlank.test(eMap): // NO SEAT //
-                    var jumps = parseFloat(regex.magicRowBlank.exec(eMap)[2]);
-                    for (var l = 0; l < jumps; l++) {
-                        rowPlace++;
-                        seatArray.push({
-                            name : null/*,
-                            width : 1-(jumps % 1)*/
-                        });
-                    }
-                    break;
+                  var jumps = parseFloat(regex.magicRowBlank.exec(eMap)[2]);
+                  for (var l = 0; l < jumps; l++) {
+                    rowPlace++;
+                    seatArray.push({
+                      name : null/*,
+                       width : 1-(jumps % 1)*/
+                    });
+                  }
+                  break;
                 default:
                     debug('magicRow', 'error, index ' + mm + " of '" + eMap + "'.", self );
                 }
